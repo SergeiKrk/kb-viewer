@@ -1,0 +1,3374 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - button "Чаты" [ref=e5] [cursor=pointer]:
+      - img [ref=e6]
+      - generic [ref=e9]: Чаты
+    - navigation [ref=e10]:
+      - generic [ref=e13]:
+        - link "Главная страница сайта" [ref=e14] [cursor=pointer]:
+          - /url: /
+        - link "Резюме и профиль 78" [ref=e18] [cursor=pointer]:
+          - /url: /applicant/resumes
+          - generic [ref=e23]:
+            - generic [ref=e26]: Резюме и профиль
+            - generic [ref=e28]: "78"
+        - link "Отклики" [ref=e31] [cursor=pointer]:
+          - /url: /applicant/negotiations
+          - generic [ref=e38]: Отклики
+        - link "Сервисы" [ref=e41] [cursor=pointer]:
+          - /url: /services
+          - generic [ref=e48]: Сервисы
+        - link "Карьера" [ref=e51] [cursor=pointer]:
+          - /url: https://career.hh.ru/?hhtmFrom=vacancy_search_list&hhtmFromLabel=header
+          - generic [ref=e58]: Карьера
+        - button "Помощь" [ref=e61] [cursor=pointer]:
+          - generic [ref=e68]: Помощь
+        - link "Поиск" [ref=e72] [cursor=pointer]:
+          - generic [ref=e78]:
+            - img [ref=e79]
+            - generic [ref=e82]: Поиск
+        - button "Выбор региона,Ульяновск" [ref=e85] [cursor=pointer]:
+          - generic [ref=e91]:
+            - img [ref=e92]
+            - generic [ref=e97]: Ульяновск
+        - button "Чаты" [ref=e100] [cursor=pointer]:
+          - img [ref=e107]
+        - link "Избранное" [ref=e112] [cursor=pointer]:
+          - /url: /applicant/favorite_vacancies
+          - img [ref=e119]
+        - button "Уведомления" [ref=e124] [cursor=pointer]:
+          - img [ref=e131]
+        - button "Создать резюме" [ref=e134] [cursor=pointer]:
+          - generic [ref=e138]: Создать резюме
+        - button "Дополнительное меню" [ref=e141] [cursor=pointer]:
+          - img [ref=e148]
+    - generic [ref=e156]:
+      - list [ref=e161]:
+        - tablist [ref=e163]:
+          - tab "Вакансии" [selected] [ref=e165]:
+            - generic [ref=e167]: Вакансии
+          - tab "Резюме" [ref=e169] [cursor=pointer]:
+            - generic [ref=e171]: Резюме
+          - tab "Компании" [ref=e173] [cursor=pointer]:
+            - generic [ref=e175]: Компании
+      - generic [ref=e178]:
+        - generic [ref=e179]:
+          - generic [ref=e182]:
+            - generic [ref=e184]:
+              - generic:
+                - img
+              - combobox "Поиск по вакансиям" [ref=e186]: frontend react
+            - button "Очистить" [ref=e192] [cursor=pointer]:
+              - img [ref=e194]
+          - group
+        - button "Сохранить поиск" [ref=e200] [cursor=pointer]:
+          - generic [ref=e203]:
+            - img [ref=e205]
+            - generic [ref=e209]: Сохранить поиск
+        - button "Найти" [ref=e211] [cursor=pointer]:
+          - generic [ref=e215]: Найти
+    - generic [ref=e222]:
+      - generic [ref=e224]:
+        - generic [ref=e226]:
+          - button "Россия" [ref=e227] [cursor=pointer]:
+            - generic [ref=e230]: Россия
+          - button [ref=e234] [cursor=pointer]:
+            - img [ref=e236]
+        - generic [ref=e239]:
+          - button "от 150 000 ₽" [ref=e240] [cursor=pointer]:
+            - generic [ref=e243]: от 150 000 ₽
+          - button [ref=e247] [cursor=pointer]:
+            - img [ref=e249]
+        - generic [ref=e252]:
+          - button "Удалённо" [ref=e253] [cursor=pointer]:
+            - generic [ref=e256]: Удалённо
+          - button [ref=e260] [cursor=pointer]:
+            - img [ref=e262]
+      - generic [ref=e265]:
+        - button "Фильтры" [ref=e267] [cursor=pointer]:
+          - generic [ref=e270]:
+            - img [ref=e272]
+            - generic [ref=e276]: Фильтры
+        - img
+    - generic [ref=e279]:
+      - main [ref=e280]:
+        - generic [ref=e282]:
+          - generic [ref=e288]:
+            - generic [ref=e289]:
+              - generic [ref=e290]:
+                - heading "Найдено 83 вакансии «frontend react»" [level=1] [ref=e295]
+                - generic [ref=e297]:
+                  - combobox [ref=e299] [cursor=pointer]:
+                    - generic [ref=e302]: По соответствию
+                    - img [ref=e304]
+                  - generic [ref=e308] [cursor=pointer]:
+                    - generic [ref=e311]: За всё время
+                    - img [ref=e313]
+                  - combobox [ref=e317] [cursor=pointer]:
+                    - generic [ref=e320]: 100 вакансий
+                    - img [ref=e322]
+              - generic [ref=e327]:
+                - generic [ref=e328]:
+                  - generic [ref=e329]:
+                    - radio "краткое описания вакансий" [checked] [ref=e330]
+                    - img [ref=e332] [cursor=pointer]
+                  - generic [ref=e335]:
+                    - radio "полное описание вакансий" [ref=e336]
+                    - img [ref=e338] [cursor=pointer]
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                        - generic:
+                          - img
+                      - generic:
+                        - generic:
+                          - img
+                        - generic:
+                          - img
+            - link "Вакансии на карте" [ref=e343] [cursor=pointer]:
+              - /url: /search/vacancy/map?area=113&items_on_page=100&label=with_salary&label=with_address&only_with_salary=true&ored_clusters=true&salary=150000&schedule=remote&text=frontend+react&work_format=REMOTE&hhtmFrom=vacancy_search_list
+              - generic [ref=e346]: Вакансии на карте
+          - main [ref=e349]:
+            - generic [ref=e350]:
+              - generic [ref=e357]:
+                - generic [ref=e359]: Удаленно можно работать на компанию из любого региона.
+                - button "Искать везде" [ref=e364] [cursor=pointer]:
+                  - generic [ref=e368]: Искать везде
+              - generic [ref=e369]:
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 5 человек Senior React JS разработчик 200 000 – 300 000 ₽ за месяц, до вычета налогов Опыт более 6 лет Можно удалённо Выплаты: раз в месяц Подработка GO Digital Москва ● Пролетарская Откликнуться" [ref=e373] [cursor=pointer]':
+                  - generic [ref=e377]:
+                    - generic [ref=e378]:
+                      - generic [ref=e379]:
+                        - button "Добавить в избранное" [ref=e380]:
+                          - img [ref=e381]
+                        - button "Скрыть" [ref=e384]:
+                          - img [ref=e385]
+                      - generic [ref=e388]: Сейчас смотрят 5 человек
+                      - link "Senior React JS разработчик" [ref=e391]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134518878?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e393]: Senior React JS разработчик
+                      - generic [ref=e395]:
+                        - generic [ref=e396]: 200 000 – 300 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e398]: Опыт более 6 лет
+                        - generic [ref=e400]: Можно удалённо
+                        - generic [ref=e403]: "Выплаты: раз в месяц"
+                        - generic [ref=e405]: Подработка
+                      - generic [ref=e407]:
+                        - generic [ref=e409]:
+                          - link "GO Digital" [ref=e410]:
+                            - /url: /employer/3569516?hhtmFrom=vacancy_search_list
+                            - generic [ref=e413]: GO Digital
+                          - link [ref=e414]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e416]
+                          - img [ref=e424]
+                        - generic [ref=e430]:
+                          - text: Москва
+                          - generic [ref=e432]:
+                            - generic [ref=e433]: ●
+                            - generic [ref=e434]: Пролетарская
+                    - button "Откликнуться" [ref=e439]:
+                      - generic [ref=e443]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 3 человека Middle / Senior Fullstack developer (React, C#/.NET) до 280 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц ООО АйДи-360 Москва ● Сретенский бульвар и еще 3 ● ● ● Откликнуться" [ref=e447] [cursor=pointer]':
+                  - generic [ref=e451]:
+                    - generic [ref=e452]:
+                      - generic [ref=e453]:
+                        - button "Добавить в избранное" [ref=e454]:
+                          - img [ref=e455]
+                        - button "Скрыть" [ref=e458]:
+                          - img [ref=e459]
+                      - generic [ref=e462]: Сейчас смотрят 3 человека
+                      - link "Middle / Senior Fullstack developer (React, C#/.NET)" [ref=e465]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134363022?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e467]: Middle / Senior Fullstack developer (React, C#/.NET)
+                      - generic [ref=e469]:
+                        - generic [ref=e470]: до 280 000 ₽ за месяц, на руки
+                        - generic [ref=e472]: Опыт 3-6 лет
+                        - generic [ref=e474]: Можно удалённо
+                        - generic [ref=e477]: "Выплаты: два раза в месяц"
+                      - generic [ref=e479]:
+                        - generic [ref=e481]:
+                          - link "ООО АйДи-360" [ref=e482]:
+                            - /url: /employer/8983743?hhtmFrom=vacancy_search_list
+                            - generic [ref=e485]: ООО АйДи-360
+                          - link [ref=e486]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e488]
+                        - generic [ref=e492]:
+                          - text: Москва
+                          - generic [ref=e494]:
+                            - generic [ref=e495]: ●
+                            - generic [ref=e496]: Сретенский бульвар
+                          - generic [ref=e497]: и еще 3
+                          - generic [ref=e499]: ●
+                          - generic [ref=e501]: ●
+                          - generic [ref=e503]: ●
+                    - button "Откликнуться" [ref=e508]:
+                      - generic [ref=e512]: Откликнуться
+                - generic [ref=e514]:
+                  - generic [ref=e515]:
+                    - heading "Компании для вас" [level=2] [ref=e516]
+                    - button [ref=e519] [cursor=pointer]:
+                      - img [ref=e521]
+                  - region [ref=e528]:
+                    - list [ref=e531]:
+                      - listitem [ref=e534]:
+                        - button "ЭФКО ЭФКО 499 активных вакансий Посмотреть" [ref=e536] [cursor=pointer]:
+                          - generic [ref=e540]:
+                            - generic "ЭФКО" [ref=e546]:
+                              - img "ЭФКО" [ref=e547]
+                            - generic [ref=e551]: ЭФКО
+                            - generic [ref=e555]: 499 активных вакансий
+                            - button "Посмотреть" [ref=e557]:
+                              - generic [ref=e561]: Посмотреть
+                - generic [ref=e579]:
+                  - generic [ref=e580]:
+                    - generic [ref=e583]: По вашему запросу ещё будут появляться новые вакансии. Присылать вам?
+                    - generic [ref=e585]: frontend react • Удалённо • Россия • Указан доход • еще 2
+                  - generic [ref=e588]:
+                    - button "В мессенджер" [ref=e590] [cursor=pointer]:
+                      - generic [ref=e594]: В мессенджер
+                    - button "На почту" [ref=e596] [cursor=pointer]:
+                      - generic [ref=e600]: На почту
+                - button "Добавить в избранное Скрыть Senior fullstack java developer 200 000 – 300 000 ₽ за месяц, на руки Опыт более 6 лет Можно удалённо ООО Бизнес Технологии Санкт-Петербург ● Пионерская Откликнуться" [ref=e604] [cursor=pointer]:
+                  - generic [ref=e608]:
+                    - generic [ref=e609]:
+                      - generic [ref=e610]:
+                        - button "Добавить в избранное" [ref=e611]:
+                          - img [ref=e612]
+                        - button "Скрыть" [ref=e615]:
+                          - img [ref=e616]
+                      - link "Senior fullstack java developer" [ref=e620]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/132111987?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e622]: Senior fullstack java developer
+                      - generic [ref=e624]:
+                        - generic [ref=e625]: 200 000 – 300 000 ₽ за месяц, на руки
+                        - generic [ref=e627]: Опыт более 6 лет
+                        - generic [ref=e629]: Можно удалённо
+                      - generic [ref=e631]:
+                        - generic [ref=e633]:
+                          - link "ООО Бизнес Технологии" [ref=e634]:
+                            - /url: /employer/14809?hhtmFrom=vacancy_search_list
+                            - generic [ref=e637]: ООО Бизнес Технологии
+                          - link [ref=e638]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e640]
+                          - img [ref=e648]
+                        - generic [ref=e654]:
+                          - text: Санкт-Петербург
+                          - generic [ref=e656]:
+                            - generic [ref=e657]: ●
+                            - generic [ref=e658]: Пионерская
+                    - button "Откликнуться" [ref=e663]:
+                      - generic [ref=e667]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Senior Fullstack-разработчик (C# / React) до 250 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: раз в месяц Подработка ООО В Кадре 4.2 • 41 отзыв Москва ● Библиотека им.Ленина и еще 3 ● ● ● Откликнуться" [ref=e671] [cursor=pointer]':
+                  - generic [ref=e675]:
+                    - generic [ref=e676]:
+                      - generic [ref=e677]:
+                        - button "Добавить в избранное" [ref=e678]:
+                          - img [ref=e679]
+                        - button "Скрыть" [ref=e682]:
+                          - img [ref=e683]
+                      - link "Senior Fullstack-разработчик (C# / React)" [ref=e687]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134528282?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e689]: Senior Fullstack-разработчик (C# / React)
+                      - generic [ref=e691]:
+                        - generic [ref=e692]: до 250 000 ₽ за месяц, на руки
+                        - generic [ref=e694]: Опыт 3-6 лет
+                        - generic [ref=e696]: Можно удалённо
+                        - generic [ref=e699]: "Выплаты: раз в месяц"
+                        - generic [ref=e701]: Подработка
+                      - generic [ref=e703]:
+                        - generic [ref=e705]:
+                          - link "ООО В Кадре" [ref=e706]:
+                            - /url: /employer/10094968?hhtmFrom=vacancy_search_list
+                            - generic [ref=e709]: ООО В Кадре
+                          - link [ref=e710]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e712]
+                        - generic [ref=e718]:
+                          - img [ref=e719]
+                          - generic [ref=e723]: "4.2"
+                          - generic [ref=e724]: •
+                          - generic [ref=e727]: 41 отзыв
+                        - generic [ref=e728]:
+                          - text: Москва
+                          - generic [ref=e730]:
+                            - generic [ref=e731]: ●
+                            - generic [ref=e732]: Библиотека им.Ленина
+                          - generic [ref=e733]: и еще 3
+                          - generic [ref=e735]: ●
+                          - generic [ref=e737]: ●
+                          - generic [ref=e739]: ●
+                    - button "Откликнуться" [ref=e744]:
+                      - generic [ref=e748]: Откликнуться
+                - generic [ref=e758]:
+                  - generic [ref=e759]:
+                    - heading "Курсы от проверенных школ — с промокодами от hh.ru" [level=6] [ref=e762]
+                    - paragraph [ref=e763]: Подборки для роста и развития в профессии «Frontend-разработчик»
+                  - button "Выбрать по выгодным ценам" [ref=e768] [cursor=pointer]:
+                    - generic [ref=e772]: Выбрать по выгодным ценам
+                - button "Добавить в избранное Скрыть Сейчас смотрит 1 человек Senior QA Тестировщик (Java, мобильная разработка, автотесты) от 250 000 ₽ за месяц, до вычета налогов Опыт 3-6 лет Можно удалённо Demis Group Москва Откликнуться" [ref=e776] [cursor=pointer]:
+                  - generic [ref=e780]:
+                    - generic [ref=e781]:
+                      - generic [ref=e782]:
+                        - button "Добавить в избранное" [ref=e783]:
+                          - img [ref=e784]
+                        - button "Скрыть" [ref=e787]:
+                          - img [ref=e788]
+                      - generic [ref=e791]: Сейчас смотрит 1 человек
+                      - link "Senior QA Тестировщик (Java, мобильная разработка, автотесты)" [ref=e794]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134491317?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e796]: Senior QA Тестировщик (Java, мобильная разработка, автотесты)
+                      - generic [ref=e798]:
+                        - generic [ref=e799]: от 250 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e801]: Опыт 3-6 лет
+                        - generic [ref=e803]: Можно удалённо
+                      - generic [ref=e805]:
+                        - generic [ref=e807]:
+                          - link "Demis Group" [ref=e808]:
+                            - /url: /employer/59729?hhtmFrom=vacancy_search_list
+                            - generic [ref=e811]: Demis Group
+                          - link [ref=e812]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e814]
+                          - link [ref=e818]:
+                            - /url: http://hrbrand.ru/?utm_source=hh.ru&utm_medium=referral&utm_campaign=icon&utm_term=applicant
+                            - img [ref=e820]
+                          - img [ref=e832]
+                        - generic [ref=e838]: Москва
+                    - button "Откликнуться" [ref=e844]:
+                      - generic [ref=e848]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Team Lead (fullstack/go) от 350 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц JapanStat Москва Откликнуться" [ref=e852] [cursor=pointer]':
+                  - generic [ref=e856]:
+                    - generic [ref=e857]:
+                      - generic [ref=e858]:
+                        - button "Добавить в избранное" [ref=e859]:
+                          - img [ref=e860]
+                        - button "Скрыть" [ref=e863]:
+                          - img [ref=e864]
+                      - link "Team Lead (fullstack/go)" [ref=e868]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134242124?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e870]: Team Lead (fullstack/go)
+                      - generic [ref=e872]:
+                        - generic [ref=e873]: от 350 000 ₽ за месяц, на руки
+                        - generic [ref=e875]: Опыт 3-6 лет
+                        - generic [ref=e877]: Можно удалённо
+                        - generic [ref=e880]: "Выплаты: два раза в месяц"
+                      - generic [ref=e882]:
+                        - generic [ref=e884]:
+                          - link "JapanStat" [ref=e885]:
+                            - /url: /employer/4926514?hhtmFrom=vacancy_search_list
+                            - generic [ref=e888]: JapanStat
+                          - link [ref=e889]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e891]
+                        - generic [ref=e895]: Москва
+                    - button "Откликнуться" [ref=e901]:
+                      - generic [ref=e905]: Откликнуться
+                - 'link "Арматурщик в Московскую область от 5 500 до 7 000 ₽ за смену Опыт 1–3 года Дороги и Мосты Вахта 15/15 или 20/10. Зп 5 500-7 000 руб/смена.Бесплатно: жилье, питание, проезд Перейти Арматурщик в Московскую область" [ref=e6955] [cursor=pointer]':
+                  - /url: https://adsrv.hh.ru/hb/click?b=2015954&meta=mATEedVC-gvq0Vv3Qry9Dn5uZ5K0udwIgHdbIdOwui2cSWmNqytx6Jfm97NcBmC6NSFzpu5pr1SY5KsSly7Lld1OQau1RggnQuHefFjnLapfjHIvdVLOmWwsZ5qUQrv1DaHF6Rvn103s4T5O1PG5UWiS4zCKWTWCG0o9HbOzra7T5wwl4Q2tCZ8JpN2TH_tALuA5GdOYQs2S3uk5ircBEUqorfVh86cHgszVV6vlA1AolTCaQP9xxT4hwY3dc8wkJSyswUpKQmYz1PjPP21elbQnUz0ORGqM_GorEM2LifRlkeaAqlBWfHbymyAgp9P5NWZMcag7iIx8LZ0YmA28TxFsjhPNI5V2Em_RRdrW8Dzc05600-pDdkgrfgbcMPJ8wHwy6C7r6TT0Ne_nj4w8u0CNg71n4kVr0WfR3RW1aocoktB35RTtLNQ1h4d1v7cdI_lFw7NJxqgBHyhZNN_N7tZJqCNaj3KOdheUmPJxVXJ3HirpVamXdXe2Emv3FD5eIYjdJvXP-CbSvucGk6iajGDIi-UWvnPMLkSQR51J0s4U1VjEIJ7p1MjksxrdhHJVuCb4ilaf25-Kid1IPySGk7NjZUKjUwH3Xc6KwA3PaLDQ-09IqPzy-5C1gaCd6J-JG9Jux2Exw74vmofpL4dGLJpQgQszA6u9OwdsUizL53P5046kHuQHbHqEx-J2A5tZRnEM4kulrpQMo0UKTKwem3pQpnUl6z09NGeLZGa6ZMpx_Jh5NYKUoRuyo8bIh6GKvloEBhpABGgiWoF4sC8rG2Yz3lS08mEM4AKbzdpdmjI2OMU-LeiUIO7ouYC7X0P-zNjjZdTLfUIYGfM31UaMkId0YHmvfvnoLo45HT2ZWUnxoq_hX4YUOaofbGvSs6T0lYU-jG9XCX5-q5AZjwG_vLl-9eTEgCZ8xG0sLJgXD7_4DI6CadPppyIcDFQ6KsB8tCojfpP8jL_7L_lk7h-wBH08mt82DBNeflj5p0789reghdmNgRVEt6-o0Fx-VXeHnaI4BN6IYhmUqtWW3zAWR54imSalri28UkrSVCK1xA4%3D
+                  - generic [ref=e6956]:
+                    - generic [ref=e6957]:
+                      - generic [ref=e6958]: Арматурщик в Московскую область
+                      - generic [ref=e6959]:
+                        - generic [ref=e6960]:
+                          - generic [ref=e6961]: от 5 500
+                          - generic [ref=e6962]: до 7 000 ₽
+                          - generic [ref=e6963]: за смену
+                        - generic [ref=e6967]: Опыт 1–3 года
+                      - generic [ref=e6968]:
+                        - img [ref=e6970]
+                        - generic "Дороги и Мосты" [ref=e6972]
+                      - generic [ref=e6973]: "Вахта 15/15 или 20/10. Зп 5 500-7 000 руб/смена.Бесплатно: жилье, питание, проезд"
+                      - button "Перейти" [ref=e6974]:
+                        - generic [ref=e6977]: Перейти
+                    - img "Арматурщик в Московскую область" [ref=e6979]
+                - 'button "Добавить в избранное Скрыть Сейчас смотрит 1 человек Fullstack-разработчик (React (Mobile/Web) + Битрикс24 Web) 180 000 – 250 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц HR-агентство Оксаны Мартыновой Москва ● Охотный ряд Откликнуться" [ref=e911] [cursor=pointer]':
+                  - generic [ref=e915]:
+                    - generic [ref=e916]:
+                      - generic [ref=e917]:
+                        - button "Добавить в избранное" [ref=e918]:
+                          - img [ref=e919]
+                        - button "Скрыть" [ref=e922]:
+                          - img [ref=e923]
+                      - generic [ref=e926]: Сейчас смотрит 1 человек
+                      - link "Fullstack-разработчик (React (Mobile/Web) + Битрикс24 Web)" [ref=e929]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134743924?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e931]: Fullstack-разработчик (React (Mobile/Web) + Битрикс24 Web)
+                      - generic [ref=e933]:
+                        - generic [ref=e934]: 180 000 – 250 000 ₽ за месяц, на руки
+                        - generic [ref=e936]: Опыт 3-6 лет
+                        - generic [ref=e938]: Можно удалённо
+                        - generic [ref=e941]: "Выплаты: два раза в месяц"
+                      - generic [ref=e943]:
+                        - generic [ref=e945]:
+                          - link "HR-агентство Оксаны Мартыновой" [ref=e946]:
+                            - /url: /employer/11194967?hhtmFrom=vacancy_search_list
+                            - generic [ref=e949]: HR-агентство Оксаны Мартыновой
+                          - link [ref=e950]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e952]
+                        - generic [ref=e956]:
+                          - text: Москва
+                          - generic [ref=e958]:
+                            - generic [ref=e959]: ●
+                            - generic [ref=e960]: Охотный ряд
+                    - button "Откликнуться" [ref=e965]:
+                      - generic [ref=e969]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 11 человек Frontend Ментор (React, Vue, Angular) 150 000 – 420 000 ₽ за услугу, до вычета налогов Опыт более 6 лет Можно удалённо Выплаты: за проект Дартс рекрутинг сервисез Казань Откликнуться" [ref=e973] [cursor=pointer]':
+                  - generic [ref=e977]:
+                    - generic [ref=e978]:
+                      - generic [ref=e979]:
+                        - button "Добавить в избранное" [ref=e980]:
+                          - img [ref=e981]
+                        - button "Скрыть" [ref=e984]:
+                          - img [ref=e985]
+                      - generic [ref=e988]: Сейчас смотрят 11 человек
+                      - link "Frontend Ментор (React, Vue, Angular)" [ref=e991]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134725061?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e993]: Frontend Ментор (React, Vue, Angular)
+                      - generic [ref=e995]:
+                        - generic [ref=e996]: 150 000 – 420 000 ₽ за услугу, до вычета налогов
+                        - generic [ref=e998]: Опыт более 6 лет
+                        - generic [ref=e1000]: Можно удалённо
+                        - generic [ref=e1003]: "Выплаты: за проект"
+                      - generic [ref=e1005]:
+                        - generic [ref=e1007]:
+                          - link "Дартс рекрутинг сервисез" [ref=e1008]:
+                            - /url: /employer/472?hhtmFrom=vacancy_search_list
+                            - generic [ref=e1011]: Дартс рекрутинг сервисез
+                          - link [ref=e1012]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e1014]
+                        - generic [ref=e1018]: Казань
+                    - button "Откликнуться" [ref=e1024]:
+                      - generic [ref=e1028]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 8 человек Technical Lead / Senior Full-Stack Developer 350 000 – 400 000 ₽ за месяц, до вычета налогов Опыт более 6 лет Можно удалённо Выплаты: раз в месяц ООО Иннтелико Москва Откликнуться Связаться" [ref=e1032] [cursor=pointer]':
+                  - generic [ref=e1036]:
+                    - generic [ref=e1037]:
+                      - generic [ref=e1038]:
+                        - button "Добавить в избранное" [ref=e1039]:
+                          - img [ref=e1040]
+                        - button "Скрыть" [ref=e1043]:
+                          - img [ref=e1044]
+                      - generic [ref=e1047]: Сейчас смотрят 8 человек
+                      - link "Technical Lead / Senior Full-Stack Developer" [ref=e1050]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134843084?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e1052]: Technical Lead / Senior Full-Stack Developer
+                      - generic [ref=e1054]:
+                        - generic [ref=e1055]: 350 000 – 400 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e1057]: Опыт более 6 лет
+                        - generic [ref=e1059]: Можно удалённо
+                        - generic [ref=e1062]: "Выплаты: раз в месяц"
+                      - generic [ref=e1064]:
+                        - generic [ref=e1066]:
+                          - link "ООО Иннтелико" [ref=e1067]:
+                            - /url: /employer/12890198?hhtmFrom=vacancy_search_list
+                            - generic [ref=e1070]: ООО Иннтелико
+                          - link [ref=e1071]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e1073]
+                        - generic [ref=e1077]: Москва
+                    - generic [ref=e1082]:
+                      - button "Откликнуться" [ref=e1083]:
+                        - generic [ref=e1087]: Откликнуться
+                      - button "Связаться" [ref=e1089]:
+                        - generic [ref=e1093]: Связаться
+                - button "Добавить в избранное Скрыть Сейчас смотрят 6 человек Fullstack Developer / Lead / Architect от 368 000 ₽ за месяц, на руки Опыт более 6 лет Можно удалённо ООО Энерго Технолоджис 4.0 • 4 отзыва Москва ● Октябрьская и еще 1 ● Откликнуться" [ref=e1097] [cursor=pointer]:
+                  - generic [ref=e1101]:
+                    - generic [ref=e1102]:
+                      - generic [ref=e1103]:
+                        - button "Добавить в избранное" [ref=e1104]:
+                          - img [ref=e1105]
+                        - button "Скрыть" [ref=e1108]:
+                          - img [ref=e1109]
+                      - generic [ref=e1112]: Сейчас смотрят 6 человек
+                      - link "Fullstack Developer / Lead / Architect" [ref=e1115]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134825149?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e1117]: Fullstack Developer / Lead / Architect
+                      - generic [ref=e1119]:
+                        - generic [ref=e1120]: от 368 000 ₽ за месяц, на руки
+                        - generic [ref=e1122]: Опыт более 6 лет
+                        - generic [ref=e1124]: Можно удалённо
+                      - generic [ref=e1126]:
+                        - generic [ref=e1128]:
+                          - link "ООО Энерго Технолоджис" [ref=e1129]:
+                            - /url: /employer/4191326?hhtmFrom=vacancy_search_list
+                            - generic [ref=e1132]: ООО Энерго Технолоджис
+                          - link [ref=e1133]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e1135]
+                        - generic [ref=e1141]:
+                          - img [ref=e1142]
+                          - generic [ref=e1146]: "4.0"
+                          - generic [ref=e1147]: •
+                          - generic [ref=e1150]: 4 отзыва
+                        - generic [ref=e1151]:
+                          - text: Москва
+                          - generic [ref=e1153]:
+                            - generic [ref=e1154]: ●
+                            - generic [ref=e1155]: Октябрьская
+                          - generic [ref=e1156]: и еще 1
+                          - generic [ref=e1158]: ●
+                    - button "Откликнуться" [ref=e1163]:
+                      - generic [ref=e1167]: Откликнуться
+                - button "Добавить в избранное Скрыть Сейчас смотрят 2 человека Frontend-разработчик (Angular) до 155 000 ₽ за месяц, до вычета налогов Опыт 1-3 года Можно удалённо АО ГК Орбита Москва Откликнуться" [ref=e1171] [cursor=pointer]:
+                  - generic [ref=e1175]:
+                    - generic [ref=e1176]:
+                      - generic [ref=e1177]:
+                        - button "Добавить в избранное" [ref=e1178]:
+                          - img [ref=e1179]
+                        - button "Скрыть" [ref=e1182]:
+                          - img [ref=e1183]
+                      - generic [ref=e1186]: Сейчас смотрят 2 человека
+                      - link "Frontend-разработчик (Angular)" [ref=e1189]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134809798?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e1191]: Frontend-разработчик (Angular)
+                      - generic [ref=e1193]:
+                        - generic [ref=e1194]: до 155 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e1196]: Опыт 1-3 года
+                        - generic [ref=e1198]: Можно удалённо
+                      - generic [ref=e1200]:
+                        - generic [ref=e1202]:
+                          - link "АО ГК Орбита" [ref=e1203]:
+                            - /url: /employer/4623486?hhtmFrom=vacancy_search_list
+                            - generic [ref=e1206]: АО ГК Орбита
+                          - link [ref=e1207]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e1209]
+                        - generic [ref=e1213]: Москва
+                    - button "Откликнуться" [ref=e1219]:
+                      - generic [ref=e1223]: Откликнуться
+                - generic [ref=e1229]:
+                  - generic [ref=e1230]: Расширьте зону поиска работы в Сетке
+                  - generic [ref=e1232]: Ищите будущих коллег и нанимающих менеджеров
+                  - button "Зарегистрироваться" [ref=e1234] [cursor=pointer]:
+                    - generic [ref=e1238]: Зарегистрироваться
+                - button "Добавить в избранное Скрыть Сейчас смотрят 9 человек Fullstack PHP Developer 130 000 – 180 000 ₽ за месяц, на руки Опыт 1-3 года Можно удалённо ООО ФАЙВ ЛЕМОНС ГРУПП Новосибирск Откликнуться" [ref=e1242] [cursor=pointer]:
+                  - generic [ref=e1246]:
+                    - generic [ref=e1247]:
+                      - generic [ref=e1248]:
+                        - button "Добавить в избранное" [ref=e1249]:
+                          - img [ref=e1250]
+                        - button "Скрыть" [ref=e1253]:
+                          - img [ref=e1254]
+                      - generic [ref=e1257]: Сейчас смотрят 9 человек
+                      - link "Fullstack PHP Developer" [ref=e1260]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134831410?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e1262]: Fullstack PHP Developer
+                      - generic [ref=e1264]:
+                        - generic [ref=e1265]: 130 000 – 180 000 ₽ за месяц, на руки
+                        - generic [ref=e1267]: Опыт 1-3 года
+                        - generic [ref=e1269]: Можно удалённо
+                      - generic [ref=e1271]:
+                        - generic [ref=e1273]:
+                          - link "ООО ФАЙВ ЛЕМОНС ГРУПП" [ref=e1274]:
+                            - /url: /employer/5800416?hhtmFrom=vacancy_search_list
+                            - generic [ref=e1277]: ООО ФАЙВ ЛЕМОНС ГРУПП
+                          - link [ref=e1278]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e1280]
+                          - img [ref=e1288]
+                        - generic [ref=e1294]: Новосибирск
+                    - button "Откликнуться" [ref=e1300]:
+                      - generic [ref=e1304]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 10 человек Full-stack разработчик / Data Engineer до 150 000 ₽ за месяц, на руки Опыт 1-3 года Можно удалённо Выплаты: два раза в месяц ООО ТермоСфера Уфа, р-н Кировский Отклик без резюме Откликнуться Связаться" [ref=e1310] [cursor=pointer]':
+                  - generic [ref=e1314]:
+                    - generic [ref=e1315]:
+                      - generic [ref=e1316]:
+                        - button "Добавить в избранное" [ref=e1317]:
+                          - img [ref=e1318]
+                        - button "Скрыть" [ref=e1321]:
+                          - img [ref=e1322]
+                      - generic [ref=e1325]: Сейчас смотрят 10 человек
+                      - link "Full-stack разработчик / Data Engineer" [ref=e1328]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134262857?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e1330]: Full-stack разработчик / Data Engineer
+                      - generic [ref=e1332]:
+                        - generic [ref=e1333]: до 150 000 ₽ за месяц, на руки
+                        - generic [ref=e1335]: Опыт 1-3 года
+                        - generic [ref=e1337]: Можно удалённо
+                        - generic [ref=e1340]: "Выплаты: два раза в месяц"
+                      - generic [ref=e1342]:
+                        - generic [ref=e1344]:
+                          - link "ООО ТермоСфера" [ref=e1345]:
+                            - /url: /employer/1527100?hhtmFrom=vacancy_search_list
+                            - generic [ref=e1348]: ООО ТермоСфера
+                          - link [ref=e1349]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e1351]
+                        - generic [ref=e1355]: Уфа, р-н Кировский
+                      - generic [ref=e1361]: Отклик без резюме
+                    - generic [ref=e1365]:
+                      - button "Откликнуться" [ref=e1366]:
+                        - generic [ref=e1370]: Откликнуться
+                      - button "Связаться" [ref=e1372]:
+                        - generic [ref=e1376]: Связаться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 3 человека Fullstack / Backend-разработчик 150 000 – 230 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц ИП Заиченко Екатерина Александровна Москва Откликнуться" [ref=e1380] [cursor=pointer]':
+                  - generic [ref=e1384]:
+                    - generic [ref=e1385]:
+                      - generic [ref=e1386]:
+                        - button "Добавить в избранное" [ref=e1387]:
+                          - img [ref=e1388]
+                        - button "Скрыть" [ref=e1391]:
+                          - img [ref=e1392]
+                      - generic [ref=e1395]: Сейчас смотрят 3 человека
+                      - link "Fullstack / Backend-разработчик" [ref=e1398]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134754685?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e1400]: Fullstack / Backend-разработчик
+                      - generic [ref=e1402]:
+                        - generic [ref=e1403]: 150 000 – 230 000 ₽ за месяц, на руки
+                        - generic [ref=e1405]: Опыт 3-6 лет
+                        - generic [ref=e1407]: Можно удалённо
+                        - generic [ref=e1410]: "Выплаты: два раза в месяц"
+                      - generic [ref=e1412]:
+                        - generic [ref=e1414]:
+                          - link "ИП Заиченко Екатерина Александровна" [ref=e1415]:
+                            - /url: /employer/12458967?hhtmFrom=vacancy_search_list
+                            - generic [ref=e1418]: ИП Заиченко Екатерина Александровна
+                          - link [ref=e1419]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e1421]
+                        - generic [ref=e1425]: Москва
+                    - button "Откликнуться" [ref=e1431]:
+                      - generic [ref=e1435]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 3 человека Senior Fullstack Engineer (Platform, Chrome Extensions) от 270 000 ₽ за месяц, на руки Опыт более 6 лет Можно удалённо Выплаты: раз в месяц ЮниРЭК Новосибирск, р-н Центральный Откликнуться" [ref=e1439] [cursor=pointer]':
+                  - generic [ref=e1443]:
+                    - generic [ref=e1444]:
+                      - generic [ref=e1445]:
+                        - button "Добавить в избранное" [ref=e1446]:
+                          - img [ref=e1447]
+                        - button "Скрыть" [ref=e1450]:
+                          - img [ref=e1451]
+                      - generic [ref=e1454]: Сейчас смотрят 3 человека
+                      - link "Senior Fullstack Engineer (Platform, Chrome Extensions)" [ref=e1457]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134372802?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e1459]: Senior Fullstack Engineer (Platform, Chrome Extensions)
+                      - generic [ref=e1461]:
+                        - generic [ref=e1462]: от 270 000 ₽ за месяц, на руки
+                        - generic [ref=e1464]: Опыт более 6 лет
+                        - generic [ref=e1466]: Можно удалённо
+                        - generic [ref=e1469]: "Выплаты: раз в месяц"
+                      - generic [ref=e1471]:
+                        - generic [ref=e1473]:
+                          - link "ЮниРЭК" [ref=e1474]:
+                            - /url: /employer/10118646?hhtmFrom=vacancy_search_list
+                            - generic [ref=e1477]: ЮниРЭК
+                          - link [ref=e1478]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e1480]
+                        - generic [ref=e1484]: Новосибирск, р-н Центральный
+                    - button "Откликнуться" [ref=e1490]:
+                      - generic [ref=e1494]: Откликнуться
+                - button "Добавить в избранное Скрыть Сейчас смотрят 9 человек Технический руководитель (Техлид) / Backend-разработчик 250 000 ₽ за месяц, до вычета налогов Опыт 3-6 лет Можно удалённо Нек. орг. Благотворительный фонд Банк еды Русь Москва ● Солнцево Откликнуться" [ref=e1498] [cursor=pointer]:
+                  - generic [ref=e1502]:
+                    - generic [ref=e1503]:
+                      - generic [ref=e1504]:
+                        - button "Добавить в избранное" [ref=e1505]:
+                          - img [ref=e1506]
+                        - button "Скрыть" [ref=e1509]:
+                          - img [ref=e1510]
+                      - generic [ref=e1513]: Сейчас смотрят 9 человек
+                      - link "Технический руководитель (Техлид) / Backend-разработчик" [ref=e1516]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134268996?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e1518]: Технический руководитель (Техлид) / Backend-разработчик
+                      - generic [ref=e1520]:
+                        - generic [ref=e1521]: 250 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e1523]: Опыт 3-6 лет
+                        - generic [ref=e1525]: Можно удалённо
+                      - generic [ref=e1527]:
+                        - generic [ref=e1529]:
+                          - link "Нек. орг. Благотворительный фонд Банк еды Русь" [ref=e1530]:
+                            - /url: /employer/1504972?hhtmFrom=vacancy_search_list
+                            - generic [ref=e1533]: Нек. орг. Благотворительный фонд Банк еды Русь
+                          - link [ref=e1534]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e1536]
+                        - generic [ref=e1540]:
+                          - text: Москва
+                          - generic [ref=e1542]:
+                            - generic [ref=e1543]: ●
+                            - generic [ref=e1544]: Солнцево
+                    - button "Откликнуться" [ref=e1549]:
+                      - generic [ref=e1553]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Мобильный разработчик / React Native Developer (midlle+/senior) от 185 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: раз в месяц ООО АйТи Фаундейшн Москва ● Технопарк Откликнуться Связаться" [ref=e1557] [cursor=pointer]':
+                  - generic [ref=e1561]:
+                    - generic [ref=e1562]:
+                      - generic [ref=e1563]:
+                        - button "Добавить в избранное" [ref=e1564]:
+                          - img [ref=e1565]
+                        - button "Скрыть" [ref=e1568]:
+                          - img [ref=e1569]
+                      - link "Мобильный разработчик / React Native Developer (midlle+/senior)" [ref=e1573]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134408925?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e1575]: Мобильный разработчик / React Native Developer (midlle+/senior)
+                      - generic [ref=e1577]:
+                        - generic [ref=e1578]: от 185 000 ₽ за месяц, на руки
+                        - generic [ref=e1580]: Опыт 3-6 лет
+                        - generic [ref=e1582]: Можно удалённо
+                        - generic [ref=e1585]: "Выплаты: раз в месяц"
+                      - generic [ref=e1587]:
+                        - generic [ref=e1589]:
+                          - link "ООО АйТи Фаундейшн" [ref=e1590]:
+                            - /url: /employer/1937091?hhtmFrom=vacancy_search_list
+                            - generic [ref=e1593]: ООО АйТи Фаундейшн
+                          - link [ref=e1594]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e1596]
+                        - generic [ref=e1600]:
+                          - text: Москва
+                          - generic [ref=e1602]:
+                            - generic [ref=e1603]: ●
+                            - generic [ref=e1604]: Технопарк
+                    - generic [ref=e1608]:
+                      - button "Откликнуться" [ref=e1609]:
+                        - generic [ref=e1613]: Откликнуться
+                      - button "Связаться" [ref=e1615]:
+                        - generic [ref=e1619]: Связаться
+                - button "Добавить в избранное Скрыть Сейчас смотрит 1 человек Тимлид / Архитектор ИТ-решений от 200 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо ООО Генетика Пермь, р-н Свердловский Откликнуться Связаться" [ref=e1623] [cursor=pointer]:
+                  - generic [ref=e1627]:
+                    - generic [ref=e1628]:
+                      - generic [ref=e1629]:
+                        - button "Добавить в избранное" [ref=e1630]:
+                          - img [ref=e1631]
+                        - button "Скрыть" [ref=e1634]:
+                          - img [ref=e1635]
+                      - generic [ref=e1638]: Сейчас смотрит 1 человек
+                      - link "Тимлид / Архитектор ИТ-решений" [ref=e1641]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134749038?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e1643]: Тимлид / Архитектор ИТ-решений
+                      - generic [ref=e1645]:
+                        - generic [ref=e1646]: от 200 000 ₽ за месяц, на руки
+                        - generic [ref=e1648]: Опыт 3-6 лет
+                        - generic [ref=e1650]: Можно удалённо
+                      - generic [ref=e1652]:
+                        - generic [ref=e1654]:
+                          - link "ООО Генетика" [ref=e1655]:
+                            - /url: /employer/10866970?hhtmFrom=vacancy_search_list
+                            - generic [ref=e1658]: ООО Генетика
+                          - link [ref=e1659]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e1661]
+                        - generic [ref=e1665]: Пермь, р-н Свердловский
+                    - generic [ref=e1670]:
+                      - button "Откликнуться" [ref=e1671]:
+                        - generic [ref=e1675]: Откликнуться
+                      - button "Связаться" [ref=e1677]:
+                        - generic [ref=e1681]: Связаться
+                - button "Добавить в избранное Скрыть Сейчас смотрят 4 человека Рекрутер l мобильная разработка l IT от 150 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Профи Москва Откликнуться" [ref=e1685] [cursor=pointer]:
+                  - generic [ref=e1689]:
+                    - generic [ref=e1690]:
+                      - generic [ref=e1691]:
+                        - button "Добавить в избранное" [ref=e1692]:
+                          - img [ref=e1693]
+                        - button "Скрыть" [ref=e1696]:
+                          - img [ref=e1697]
+                      - generic [ref=e1700]: Сейчас смотрят 4 человека
+                      - link "Рекрутер l мобильная разработка l IT" [ref=e1703]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134743662?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e1705]: Рекрутер l мобильная разработка l IT
+                      - generic [ref=e1707]:
+                        - generic [ref=e1708]: от 150 000 ₽ за месяц, на руки
+                        - generic [ref=e1710]: Опыт 3-6 лет
+                        - generic [ref=e1712]: Можно удалённо
+                      - generic [ref=e1714]:
+                        - generic [ref=e1716]:
+                          - link "Профи" [ref=e1717]:
+                            - /url: /employer/12744318?hhtmFrom=vacancy_search_list
+                            - generic [ref=e1720]: Профи
+                          - link [ref=e1721]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e1723]
+                        - generic [ref=e1727]: Москва
+                    - button "Откликнуться" [ref=e1733]:
+                      - generic [ref=e1737]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 10 человек Golang-разработчик (Middle+ / Senior) до 380 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: раз в месяц evrone.ru Москва Откликнуться" [ref=e1741] [cursor=pointer]':
+                  - generic [ref=e1745]:
+                    - generic [ref=e1746]:
+                      - generic [ref=e1747]:
+                        - button "Добавить в избранное" [ref=e1748]:
+                          - img [ref=e1749]
+                        - button "Скрыть" [ref=e1752]:
+                          - img [ref=e1753]
+                      - generic [ref=e1756]: Сейчас смотрят 10 человек
+                      - link "Golang-разработчик (Middle+ / Senior)" [ref=e1759]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134484029?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e1761]: Golang-разработчик (Middle+ / Senior)
+                      - generic [ref=e1763]:
+                        - generic [ref=e1764]: до 380 000 ₽ за месяц, на руки
+                        - generic [ref=e1766]: Опыт 3-6 лет
+                        - generic [ref=e1768]: Можно удалённо
+                        - generic [ref=e1771]: "Выплаты: раз в месяц"
+                      - generic [ref=e1773]:
+                        - generic [ref=e1775]:
+                          - link "evrone.ru" [ref=e1776]:
+                            - /url: /employer/598471?hhtmFrom=vacancy_search_list
+                            - generic [ref=e1779]: evrone.ru
+                          - link [ref=e1780]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e1782]
+                        - generic [ref=e1786]: Москва
+                    - button "Откликнуться" [ref=e1792]:
+                      - generic [ref=e1796]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 2 человека Tech Lead от 5 000 $ за месяц, до вычета налогов Опыт 3-6 лет Можно удалённо Выплаты: раз в месяц WeFix Appliance Repair Москва Откликнуться" [ref=e1800] [cursor=pointer]':
+                  - generic [ref=e1804]:
+                    - generic [ref=e1805]:
+                      - generic [ref=e1806]:
+                        - button "Добавить в избранное" [ref=e1807]:
+                          - img [ref=e1808]
+                        - button "Скрыть" [ref=e1811]:
+                          - img [ref=e1812]
+                      - generic [ref=e1815]: Сейчас смотрят 2 человека
+                      - link "Tech Lead" [ref=e1818]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134718063?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e1820]: Tech Lead
+                      - generic [ref=e1822]:
+                        - generic [ref=e1823]: от 5 000 $ за месяц, до вычета налогов
+                        - generic [ref=e1825]: Опыт 3-6 лет
+                        - generic [ref=e1827]: Можно удалённо
+                        - generic [ref=e1830]: "Выплаты: раз в месяц"
+                      - generic [ref=e1832]:
+                        - generic [ref=e1834]:
+                          - link "WeFix Appliance Repair" [ref=e1835]:
+                            - /url: /employer/5513766?hhtmFrom=vacancy_search_list
+                            - generic [ref=e1838]: WeFix Appliance Repair
+                          - link [ref=e1839]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e1841]
+                        - generic [ref=e1845]: Москва
+                    - button "Откликнуться" [ref=e1851]:
+                      - generic [ref=e1855]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 2 человека Head of Development / CTO от 7 000 $ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: раз в месяц ДОН Москва Откликнуться Связаться" [ref=e1859] [cursor=pointer]':
+                  - generic [ref=e1863]:
+                    - generic [ref=e1864]:
+                      - generic [ref=e1865]:
+                        - button "Добавить в избранное" [ref=e1866]:
+                          - img [ref=e1867]
+                        - button "Скрыть" [ref=e1870]:
+                          - img [ref=e1871]
+                      - generic [ref=e1874]: Сейчас смотрят 2 человека
+                      - link "Head of Development / CTO" [ref=e1877]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134214135?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e1879]: Head of Development / CTO
+                      - generic [ref=e1881]:
+                        - generic [ref=e1882]: от 7 000 $ за месяц, на руки
+                        - generic [ref=e1884]: Опыт 3-6 лет
+                        - generic [ref=e1886]: Можно удалённо
+                        - generic [ref=e1889]: "Выплаты: раз в месяц"
+                      - generic [ref=e1891]:
+                        - generic [ref=e1893]:
+                          - link "ДОН" [ref=e1894]:
+                            - /url: /employer/12705488?hhtmFrom=vacancy_search_list
+                            - generic [ref=e1897]: ДОН
+                          - link [ref=e1898]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e1900]
+                        - generic [ref=e1904]: Москва
+                    - generic [ref=e1909]:
+                      - button "Откликнуться" [ref=e1910]:
+                        - generic [ref=e1914]: Откликнуться
+                      - button "Связаться" [ref=e1916]:
+                        - generic [ref=e1920]: Связаться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрит 1 человек Full Stack инженер (Release & Platform Engineering) от 300 000 ₽ за месяц, на руки Опыт более 6 лет Можно удалённо Выплаты: два раза в месяц Hi, Rockits! Москва ● Воронцовская Откликнуться" [ref=e1926] [cursor=pointer]':
+                  - generic [ref=e1930]:
+                    - generic [ref=e1931]:
+                      - generic [ref=e1932]:
+                        - button "Добавить в избранное" [ref=e1933]:
+                          - img [ref=e1934]
+                        - button "Скрыть" [ref=e1937]:
+                          - img [ref=e1938]
+                      - generic [ref=e1941]: Сейчас смотрит 1 человек
+                      - link "Full Stack инженер (Release & Platform Engineering)" [ref=e1944]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134679417?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e1946]: Full Stack инженер (Release & Platform Engineering)
+                      - generic [ref=e1948]:
+                        - generic [ref=e1949]: от 300 000 ₽ за месяц, на руки
+                        - generic [ref=e1951]: Опыт более 6 лет
+                        - generic [ref=e1953]: Можно удалённо
+                        - generic [ref=e1956]: "Выплаты: два раза в месяц"
+                      - generic [ref=e1958]:
+                        - generic [ref=e1960]:
+                          - link "Hi, Rockits!" [ref=e1961]:
+                            - /url: /employer/1111058?hhtmFrom=vacancy_search_list
+                            - generic [ref=e1964]: Hi, Rockits!
+                          - link [ref=e1965]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e1967]
+                        - generic [ref=e1971]:
+                          - text: Москва
+                          - generic [ref=e1973]:
+                            - generic [ref=e1974]: ●
+                            - generic [ref=e1975]: Воронцовская
+                    - button "Откликнуться" [ref=e1980]:
+                      - generic [ref=e1984]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 2 человека Программист от 120 000 ₽ за месяц, на руки Опыт 1-3 года Можно удалённо Выплаты: два раза в месяц АО СП МеКаМинефть Нижневартовск Откликнуться Связаться" [ref=e1988] [cursor=pointer]':
+                  - generic [ref=e1992]:
+                    - generic [ref=e1993]:
+                      - generic [ref=e1994]:
+                        - button "Добавить в избранное" [ref=e1995]:
+                          - img [ref=e1996]
+                        - button "Скрыть" [ref=e1999]:
+                          - img [ref=e2000]
+                      - generic [ref=e2003]: Сейчас смотрят 2 человека
+                      - link "Программист" [ref=e2006]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/129982619?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e2008]: Программист
+                      - generic [ref=e2010]:
+                        - generic [ref=e2011]: от 120 000 ₽ за месяц, на руки
+                        - generic [ref=e2013]: Опыт 1-3 года
+                        - generic [ref=e2015]: Можно удалённо
+                        - generic [ref=e2018]: "Выплаты: два раза в месяц"
+                      - generic [ref=e2020]:
+                        - generic [ref=e2022]:
+                          - link "АО СП МеКаМинефть" [ref=e2023]:
+                            - /url: /employer/1701489?hhtmFrom=vacancy_search_list
+                            - generic [ref=e2026]: АО СП МеКаМинефть
+                          - link [ref=e2027]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e2029]
+                        - generic [ref=e2033]: Нижневартовск
+                    - generic [ref=e2038]:
+                      - button "Откликнуться" [ref=e2039]:
+                        - generic [ref=e2043]: Откликнуться
+                      - button "Связаться" [ref=e2045]:
+                        - generic [ref=e2049]: Связаться
+                - button "Добавить в избранное Скрыть Full-Stack Developer от 200 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо LionAdverts Москва Откликнуться" [ref=e2053] [cursor=pointer]:
+                  - generic [ref=e2057]:
+                    - generic [ref=e2058]:
+                      - generic [ref=e2059]:
+                        - button "Добавить в избранное" [ref=e2060]:
+                          - img [ref=e2061]
+                        - button "Скрыть" [ref=e2064]:
+                          - img [ref=e2065]
+                      - link "Full-Stack Developer" [ref=e2069]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134124976?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e2071]: Full-Stack Developer
+                      - generic [ref=e2073]:
+                        - generic [ref=e2074]: от 200 000 ₽ за месяц, на руки
+                        - generic [ref=e2076]: Опыт 3-6 лет
+                        - generic [ref=e2078]: Можно удалённо
+                      - generic [ref=e2080]:
+                        - generic [ref=e2082]:
+                          - link "LionAdverts" [ref=e2083]:
+                            - /url: /employer/11263356?hhtmFrom=vacancy_search_list
+                            - generic [ref=e2086]: LionAdverts
+                          - link [ref=e2087]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e2089]
+                        - generic [ref=e2093]: Москва
+                    - button "Откликнуться" [ref=e2099]:
+                      - generic [ref=e2103]: Откликнуться
+                - generic [ref=e2110]:
+                  - generic [ref=e2111]: Как вам результаты поиска?
+                  - group [ref=e2112]:
+                    - radio "1"
+                    - radio "2"
+                    - radio "3"
+                    - radio "4"
+                    - radio "5"
+                - 'button "Добавить в избранное Скрыть Senior Fullstack-разработчик (PHP/Laravel/Vue3/TypeScript) 250 000 – 320 000 ₽ за месяц, на руки Опыт более 6 лет Можно удалённо Выплаты: два раза в месяц Shark Ads Москва Регулярные выплаты Дружный коллектив Карьерный рост Откликнуться" [ref=e2136] [cursor=pointer]':
+                  - generic [ref=e2140]:
+                    - generic [ref=e2141]:
+                      - generic [ref=e2142]:
+                        - button "Добавить в избранное" [ref=e2143]:
+                          - img [ref=e2144]
+                        - button "Скрыть" [ref=e2147]:
+                          - img [ref=e2148]
+                      - link "Senior Fullstack-разработчик (PHP/Laravel/Vue3/TypeScript)" [ref=e2152]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134447946?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e2154]: Senior Fullstack-разработчик (PHP/Laravel/Vue3/TypeScript)
+                      - generic [ref=e2156]:
+                        - generic [ref=e2157]: 250 000 – 320 000 ₽ за месяц, на руки
+                        - generic [ref=e2159]: Опыт более 6 лет
+                        - generic [ref=e2161]: Можно удалённо
+                        - generic [ref=e2164]: "Выплаты: два раза в месяц"
+                      - generic [ref=e2166]:
+                        - generic [ref=e2168]:
+                          - link "Shark Ads" [ref=e2169]:
+                            - /url: /employer/5389151?hhtmFrom=vacancy_search_list
+                            - generic [ref=e2172]: Shark Ads
+                          - link [ref=e2173]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e2175]
+                        - generic [ref=e2179]: Москва
+                      - generic [ref=e2183]:
+                        - generic [ref=e2185]: Регулярные выплаты
+                        - generic [ref=e2187]: Дружный коллектив
+                        - generic [ref=e2189]: Карьерный рост
+                    - button "Откликнуться" [ref=e2194]:
+                      - generic [ref=e2198]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Bitrix-разработчик 200 000 – 230 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц ООО В Кадре 4.2 • 41 отзыв Москва Откликнуться" [ref=e2202] [cursor=pointer]':
+                  - generic [ref=e2206]:
+                    - generic [ref=e2207]:
+                      - generic [ref=e2208]:
+                        - button "Добавить в избранное" [ref=e2209]:
+                          - img [ref=e2210]
+                        - button "Скрыть" [ref=e2213]:
+                          - img [ref=e2214]
+                      - link "Bitrix-разработчик" [ref=e2218]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134527848?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e2220]: Bitrix-разработчик
+                      - generic [ref=e2222]:
+                        - generic [ref=e2223]: 200 000 – 230 000 ₽ за месяц, на руки
+                        - generic [ref=e2225]: Опыт 3-6 лет
+                        - generic [ref=e2227]: Можно удалённо
+                        - generic [ref=e2230]: "Выплаты: два раза в месяц"
+                      - generic [ref=e2232]:
+                        - generic [ref=e2234]:
+                          - link "ООО В Кадре" [ref=e2235]:
+                            - /url: /employer/10094968?hhtmFrom=vacancy_search_list
+                            - generic [ref=e2238]: ООО В Кадре
+                          - link [ref=e2239]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e2241]
+                        - generic [ref=e2247]:
+                          - img [ref=e2248]
+                          - generic [ref=e2252]: "4.2"
+                          - generic [ref=e2253]: •
+                          - generic [ref=e2256]: 41 отзыв
+                        - generic [ref=e2257]: Москва
+                    - button "Откликнуться" [ref=e2263]:
+                      - generic [ref=e2267]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 2 человека Frontend-разработчик (Angular) до 220 000 ₽ за месяц, до вычета налогов Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц Вакансии ITFB Group ITFB Group Москва ● ЗИЛ и еще 3 ● ● ● Откликнуться" [ref=e2271] [cursor=pointer]':
+                  - generic [ref=e2275]:
+                    - generic [ref=e2276]:
+                      - generic [ref=e2277]:
+                        - button "Добавить в избранное" [ref=e2278]:
+                          - img [ref=e2279]
+                        - button "Скрыть" [ref=e2282]:
+                          - img [ref=e2283]
+                      - generic [ref=e2286]: Сейчас смотрят 2 человека
+                      - link "Frontend-разработчик (Angular)" [ref=e2289]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134178497?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e2291]: Frontend-разработчик (Angular)
+                      - generic [ref=e2293]:
+                        - generic [ref=e2294]: до 220 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e2296]: Опыт 3-6 лет
+                        - generic [ref=e2298]: Можно удалённо
+                        - generic [ref=e2301]: "Выплаты: два раза в месяц"
+                      - generic [ref=e2303]:
+                        - generic [ref=e2305]:
+                          - generic:
+                            - link "Вакансии ITFB Group":
+                              - /url: /employer/1002298?hhtmFrom=vacancy_search_list
+                              - generic:
+                                - img "ITFB Group"
+                        - generic [ref=e2306]:
+                          - link "ITFB Group" [ref=e2307]:
+                            - /url: /employer/1002298?hhtmFrom=vacancy_search_list
+                            - generic [ref=e2310]: ITFB Group
+                          - link [ref=e2311]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e2313]
+                          - img [ref=e2321]
+                        - generic [ref=e2327]:
+                          - text: Москва
+                          - generic [ref=e2329]:
+                            - generic [ref=e2330]: ●
+                            - generic [ref=e2331]: ЗИЛ
+                          - generic [ref=e2332]: и еще 3
+                          - generic [ref=e2334]: ●
+                          - generic [ref=e2336]: ●
+                          - generic [ref=e2338]: ●
+                    - button "Откликнуться" [ref=e2343]:
+                      - generic [ref=e2347]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 2 человека Fullstack-инженер — CRM/CDP-платформа (TypeScript, React, Node.js) 280 000 – 450 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: раз в месяц ИП Савельев Георгий Анатольевич Москва ● Библиотека им.Ленина и еще 3 ● ● ● Отклик без резюме Откликнуться" [ref=e2351] [cursor=pointer]':
+                  - generic [ref=e2355]:
+                    - generic [ref=e2356]:
+                      - generic [ref=e2357]:
+                        - button "Добавить в избранное" [ref=e2358]:
+                          - img [ref=e2359]
+                        - button "Скрыть" [ref=e2362]:
+                          - img [ref=e2363]
+                      - generic [ref=e2366]: Сейчас смотрят 2 человека
+                      - link "Fullstack-инженер — CRM/CDP-платформа (TypeScript, React, Node.js)" [ref=e2369]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134054749?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e2371]: Fullstack-инженер — CRM/CDP-платформа (TypeScript, React, Node.js)
+                      - generic [ref=e2373]:
+                        - generic [ref=e2374]: 280 000 – 450 000 ₽ за месяц, на руки
+                        - generic [ref=e2376]: Опыт 3-6 лет
+                        - generic [ref=e2378]: Можно удалённо
+                        - generic [ref=e2381]: "Выплаты: раз в месяц"
+                      - generic [ref=e2383]:
+                        - generic [ref=e2385]:
+                          - link "ИП Савельев Георгий Анатольевич" [ref=e2386]:
+                            - /url: /employer/10457812?hhtmFrom=vacancy_search_list
+                            - generic [ref=e2389]: ИП Савельев Георгий Анатольевич
+                          - link [ref=e2390]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e2392]
+                        - generic [ref=e2396]:
+                          - text: Москва
+                          - generic [ref=e2398]:
+                            - generic [ref=e2399]: ●
+                            - generic [ref=e2400]: Библиотека им.Ленина
+                          - generic [ref=e2401]: и еще 3
+                          - generic [ref=e2403]: ●
+                          - generic [ref=e2405]: ●
+                          - generic [ref=e2407]: ●
+                      - generic [ref=e2412]: Отклик без резюме
+                    - button "Откликнуться" [ref=e2417]:
+                      - generic [ref=e2421]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Fullstack-инженер — CRM/CDP-платформа (TypeScript, React, Node.js) 280 000 – 450 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: раз в месяц ИП Савельев Георгий Анатольевич Москва ● Библиотека им.Ленина и еще 3 ● ● ● Отклик без резюме Откликнуться" [ref=e2425] [cursor=pointer]':
+                  - generic [ref=e2429]:
+                    - generic [ref=e2430]:
+                      - generic [ref=e2431]:
+                        - button "Добавить в избранное" [ref=e2432]:
+                          - img [ref=e2433]
+                        - button "Скрыть" [ref=e2436]:
+                          - img [ref=e2437]
+                      - link "Fullstack-инженер — CRM/CDP-платформа (TypeScript, React, Node.js)" [ref=e2441]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134054750?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e2443]: Fullstack-инженер — CRM/CDP-платформа (TypeScript, React, Node.js)
+                      - generic [ref=e2445]:
+                        - generic [ref=e2446]: 280 000 – 450 000 ₽ за месяц, на руки
+                        - generic [ref=e2448]: Опыт 3-6 лет
+                        - generic [ref=e2450]: Можно удалённо
+                        - generic [ref=e2453]: "Выплаты: раз в месяц"
+                      - generic [ref=e2455]:
+                        - generic [ref=e2457]:
+                          - link "ИП Савельев Георгий Анатольевич" [ref=e2458]:
+                            - /url: /employer/10457812?hhtmFrom=vacancy_search_list
+                            - generic [ref=e2461]: ИП Савельев Георгий Анатольевич
+                          - link [ref=e2462]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e2464]
+                        - generic [ref=e2468]:
+                          - text: Москва
+                          - generic [ref=e2470]:
+                            - generic [ref=e2471]: ●
+                            - generic [ref=e2472]: Библиотека им.Ленина
+                          - generic [ref=e2473]: и еще 3
+                          - generic [ref=e2475]: ●
+                          - generic [ref=e2477]: ●
+                          - generic [ref=e2479]: ●
+                      - generic [ref=e2484]: Отклик без резюме
+                    - button "Откликнуться" [ref=e2489]:
+                      - generic [ref=e2493]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Fullstack-инженер — CRM/CDP-платформа (TypeScript, React, Node.js) 280 000 – 450 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: раз в месяц ИП Савельев Георгий Анатольевич Москва ● Библиотека им.Ленина и еще 3 ● ● ● Отклик без резюме Откликнуться" [ref=e2497] [cursor=pointer]':
+                  - generic [ref=e2501]:
+                    - generic [ref=e2502]:
+                      - generic [ref=e2503]:
+                        - button "Добавить в избранное" [ref=e2504]:
+                          - img [ref=e2505]
+                        - button "Скрыть" [ref=e2508]:
+                          - img [ref=e2509]
+                      - link "Fullstack-инженер — CRM/CDP-платформа (TypeScript, React, Node.js)" [ref=e2513]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134054751?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e2515]: Fullstack-инженер — CRM/CDP-платформа (TypeScript, React, Node.js)
+                      - generic [ref=e2517]:
+                        - generic [ref=e2518]: 280 000 – 450 000 ₽ за месяц, на руки
+                        - generic [ref=e2520]: Опыт 3-6 лет
+                        - generic [ref=e2522]: Можно удалённо
+                        - generic [ref=e2525]: "Выплаты: раз в месяц"
+                      - generic [ref=e2527]:
+                        - generic [ref=e2529]:
+                          - link "ИП Савельев Георгий Анатольевич" [ref=e2530]:
+                            - /url: /employer/10457812?hhtmFrom=vacancy_search_list
+                            - generic [ref=e2533]: ИП Савельев Георгий Анатольевич
+                          - link [ref=e2534]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e2536]
+                        - generic [ref=e2540]:
+                          - text: Москва
+                          - generic [ref=e2542]:
+                            - generic [ref=e2543]: ●
+                            - generic [ref=e2544]: Библиотека им.Ленина
+                          - generic [ref=e2545]: и еще 3
+                          - generic [ref=e2547]: ●
+                          - generic [ref=e2549]: ●
+                          - generic [ref=e2551]: ●
+                      - generic [ref=e2556]: Отклик без резюме
+                    - button "Откликнуться" [ref=e2561]:
+                      - generic [ref=e2565]: Откликнуться
+                - button "Добавить в избранное Скрыть Сейчас смотрят 2 человека TL/ Senior С#-разработчик 270 000 – 370 000 ₽ за месяц, до вычета налогов Опыт более 6 лет Можно удалённо Вакансии RedLab RedLab Москва Откликнуться Связаться" [ref=e2569] [cursor=pointer]:
+                  - generic [ref=e2573]:
+                    - generic [ref=e2574]:
+                      - generic [ref=e2575]:
+                        - button "Добавить в избранное" [ref=e2576]:
+                          - img [ref=e2577]
+                        - button "Скрыть" [ref=e2580]:
+                          - img [ref=e2581]
+                      - generic [ref=e2584]: Сейчас смотрят 2 человека
+                      - link "TL/ Senior С#-разработчик" [ref=e2587]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134538092?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e2589]: TL/ Senior С#-разработчик
+                      - generic [ref=e2591]:
+                        - generic [ref=e2592]: 270 000 – 370 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e2594]: Опыт более 6 лет
+                        - generic [ref=e2596]: Можно удалённо
+                      - generic [ref=e2598]:
+                        - generic [ref=e2600]:
+                          - generic:
+                            - link "Вакансии RedLab":
+                              - /url: /employer/4614421?hhtmFrom=vacancy_search_list
+                              - generic:
+                                - img "RedLab"
+                        - generic [ref=e2601]:
+                          - link "RedLab" [ref=e2602]:
+                            - /url: /employer/4614421?hhtmFrom=vacancy_search_list
+                            - generic [ref=e2605]: RedLab
+                          - link [ref=e2606]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e2608]
+                          - link [ref=e2612]:
+                            - /url: https://rating.hh.ru/history/rating2025?utm_source=hh.ru&utm_medium=referral&utm_campaign=icon&utm_term=applicant
+                            - img [ref=e2614]
+                          - img [ref=e2623]
+                        - generic [ref=e2629]: Москва
+                    - generic [ref=e2634]:
+                      - button "Откликнуться" [ref=e2635]:
+                        - generic [ref=e2639]: Откликнуться
+                      - button "Связаться" [ref=e2641]:
+                        - generic [ref=e2645]: Связаться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 2 человека Tech Lead / Senior С#-разработчик 270 000 – 370 000 ₽ за месяц, до вычета налогов Опыт более 6 лет Можно удалённо Выплаты: раз в месяц Вакансии RedLab RedLab Москва Откликнуться" [ref=e2651] [cursor=pointer]':
+                  - generic [ref=e2655]:
+                    - generic [ref=e2656]:
+                      - generic [ref=e2657]:
+                        - button "Добавить в избранное" [ref=e2658]:
+                          - img [ref=e2659]
+                        - button "Скрыть" [ref=e2662]:
+                          - img [ref=e2663]
+                      - generic [ref=e2666]: Сейчас смотрят 2 человека
+                      - link "Tech Lead / Senior С#-разработчик" [ref=e2669]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134432562?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e2671]: Tech Lead / Senior С#-разработчик
+                      - generic [ref=e2673]:
+                        - generic [ref=e2674]: 270 000 – 370 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e2676]: Опыт более 6 лет
+                        - generic [ref=e2678]: Можно удалённо
+                        - generic [ref=e2681]: "Выплаты: раз в месяц"
+                      - generic [ref=e2683]:
+                        - generic [ref=e2685]:
+                          - generic:
+                            - link "Вакансии RedLab":
+                              - /url: /employer/4614421?hhtmFrom=vacancy_search_list
+                              - generic:
+                                - img "RedLab"
+                        - generic [ref=e2686]:
+                          - link "RedLab" [ref=e2687]:
+                            - /url: /employer/4614421?hhtmFrom=vacancy_search_list
+                            - generic [ref=e2690]: RedLab
+                          - link [ref=e2691]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e2693]
+                          - link [ref=e2697]:
+                            - /url: https://rating.hh.ru/history/rating2025?utm_source=hh.ru&utm_medium=referral&utm_campaign=icon&utm_term=applicant
+                            - img [ref=e2699]
+                          - img [ref=e2708]
+                        - generic [ref=e2714]: Москва
+                    - button "Откликнуться" [ref=e2720]:
+                      - generic [ref=e2724]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 2 человека Backend разработчик PHP (Symfony) Middle/Middle+ от 200 000 ₽ за месяц, до вычета налогов Опыт 1-3 года Можно удалённо Выплаты: два раза в месяц ООО НПО СТАБАРМ Москва ● Киевская Откликнуться" [ref=e2728] [cursor=pointer]':
+                  - generic [ref=e2732]:
+                    - generic [ref=e2733]:
+                      - generic [ref=e2734]:
+                        - button "Добавить в избранное" [ref=e2735]:
+                          - img [ref=e2736]
+                        - button "Скрыть" [ref=e2739]:
+                          - img [ref=e2740]
+                      - generic [ref=e2743]: Сейчас смотрят 2 человека
+                      - link "Backend разработчик PHP (Symfony) Middle/Middle+" [ref=e2746]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134165418?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e2748]: Backend разработчик PHP (Symfony) Middle/Middle+
+                      - generic [ref=e2750]:
+                        - generic [ref=e2751]: от 200 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e2753]: Опыт 1-3 года
+                        - generic [ref=e2755]: Можно удалённо
+                        - generic [ref=e2758]: "Выплаты: два раза в месяц"
+                      - generic [ref=e2760]:
+                        - generic [ref=e2762]:
+                          - link "ООО НПО СТАБАРМ" [ref=e2763]:
+                            - /url: /employer/3440303?hhtmFrom=vacancy_search_list
+                            - generic [ref=e2766]: ООО НПО СТАБАРМ
+                          - link [ref=e2767]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e2769]
+                        - generic [ref=e2773]:
+                          - text: Москва
+                          - generic [ref=e2775]:
+                            - generic [ref=e2776]: ●
+                            - generic [ref=e2777]: Киевская
+                    - button "Откликнуться" [ref=e2782]:
+                      - generic [ref=e2786]: Откликнуться
+                - button "Добавить в избранное Скрыть Сейчас смотрит 1 человек Java разработчик / Java Developer от 250 000 ₽ за месяц, до вычета налогов Опыт 3-6 лет Можно удалённо Кадровое агентство HireWay Москва ● Добрынинская и еще 3 ● ● ● Откликнуться" [ref=e2790] [cursor=pointer]:
+                  - generic [ref=e2794]:
+                    - generic [ref=e2795]:
+                      - generic [ref=e2796]:
+                        - button "Добавить в избранное" [ref=e2797]:
+                          - img [ref=e2798]
+                        - button "Скрыть" [ref=e2801]:
+                          - img [ref=e2802]
+                      - generic [ref=e2805]: Сейчас смотрит 1 человек
+                      - link "Java разработчик / Java Developer" [ref=e2808]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134109201?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e2810]: Java разработчик / Java Developer
+                      - generic [ref=e2812]:
+                        - generic [ref=e2813]: от 250 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e2815]: Опыт 3-6 лет
+                        - generic [ref=e2817]: Можно удалённо
+                      - generic [ref=e2819]:
+                        - generic [ref=e2821]:
+                          - link "Кадровое агентство HireWay" [ref=e2822]:
+                            - /url: /employer/11774774?hhtmFrom=vacancy_search_list
+                            - generic [ref=e2825]: Кадровое агентство HireWay
+                          - link [ref=e2826]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e2828]
+                        - generic [ref=e2832]:
+                          - text: Москва
+                          - generic [ref=e2834]:
+                            - generic [ref=e2835]: ●
+                            - generic [ref=e2836]: Добрынинская
+                          - generic [ref=e2837]: и еще 3
+                          - generic [ref=e2839]: ●
+                          - generic [ref=e2841]: ●
+                          - generic [ref=e2843]: ●
+                    - button "Откликнуться" [ref=e2848]:
+                      - generic [ref=e2852]: Откликнуться
+                - button "Добавить в избранное Скрыть Программист PHP/NodeJS 250 000 ₽ за месяц, до вычета налогов Опыт 3-6 лет Можно удалённо CHARISMO Москва ● Савёловская и еще 3 ● ● ● Откликнуться" [ref=e2856] [cursor=pointer]:
+                  - generic [ref=e2860]:
+                    - generic [ref=e2861]:
+                      - generic [ref=e2862]:
+                        - button "Добавить в избранное" [ref=e2863]:
+                          - img [ref=e2864]
+                        - button "Скрыть" [ref=e2867]:
+                          - img [ref=e2868]
+                      - link "Программист PHP/NodeJS" [ref=e2872]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134053228?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e2874]: Программист PHP/NodeJS
+                      - generic [ref=e2876]:
+                        - generic [ref=e2877]: 250 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e2879]: Опыт 3-6 лет
+                        - generic [ref=e2881]: Можно удалённо
+                      - generic [ref=e2883]:
+                        - generic [ref=e2885]:
+                          - link "CHARISMO" [ref=e2886]:
+                            - /url: /employer/9379017?hhtmFrom=vacancy_search_list
+                            - generic [ref=e2889]: CHARISMO
+                          - link [ref=e2890]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e2892]
+                        - generic [ref=e2896]:
+                          - text: Москва
+                          - generic [ref=e2898]:
+                            - generic [ref=e2899]: ●
+                            - generic [ref=e2900]: Савёловская
+                          - generic [ref=e2901]: и еще 3
+                          - generic [ref=e2903]: ●
+                          - generic [ref=e2905]: ●
+                          - generic [ref=e2907]: ●
+                    - button "Откликнуться" [ref=e2912]:
+                      - generic [ref=e2916]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрит 1 человек Аналитик данных от 150 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: раз в месяц ООО Элли Софт Санкт-Петербург ● Адмиралтейская и еще 3 ● ● ● Откликнуться" [ref=e2920] [cursor=pointer]':
+                  - generic [ref=e2924]:
+                    - generic [ref=e2925]:
+                      - generic [ref=e2926]:
+                        - button "Добавить в избранное" [ref=e2927]:
+                          - img [ref=e2928]
+                        - button "Скрыть" [ref=e2931]:
+                          - img [ref=e2932]
+                      - generic [ref=e2935]: Сейчас смотрит 1 человек
+                      - link "Аналитик данных" [ref=e2938]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134721754?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e2940]: Аналитик данных
+                      - generic [ref=e2942]:
+                        - generic [ref=e2943]: от 150 000 ₽ за месяц, на руки
+                        - generic [ref=e2945]: Опыт 3-6 лет
+                        - generic [ref=e2947]: Можно удалённо
+                        - generic [ref=e2950]: "Выплаты: раз в месяц"
+                      - generic [ref=e2952]:
+                        - generic [ref=e2954]:
+                          - link "ООО Элли Софт" [ref=e2955]:
+                            - /url: /employer/2140879?hhtmFrom=vacancy_search_list
+                            - generic [ref=e2958]: ООО Элли Софт
+                          - link [ref=e2959]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e2961]
+                        - generic [ref=e2965]:
+                          - text: Санкт-Петербург
+                          - generic [ref=e2967]:
+                            - generic [ref=e2968]: ●
+                            - generic [ref=e2969]: Адмиралтейская
+                          - generic [ref=e2970]: и еще 3
+                          - generic [ref=e2972]: ●
+                          - generic [ref=e2974]: ●
+                          - generic [ref=e2976]: ●
+                    - button "Откликнуться" [ref=e2981]:
+                      - generic [ref=e2985]: Откликнуться
+                - button "Добавить в избранное Скрыть DevOps-инженер до 300 000 ₽ за месяц, на руки Опыт более 6 лет Можно удалённо ООО ОВорк Москва Откликнуться" [ref=e2989] [cursor=pointer]:
+                  - generic [ref=e2993]:
+                    - generic [ref=e2994]:
+                      - generic [ref=e2995]:
+                        - button "Добавить в избранное" [ref=e2996]:
+                          - img [ref=e2997]
+                        - button "Скрыть" [ref=e3000]:
+                          - img [ref=e3001]
+                      - link "DevOps-инженер" [ref=e3005]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134134601?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e3007]: DevOps-инженер
+                      - generic [ref=e3009]:
+                        - generic [ref=e3010]: до 300 000 ₽ за месяц, на руки
+                        - generic [ref=e3012]: Опыт более 6 лет
+                        - generic [ref=e3014]: Можно удалённо
+                      - generic [ref=e3016]:
+                        - generic [ref=e3018]:
+                          - link "ООО ОВорк" [ref=e3019]:
+                            - /url: /employer/10069202?hhtmFrom=vacancy_search_list
+                            - generic [ref=e3022]: ООО ОВорк
+                          - link [ref=e3023]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e3025]
+                        - generic [ref=e3029]: Москва
+                    - button "Откликнуться" [ref=e3035]:
+                      - generic [ref=e3039]: Откликнуться
+                - button "Добавить в избранное Скрыть Сейчас смотрят 5 человек Frontend (JavaScript-разработчик) до 230 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Вакансии ИЦ АЙ-ТЕКО ООО ИЦ АЙ-ТЕКО 4.2 • 88 отзывов Москва Вы откликнулись Чат" [ref=e3043] [cursor=pointer]:
+                  - generic [ref=e3047]:
+                    - generic [ref=e3048]:
+                      - generic [ref=e3049]:
+                        - button "Добавить в избранное" [ref=e3050]:
+                          - img [ref=e3051]
+                        - button "Скрыть" [ref=e3054]:
+                          - img [ref=e3055]
+                      - generic [ref=e3058]: Сейчас смотрят 5 человек
+                      - link "Frontend (JavaScript-разработчик)" [ref=e3061]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/131530450?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e3063]: Frontend (JavaScript-разработчик)
+                      - generic [ref=e3065]:
+                        - generic [ref=e3066]: до 230 000 ₽ за месяц, на руки
+                        - generic [ref=e3068]: Опыт 3-6 лет
+                        - generic [ref=e3070]: Можно удалённо
+                      - generic [ref=e3072]:
+                        - link "Вакансии ИЦ АЙ-ТЕКО" [ref=e3076]:
+                          - /url: /employer/872178?hhtmFrom=vacancy_search_list
+                          - img "ИЦ АЙ-ТЕКО" [ref=e3078]
+                        - generic [ref=e3079]:
+                          - link "ООО ИЦ АЙ-ТЕКО" [ref=e3080]:
+                            - /url: /employer/872178?hhtmFrom=vacancy_search_list
+                            - generic [ref=e3083]: ООО ИЦ АЙ-ТЕКО
+                          - link [ref=e3084]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e3086]
+                        - generic [ref=e3092]:
+                          - img [ref=e3093]
+                          - generic [ref=e3097]: "4.2"
+                          - generic [ref=e3098]: •
+                          - generic [ref=e3101]: 88 отзывов
+                        - generic [ref=e3102]: Москва
+                    - generic [ref=e3107]:
+                      - generic [ref=e3108]:
+                        - img [ref=e3109]
+                        - generic [ref=e3115]: Вы откликнулись
+                      - button "Чат" [ref=e3116]:
+                        - generic [ref=e3120]: Чат
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 15 человек Middle frontend-разработчик 150 000 – 200 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц ООО Бизнес Технологии Санкт-Петербург ● Пионерская Вы откликнулись Чат" [ref=e3124] [cursor=pointer]':
+                  - generic [ref=e3128]:
+                    - generic [ref=e3129]:
+                      - generic [ref=e3130]:
+                        - button "Добавить в избранное" [ref=e3131]:
+                          - img [ref=e3132]
+                        - button "Скрыть" [ref=e3135]:
+                          - img [ref=e3136]
+                      - generic [ref=e3139]: Сейчас смотрят 15 человек
+                      - link "Middle frontend-разработчик" [ref=e3142]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134837105?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e3144]: Middle frontend-разработчик
+                      - generic [ref=e3146]:
+                        - generic [ref=e3147]: 150 000 – 200 000 ₽ за месяц, на руки
+                        - generic [ref=e3149]: Опыт 3-6 лет
+                        - generic [ref=e3151]: Можно удалённо
+                        - generic [ref=e3154]: "Выплаты: два раза в месяц"
+                      - generic [ref=e3156]:
+                        - generic [ref=e3158]:
+                          - link "ООО Бизнес Технологии" [ref=e3159]:
+                            - /url: /employer/14809?hhtmFrom=vacancy_search_list
+                            - generic [ref=e3162]: ООО Бизнес Технологии
+                          - link [ref=e3163]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e3165]
+                          - img [ref=e3173]
+                        - generic [ref=e3179]:
+                          - text: Санкт-Петербург
+                          - generic [ref=e3181]:
+                            - generic [ref=e3182]: ●
+                            - generic [ref=e3183]: Пионерская
+                    - generic [ref=e3187]:
+                      - generic [ref=e3188]:
+                        - img [ref=e3189]
+                        - generic [ref=e3195]: Вы откликнулись
+                      - button "Чат" [ref=e3196]:
+                        - generic [ref=e3200]: Чат
+                - button "Добавить в избранное Скрыть Сейчас смотрят 19 человек Senior Frontend Developer (Next.js / React) от 170 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо LionAdverts Москва Подходит по навыкам на 75% Вы откликнулись Чат" [ref=e3204] [cursor=pointer]:
+                  - generic [ref=e3208]:
+                    - generic [ref=e3209]:
+                      - generic [ref=e3210]:
+                        - button "Добавить в избранное" [ref=e3211]:
+                          - img [ref=e3212]
+                        - button "Скрыть" [ref=e3215]:
+                          - img [ref=e3216]
+                      - generic [ref=e3219]: Сейчас смотрят 19 человек
+                      - link "Senior Frontend Developer (Next.js / React)" [ref=e3222]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134847236?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e3224]: Senior Frontend Developer (Next.js / React)
+                      - generic [ref=e3226]:
+                        - generic [ref=e3227]: от 170 000 ₽ за месяц, на руки
+                        - generic [ref=e3229]: Опыт 3-6 лет
+                        - generic [ref=e3231]: Можно удалённо
+                      - generic [ref=e3233]:
+                        - generic [ref=e3235]:
+                          - link "LionAdverts" [ref=e3236]:
+                            - /url: /employer/11263356?hhtmFrom=vacancy_search_list
+                            - generic [ref=e3239]: LionAdverts
+                          - link [ref=e3240]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e3242]
+                        - generic [ref=e3246]: Москва
+                      - generic [ref=e3252]: Подходит по навыкам на 75%
+                    - generic [ref=e3256]:
+                      - generic [ref=e3257]:
+                        - img [ref=e3258]
+                        - generic [ref=e3264]: Вы откликнулись
+                      - button "Чат" [ref=e3265]:
+                        - generic [ref=e3269]: Чат
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 4 человека Middle Frontend-разработчик (React) 212 600 – 290 000 ₽ за месяц, до вычета налогов Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц YeaHub Москва ● Арбатская и еще 3 ● ● ● Подходит по навыкам на 77% Отклик без резюме Вы откликнулись Чат" [ref=e3273] [cursor=pointer]':
+                  - generic [ref=e3277]:
+                    - generic [ref=e3278]:
+                      - generic [ref=e3279]:
+                        - button "Добавить в избранное" [ref=e3280]:
+                          - img [ref=e3281]
+                        - button "Скрыть" [ref=e3284]:
+                          - img [ref=e3285]
+                      - generic [ref=e3288]: Сейчас смотрят 4 человека
+                      - link "Middle Frontend-разработчик (React)" [ref=e3291]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134796693?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e3293]: Middle Frontend-разработчик (React)
+                      - generic [ref=e3295]:
+                        - generic [ref=e3296]: 212 600 – 290 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e3298]: Опыт 3-6 лет
+                        - generic [ref=e3300]: Можно удалённо
+                        - generic [ref=e3303]: "Выплаты: два раза в месяц"
+                      - generic [ref=e3305]:
+                        - generic [ref=e3307]:
+                          - link "YeaHub" [ref=e3308]:
+                            - /url: /employer/12779352?hhtmFrom=vacancy_search_list
+                            - generic [ref=e3311]: YeaHub
+                          - link [ref=e3312]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e3314]
+                        - generic [ref=e3318]:
+                          - text: Москва
+                          - generic [ref=e3320]:
+                            - generic [ref=e3321]: ●
+                            - generic [ref=e3322]: Арбатская
+                          - generic [ref=e3323]: и еще 3
+                          - generic [ref=e3325]: ●
+                          - generic [ref=e3327]: ●
+                          - generic [ref=e3329]: ●
+                      - generic [ref=e3332]:
+                        - generic [ref=e3334]: Подходит по навыкам на 77%
+                        - generic [ref=e3336]: Отклик без резюме
+                    - generic [ref=e3340]:
+                      - generic [ref=e3341]:
+                        - img [ref=e3342]
+                        - generic [ref=e3348]: Вы откликнулись
+                      - button "Чат" [ref=e3349]:
+                        - generic [ref=e3353]: Чат
+                - button "Добавить в избранное Скрыть Сейчас смотрят 11 человек Frontend разработчик от 280 000 ₽ за месяц, на руки Опыт 1-3 года Можно удалённо ООО Дотсолюшн Москва Вам отказали Чат" [ref=e3359] [cursor=pointer]:
+                  - generic [ref=e3363]:
+                    - generic [ref=e3364]:
+                      - generic [ref=e3365]:
+                        - button "Добавить в избранное" [ref=e3366]:
+                          - img [ref=e3367]
+                        - button "Скрыть" [ref=e3370]:
+                          - img [ref=e3371]
+                      - generic [ref=e3374]: Сейчас смотрят 11 человек
+                      - link "Frontend разработчик" [ref=e3377]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134760653?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e3379]: Frontend разработчик
+                      - generic [ref=e3381]:
+                        - generic [ref=e3382]: от 280 000 ₽ за месяц, на руки
+                        - generic [ref=e3384]: Опыт 1-3 года
+                        - generic [ref=e3386]: Можно удалённо
+                      - generic [ref=e3388]:
+                        - generic [ref=e3390]:
+                          - link "ООО Дотсолюшн" [ref=e3391]:
+                            - /url: /employer/10938461?hhtmFrom=vacancy_search_list
+                            - generic [ref=e3394]: ООО Дотсолюшн
+                          - link [ref=e3395]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e3397]
+                        - generic [ref=e3401]: Москва
+                    - generic [ref=e3406]:
+                      - generic [ref=e3407]:
+                        - img [ref=e3408]
+                        - generic [ref=e3414]: Вам отказали
+                      - button "Чат" [ref=e3415]:
+                        - generic [ref=e3419]: Чат
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 5 человек Frontend-разработчик 170 000 – 190 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц Герои трека - приложение для картинга Москва Вам отказали Чат" [ref=e3423] [cursor=pointer]':
+                  - generic [ref=e3427]:
+                    - generic [ref=e3428]:
+                      - generic [ref=e3429]:
+                        - button "Добавить в избранное" [ref=e3430]:
+                          - img [ref=e3431]
+                        - button "Скрыть" [ref=e3434]:
+                          - img [ref=e3435]
+                      - generic [ref=e3438]: Сейчас смотрят 5 человек
+                      - link "Frontend-разработчик" [ref=e3441]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134636174?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e3443]: Frontend-разработчик
+                      - generic [ref=e3445]:
+                        - generic [ref=e3446]: 170 000 – 190 000 ₽ за месяц, на руки
+                        - generic [ref=e3448]: Опыт 3-6 лет
+                        - generic [ref=e3450]: Можно удалённо
+                        - generic [ref=e3453]: "Выплаты: два раза в месяц"
+                      - generic [ref=e3455]:
+                        - generic [ref=e3457]:
+                          - link "Герои трека - приложение для картинга" [ref=e3458]:
+                            - /url: /employer/11873893?hhtmFrom=vacancy_search_list
+                            - generic [ref=e3461]: Герои трека - приложение для картинга
+                          - link [ref=e3462]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e3464]
+                        - generic [ref=e3468]: Москва
+                    - generic [ref=e3473]:
+                      - generic [ref=e3474]:
+                        - img [ref=e3475]
+                        - generic [ref=e3481]: Вам отказали
+                      - button "Чат" [ref=e3482]:
+                        - generic [ref=e3486]: Чат
+                - button "Добавить в избранное Скрыть Сейчас смотрят 4 человека React developer / разработчик до 210 000 ₽ за месяц, до вычета налогов Опыт 1-3 года Можно удалённо Techno Diasoft Москва ● Библиотека им.Ленина и еще 3 ● ● ● Вам отказали Чат" [ref=e3490] [cursor=pointer]:
+                  - generic [ref=e3494]:
+                    - generic [ref=e3495]:
+                      - generic [ref=e3496]:
+                        - button "Добавить в избранное" [ref=e3497]:
+                          - img [ref=e3498]
+                        - button "Скрыть" [ref=e3501]:
+                          - img [ref=e3502]
+                      - generic [ref=e3505]: Сейчас смотрят 4 человека
+                      - link "React developer / разработчик" [ref=e3508]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134659096?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e3510]: React developer / разработчик
+                      - generic [ref=e3512]:
+                        - generic [ref=e3513]: до 210 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e3515]: Опыт 1-3 года
+                        - generic [ref=e3517]: Можно удалённо
+                      - generic [ref=e3519]:
+                        - generic [ref=e3521]:
+                          - link "Techno Diasoft" [ref=e3522]:
+                            - /url: /employer/859839?hhtmFrom=vacancy_search_list
+                            - generic [ref=e3525]: Techno Diasoft
+                          - link [ref=e3526]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e3528]
+                          - img [ref=e3536]
+                        - generic [ref=e3542]:
+                          - text: Москва
+                          - generic [ref=e3544]:
+                            - generic [ref=e3545]: ●
+                            - generic [ref=e3546]: Библиотека им.Ленина
+                          - generic [ref=e3547]: и еще 3
+                          - generic [ref=e3549]: ●
+                          - generic [ref=e3551]: ●
+                          - generic [ref=e3553]: ●
+                    - generic [ref=e3557]:
+                      - generic [ref=e3558]:
+                        - img [ref=e3559]
+                        - generic [ref=e3565]: Вам отказали
+                      - button "Чат" [ref=e3566]:
+                        - generic [ref=e3570]: Чат
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 11 человек Middle Full-stack разработчик 300 000 – 350 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: раз в месяц Sasha AI Москва ● Библиотека им.Ленина и еще 2 ● ● Вы откликнулись Чат" [ref=e3574] [cursor=pointer]':
+                  - generic [ref=e3578]:
+                    - generic [ref=e3579]:
+                      - generic [ref=e3580]:
+                        - button "Добавить в избранное" [ref=e3581]:
+                          - img [ref=e3582]
+                        - button "Скрыть" [ref=e3585]:
+                          - img [ref=e3586]
+                      - generic [ref=e3589]: Сейчас смотрят 11 человек
+                      - link "Middle Full-stack разработчик" [ref=e3592]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134757090?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e3594]: Middle Full-stack разработчик
+                      - generic [ref=e3596]:
+                        - generic [ref=e3597]: 300 000 – 350 000 ₽ за месяц, на руки
+                        - generic [ref=e3599]: Опыт 3-6 лет
+                        - generic [ref=e3601]: Можно удалённо
+                        - generic [ref=e3604]: "Выплаты: раз в месяц"
+                      - generic [ref=e3606]:
+                        - generic [ref=e3608]:
+                          - link "Sasha AI" [ref=e3609]:
+                            - /url: /employer/9745406?hhtmFrom=vacancy_search_list
+                            - generic [ref=e3612]: Sasha AI
+                          - link [ref=e3613]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e3615]
+                        - generic [ref=e3619]:
+                          - text: Москва
+                          - generic [ref=e3621]:
+                            - generic [ref=e3622]: ●
+                            - generic [ref=e3623]: Библиотека им.Ленина
+                          - generic [ref=e3624]: и еще 2
+                          - generic [ref=e3626]: ●
+                          - generic [ref=e3628]: ●
+                    - generic [ref=e3632]:
+                      - generic [ref=e3633]:
+                        - img [ref=e3634]
+                        - generic [ref=e3640]: Вы откликнулись
+                      - button "Чат" [ref=e3641]:
+                        - generic [ref=e3645]: Чат
+                - button "Добавить в избранное Скрыть Сейчас смотрят 7 человек Senior frontend-разработчик 200 000 – 300 000 ₽ за месяц, на руки Опыт более 6 лет Можно удалённо ООО Бизнес Технологии Санкт-Петербург, р-н Приморский Вы откликнулись Чат" [ref=e3649] [cursor=pointer]:
+                  - generic [ref=e3653]:
+                    - generic [ref=e3654]:
+                      - generic [ref=e3655]:
+                        - button "Добавить в избранное" [ref=e3656]:
+                          - img [ref=e3657]
+                        - button "Скрыть" [ref=e3660]:
+                          - img [ref=e3661]
+                      - generic [ref=e3664]: Сейчас смотрят 7 человек
+                      - link "Senior frontend-разработчик" [ref=e3667]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/115794035?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e3669]: Senior frontend-разработчик
+                      - generic [ref=e3671]:
+                        - generic [ref=e3672]: 200 000 – 300 000 ₽ за месяц, на руки
+                        - generic [ref=e3674]: Опыт более 6 лет
+                        - generic [ref=e3676]: Можно удалённо
+                      - generic [ref=e3678]:
+                        - generic [ref=e3680]:
+                          - link "ООО Бизнес Технологии" [ref=e3681]:
+                            - /url: /employer/14809?hhtmFrom=vacancy_search_list
+                            - generic [ref=e3684]: ООО Бизнес Технологии
+                          - link [ref=e3685]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e3687]
+                          - img [ref=e3695]
+                        - generic [ref=e3701]: Санкт-Петербург, р-н Приморский
+                    - generic [ref=e3706]:
+                      - generic [ref=e3707]:
+                        - img [ref=e3708]
+                        - generic [ref=e3714]: Вы откликнулись
+                      - button "Чат" [ref=e3715]:
+                        - generic [ref=e3719]: Чат
+                - button "Добавить в избранное Скрыть Сейчас смотрят 5 человек Front Разработчик - React JS/Middle + до 150 000 ₽ за месяц, до вычета налогов Опыт 1-3 года Можно удалённо ФГАНУ Центр информационных технологий и систем органов исполнительной власти Москва, р-н Пресненский Вам отказали Чат" [ref=e3723] [cursor=pointer]:
+                  - generic [ref=e3727]:
+                    - generic [ref=e3728]:
+                      - generic [ref=e3729]:
+                        - button "Добавить в избранное" [ref=e3730]:
+                          - img [ref=e3731]
+                        - button "Скрыть" [ref=e3734]:
+                          - img [ref=e3735]
+                      - generic [ref=e3738]: Сейчас смотрят 5 человек
+                      - link "Front Разработчик - React JS/Middle +" [ref=e3741]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/133727835?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e3743]: Front Разработчик - React JS/Middle +
+                      - generic [ref=e3745]:
+                        - generic [ref=e3746]: до 150 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e3748]: Опыт 1-3 года
+                        - generic [ref=e3750]: Можно удалённо
+                      - generic [ref=e3752]:
+                        - generic [ref=e3754]:
+                          - link "ФГАНУ Центр информационных технологий и систем органов исполнительной власти" [ref=e3755]:
+                            - /url: /employer/1467855?hhtmFrom=vacancy_search_list
+                            - generic [ref=e3758]: ФГАНУ Центр информационных технологий и систем органов исполнительной власти
+                          - link [ref=e3759]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e3761]
+                        - generic [ref=e3765]: Москва, р-н Пресненский
+                    - generic [ref=e3770]:
+                      - generic [ref=e3771]:
+                        - img [ref=e3772]
+                        - generic [ref=e3778]: Вам отказали
+                      - button "Чат" [ref=e3779]:
+                        - generic [ref=e3783]: Чат
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 6 человек Фуллстек (Node.js/React ) разработчик 280 000 – 300 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц Вакансии ROSSKO ROSSKO 4.2 • 594 отзыва Москва Вы откликнулись Чат" [ref=e3787] [cursor=pointer]':
+                  - generic [ref=e3791]:
+                    - generic [ref=e3792]:
+                      - generic [ref=e3793]:
+                        - button "Добавить в избранное" [ref=e3794]:
+                          - img [ref=e3795]
+                        - button "Скрыть" [ref=e3798]:
+                          - img [ref=e3799]
+                      - generic [ref=e3802]: Сейчас смотрят 6 человек
+                      - link "Фуллстек (Node.js/React ) разработчик" [ref=e3805]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134599604?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e3807]: Фуллстек (Node.js/React ) разработчик
+                      - generic [ref=e3809]:
+                        - generic [ref=e3810]: 280 000 – 300 000 ₽ за месяц, на руки
+                        - generic [ref=e3812]: Опыт 3-6 лет
+                        - generic [ref=e3814]: Можно удалённо
+                        - generic [ref=e3817]: "Выплаты: два раза в месяц"
+                      - generic [ref=e3819]:
+                        - link "Вакансии ROSSKO" [ref=e3823]:
+                          - /url: /employer/245592?hhtmFrom=vacancy_search_list
+                          - img "ROSSKO" [ref=e3825]
+                        - generic [ref=e3826]:
+                          - link "ROSSKO" [ref=e3827]:
+                            - /url: /employer/245592?hhtmFrom=vacancy_search_list
+                            - generic [ref=e3830]: ROSSKO
+                          - link [ref=e3831]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e3833]
+                          - link [ref=e3837]:
+                            - /url: https://rating.hh.ru/history/rating2025?utm_source=hh.ru&utm_medium=referral&utm_campaign=icon&utm_term=applicant
+                            - img [ref=e3839]
+                        - generic [ref=e3846]:
+                          - img [ref=e3847]
+                          - generic [ref=e3851]: "4.2"
+                          - generic [ref=e3852]: •
+                          - generic [ref=e3855]: 594 отзыва
+                        - generic [ref=e3856]: Москва
+                    - generic [ref=e3861]:
+                      - generic [ref=e3862]:
+                        - img [ref=e3863]
+                        - generic [ref=e3869]: Вы откликнулись
+                      - button "Чат" [ref=e3870]:
+                        - generic [ref=e3874]: Чат
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 6 человек Senior/Tech Lead frontend-разработчик 300 000 – 350 000 ₽ за месяц, на руки Опыт более 6 лет Можно удалённо Выплаты: два раза в месяц ООО Бизнес Технологии Санкт-Петербург ● Комендантский проспект и еще 2 ● ● Подходит по навыкам на 75% Вы откликнулись Чат" [ref=e3878] [cursor=pointer]':
+                  - generic [ref=e3882]:
+                    - generic [ref=e3883]:
+                      - generic [ref=e3884]:
+                        - button "Добавить в избранное" [ref=e3885]:
+                          - img [ref=e3886]
+                        - button "Скрыть" [ref=e3889]:
+                          - img [ref=e3890]
+                      - generic [ref=e3893]: Сейчас смотрят 6 человек
+                      - link "Senior/Tech Lead frontend-разработчик" [ref=e3896]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/127181421?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e3898]: Senior/Tech Lead frontend-разработчик
+                      - generic [ref=e3900]:
+                        - generic [ref=e3901]: 300 000 – 350 000 ₽ за месяц, на руки
+                        - generic [ref=e3903]: Опыт более 6 лет
+                        - generic [ref=e3905]: Можно удалённо
+                        - generic [ref=e3908]: "Выплаты: два раза в месяц"
+                      - generic [ref=e3910]:
+                        - generic [ref=e3912]:
+                          - link "ООО Бизнес Технологии" [ref=e3913]:
+                            - /url: /employer/14809?hhtmFrom=vacancy_search_list
+                            - generic [ref=e3916]: ООО Бизнес Технологии
+                          - link [ref=e3917]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e3919]
+                          - img [ref=e3927]
+                        - generic [ref=e3933]:
+                          - text: Санкт-Петербург
+                          - generic [ref=e3935]:
+                            - generic [ref=e3936]: ●
+                            - generic [ref=e3937]: Комендантский проспект
+                          - generic [ref=e3938]: и еще 2
+                          - generic [ref=e3940]: ●
+                          - generic [ref=e3942]: ●
+                      - generic [ref=e3947]: Подходит по навыкам на 75%
+                    - generic [ref=e3951]:
+                      - generic [ref=e3952]:
+                        - img [ref=e3953]
+                        - generic [ref=e3959]: Вы откликнулись
+                      - button "Чат" [ref=e3960]:
+                        - generic [ref=e3964]: Чат
+                - 'button "Добавить в избранное Скрыть Frontend-разработчик до 220 000 ₽ за месяц, на руки Опыт более 6 лет Можно удалённо Выплаты: раз в месяц CORE 3.9 • 12 отзывов Москва ● Белорусская и еще 3 ● ● ● Вы откликнулись Чат" [ref=e3968] [cursor=pointer]':
+                  - generic [ref=e3972]:
+                    - generic [ref=e3973]:
+                      - generic [ref=e3974]:
+                        - button "Добавить в избранное" [ref=e3975]:
+                          - img [ref=e3976]
+                        - button "Скрыть" [ref=e3979]:
+                          - img [ref=e3980]
+                      - link "Frontend-разработчик" [ref=e3984]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134309708?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e3986]: Frontend-разработчик
+                      - generic [ref=e3988]:
+                        - generic [ref=e3989]: до 220 000 ₽ за месяц, на руки
+                        - generic [ref=e3991]: Опыт более 6 лет
+                        - generic [ref=e3993]: Можно удалённо
+                        - generic [ref=e3996]: "Выплаты: раз в месяц"
+                      - generic [ref=e3998]:
+                        - generic [ref=e4000]:
+                          - link "CORE" [ref=e4001]:
+                            - /url: /employer/1664868?hhtmFrom=vacancy_search_list
+                            - generic [ref=e4004]: CORE
+                          - link [ref=e4005]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e4007]
+                          - img [ref=e4015]
+                        - generic [ref=e4024]:
+                          - img [ref=e4025]
+                          - generic [ref=e4029]: "3.9"
+                          - generic [ref=e4030]: •
+                          - generic [ref=e4033]: 12 отзывов
+                        - generic [ref=e4034]:
+                          - text: Москва
+                          - generic [ref=e4036]:
+                            - generic [ref=e4037]: ●
+                            - generic [ref=e4038]: Белорусская
+                          - generic [ref=e4039]: и еще 3
+                          - generic [ref=e4041]: ●
+                          - generic [ref=e4043]: ●
+                          - generic [ref=e4045]: ●
+                    - generic [ref=e4049]:
+                      - generic [ref=e4050]:
+                        - img [ref=e4051]
+                        - generic [ref=e4057]: Вы откликнулись
+                      - button "Чат" [ref=e4058]:
+                        - generic [ref=e4062]: Чат
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 3 человека Frontend Graphics Engineer (JavaScript/TypeScript) 175 000 – 350 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц Nord.Codes 3.8 • 1 отзыв Санкт-Петербург ● Чёрная речка Вы откликнулись Чат" [ref=e4066] [cursor=pointer]':
+                  - generic [ref=e4070]:
+                    - generic [ref=e4071]:
+                      - generic [ref=e4072]:
+                        - button "Добавить в избранное" [ref=e4073]:
+                          - img [ref=e4074]
+                        - button "Скрыть" [ref=e4077]:
+                          - img [ref=e4078]
+                      - generic [ref=e4081]: Сейчас смотрят 3 человека
+                      - link "Frontend Graphics Engineer (JavaScript/TypeScript)" [ref=e4084]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134027407?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e4086]: Frontend Graphics Engineer (JavaScript/TypeScript)
+                      - generic [ref=e4088]:
+                        - generic [ref=e4089]: 175 000 – 350 000 ₽ за месяц, на руки
+                        - generic [ref=e4091]: Опыт 3-6 лет
+                        - generic [ref=e4093]: Можно удалённо
+                        - generic [ref=e4096]: "Выплаты: два раза в месяц"
+                      - generic [ref=e4098]:
+                        - generic [ref=e4100]:
+                          - link "Nord.Codes" [ref=e4101]:
+                            - /url: /employer/3292790?hhtmFrom=vacancy_search_list
+                            - generic [ref=e4104]: Nord.Codes
+                          - link [ref=e4105]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e4107]
+                        - generic [ref=e4113]:
+                          - img [ref=e4114]
+                          - generic [ref=e4118]: "3.8"
+                          - generic [ref=e4119]: •
+                          - generic [ref=e4122]: 1 отзыв
+                        - generic [ref=e4123]:
+                          - text: Санкт-Петербург
+                          - generic [ref=e4125]:
+                            - generic [ref=e4126]: ●
+                            - generic [ref=e4127]: Чёрная речка
+                    - generic [ref=e4131]:
+                      - generic [ref=e4132]:
+                        - img [ref=e4133]
+                        - generic [ref=e4139]: Вы откликнулись
+                      - button "Чат" [ref=e4140]:
+                        - generic [ref=e4144]: Чат
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 4 человека Frontend-разработчик 200 000 – 250 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц StudyWorld 4.1 • 30 отзывов Санкт-Петербург ● Адмиралтейская и еще 3 ● ● ● Вы откликнулись Чат Связаться" [ref=e4148] [cursor=pointer]':
+                  - generic [ref=e4152]:
+                    - generic [ref=e4153]:
+                      - generic [ref=e4154]:
+                        - button "Добавить в избранное" [ref=e4155]:
+                          - img [ref=e4156]
+                        - button "Скрыть" [ref=e4159]:
+                          - img [ref=e4160]
+                      - generic [ref=e4163]: Сейчас смотрят 4 человека
+                      - link "Frontend-разработчик" [ref=e4166]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134005666?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e4168]: Frontend-разработчик
+                      - generic [ref=e4170]:
+                        - generic [ref=e4171]: 200 000 – 250 000 ₽ за месяц, на руки
+                        - generic [ref=e4173]: Опыт 3-6 лет
+                        - generic [ref=e4175]: Можно удалённо
+                        - generic [ref=e4178]: "Выплаты: два раза в месяц"
+                      - generic [ref=e4180]:
+                        - generic [ref=e4182]:
+                          - link "StudyWorld" [ref=e4183]:
+                            - /url: /employer/1013375?hhtmFrom=vacancy_search_list
+                            - generic [ref=e4186]: StudyWorld
+                          - link [ref=e4187]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e4189]
+                          - img [ref=e4197]
+                        - generic [ref=e4205]:
+                          - img [ref=e4206]
+                          - generic [ref=e4210]: "4.1"
+                          - generic [ref=e4211]: •
+                          - generic [ref=e4214]: 30 отзывов
+                        - generic [ref=e4215]:
+                          - text: Санкт-Петербург
+                          - generic [ref=e4217]:
+                            - generic [ref=e4218]: ●
+                            - generic [ref=e4219]: Адмиралтейская
+                          - generic [ref=e4220]: и еще 3
+                          - generic [ref=e4222]: ●
+                          - generic [ref=e4224]: ●
+                          - generic [ref=e4226]: ●
+                    - generic [ref=e4230]:
+                      - generic [ref=e4231]:
+                        - img [ref=e4232]
+                        - generic [ref=e4238]: Вы откликнулись
+                      - button "Чат" [ref=e4239]:
+                        - generic [ref=e4243]: Чат
+                      - button "Связаться" [ref=e4245]:
+                        - generic [ref=e4249]: Связаться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрит 1 человек Frontend-разработчик от 200 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц ИП Королева Мария Арсеновна Москва ● Библиотека им.Ленина и еще 3 ● ● ● Вы откликнулись Чат" [ref=e4253] [cursor=pointer]':
+                  - generic [ref=e4257]:
+                    - generic [ref=e4258]:
+                      - generic [ref=e4259]:
+                        - button "Добавить в избранное" [ref=e4260]:
+                          - img [ref=e4261]
+                        - button "Скрыть" [ref=e4264]:
+                          - img [ref=e4265]
+                      - generic [ref=e4268]: Сейчас смотрит 1 человек
+                      - link "Frontend-разработчик" [ref=e4271]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/133950292?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e4273]: Frontend-разработчик
+                      - generic [ref=e4275]:
+                        - generic [ref=e4276]: от 200 000 ₽ за месяц, на руки
+                        - generic [ref=e4278]: Опыт 3-6 лет
+                        - generic [ref=e4280]: Можно удалённо
+                        - generic [ref=e4283]: "Выплаты: два раза в месяц"
+                      - generic [ref=e4285]:
+                        - generic [ref=e4287]:
+                          - link "ИП Королева Мария Арсеновна" [ref=e4288]:
+                            - /url: /employer/12766124?hhtmFrom=vacancy_search_list
+                            - generic [ref=e4291]: ИП Королева Мария Арсеновна
+                          - link [ref=e4292]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e4294]
+                        - generic [ref=e4298]:
+                          - text: Москва
+                          - generic [ref=e4300]:
+                            - generic [ref=e4301]: ●
+                            - generic [ref=e4302]: Библиотека им.Ленина
+                          - generic [ref=e4303]: и еще 3
+                          - generic [ref=e4305]: ●
+                          - generic [ref=e4307]: ●
+                          - generic [ref=e4309]: ●
+                    - generic [ref=e4313]:
+                      - generic [ref=e4314]:
+                        - img [ref=e4315]
+                        - generic [ref=e4321]: Вы откликнулись
+                      - button "Чат" [ref=e4322]:
+                        - generic [ref=e4326]: Чат
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 3 человека Разработчик (Фронтенд / Vue.js) Middle+ от 150 000 ₽ за месяц, на руки Опыт 1-3 года Можно удалённо Выплаты: два раза в месяц ООО МСТРОЙ 3.3 • 2 отзыва Тюмень Вам отказали Чат" [ref=e4330] [cursor=pointer]':
+                  - generic [ref=e4334]:
+                    - generic [ref=e4335]:
+                      - generic [ref=e4336]:
+                        - button "Добавить в избранное" [ref=e4337]:
+                          - img [ref=e4338]
+                        - button "Скрыть" [ref=e4341]:
+                          - img [ref=e4342]
+                      - generic [ref=e4345]: Сейчас смотрят 3 человека
+                      - link "Разработчик (Фронтенд / Vue.js) Middle+" [ref=e4348]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/133453768?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e4350]: Разработчик (Фронтенд / Vue.js) Middle+
+                      - generic [ref=e4352]:
+                        - generic [ref=e4353]: от 150 000 ₽ за месяц, на руки
+                        - generic [ref=e4355]: Опыт 1-3 года
+                        - generic [ref=e4357]: Можно удалённо
+                        - generic [ref=e4360]: "Выплаты: два раза в месяц"
+                      - generic [ref=e4362]:
+                        - generic [ref=e4364]:
+                          - link "ООО МСТРОЙ" [ref=e4365]:
+                            - /url: /employer/11943611?hhtmFrom=vacancy_search_list
+                            - generic [ref=e4368]: ООО МСТРОЙ
+                          - link [ref=e4369]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e4371]
+                          - img [ref=e4379]
+                        - generic [ref=e4387]:
+                          - img [ref=e4388]
+                          - generic [ref=e4392]: "3.3"
+                          - generic [ref=e4393]: •
+                          - generic [ref=e4396]: 2 отзыва
+                        - generic [ref=e4397]: Тюмень
+                    - generic [ref=e4402]:
+                      - generic [ref=e4403]:
+                        - img [ref=e4404]
+                        - generic [ref=e4410]: Вам отказали
+                      - button "Чат" [ref=e4411]:
+                        - generic [ref=e4415]: Чат
+                - 'button "Добавить в избранное Скрыть Сейчас смотрит 1 человек Frontend-разработчик от 200 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц ИП Королева Мария Арсеновна Москва ● Библиотека им.Ленина и еще 3 ● ● ● Вы откликнулись Чат" [ref=e4419] [cursor=pointer]':
+                  - generic [ref=e4423]:
+                    - generic [ref=e4424]:
+                      - generic [ref=e4425]:
+                        - button "Добавить в избранное" [ref=e4426]:
+                          - img [ref=e4427]
+                        - button "Скрыть" [ref=e4430]:
+                          - img [ref=e4431]
+                      - generic [ref=e4434]: Сейчас смотрит 1 человек
+                      - link "Frontend-разработчик" [ref=e4437]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/133979076?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e4439]: Frontend-разработчик
+                      - generic [ref=e4441]:
+                        - generic [ref=e4442]: от 200 000 ₽ за месяц, на руки
+                        - generic [ref=e4444]: Опыт 3-6 лет
+                        - generic [ref=e4446]: Можно удалённо
+                        - generic [ref=e4449]: "Выплаты: два раза в месяц"
+                      - generic [ref=e4451]:
+                        - generic [ref=e4453]:
+                          - link "ИП Королева Мария Арсеновна" [ref=e4454]:
+                            - /url: /employer/12766124?hhtmFrom=vacancy_search_list
+                            - generic [ref=e4457]: ИП Королева Мария Арсеновна
+                          - link [ref=e4458]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e4460]
+                        - generic [ref=e4464]:
+                          - text: Москва
+                          - generic [ref=e4466]:
+                            - generic [ref=e4467]: ●
+                            - generic [ref=e4468]: Библиотека им.Ленина
+                          - generic [ref=e4469]: и еще 3
+                          - generic [ref=e4471]: ●
+                          - generic [ref=e4473]: ●
+                          - generic [ref=e4475]: ●
+                    - generic [ref=e4479]:
+                      - generic [ref=e4480]:
+                        - img [ref=e4481]
+                        - generic [ref=e4487]: Вы откликнулись
+                      - button "Чат" [ref=e4488]:
+                        - generic [ref=e4492]: Чат
+                - 'button "Добавить в избранное Скрыть Сейчас смотрит 1 человек Middle+/Senior Full-stack Developer (Next.js & Node.js) 220 000 – 400 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: раз в неделю STARVELL LP Москва Подходит по навыкам на 60% Вы откликнулись Чат" [ref=e4496] [cursor=pointer]':
+                  - generic [ref=e4500]:
+                    - generic [ref=e4501]:
+                      - generic [ref=e4502]:
+                        - button "Добавить в избранное" [ref=e4503]:
+                          - img [ref=e4504]
+                        - button "Скрыть" [ref=e4507]:
+                          - img [ref=e4508]
+                      - generic [ref=e4511]: Сейчас смотрит 1 человек
+                      - link "Middle+/Senior Full-stack Developer (Next.js & Node.js)" [ref=e4514]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134182986?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e4516]: Middle+/Senior Full-stack Developer (Next.js & Node.js)
+                      - generic [ref=e4518]:
+                        - generic [ref=e4519]: 220 000 – 400 000 ₽ за месяц, на руки
+                        - generic [ref=e4521]: Опыт 3-6 лет
+                        - generic [ref=e4523]: Можно удалённо
+                        - generic [ref=e4526]: "Выплаты: раз в неделю"
+                      - generic [ref=e4528]:
+                        - generic [ref=e4530]:
+                          - link "STARVELL LP" [ref=e4531]:
+                            - /url: /employer/12446540?hhtmFrom=vacancy_search_list
+                            - generic [ref=e4534]: STARVELL LP
+                          - link [ref=e4535]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e4537]
+                        - generic [ref=e4541]: Москва
+                      - generic [ref=e4547]: Подходит по навыкам на 60%
+                    - generic [ref=e4551]:
+                      - generic [ref=e4552]:
+                        - img [ref=e4553]
+                        - generic [ref=e4559]: Вы откликнулись
+                      - button "Чат" [ref=e4560]:
+                        - generic [ref=e4564]: Чат
+                - button "Добавить в избранное Скрыть Сейчас смотрят 3 человека Разработчик автономных ИИ агентов 100 000 – 150 000 ₽ за месяц, до вычета налогов Опыт 3-6 лет Можно удалённо ООО НПО Техно-Ас 3.6 • 6 отзывов Коломна, улица Октябрьской Революции, 406 Откликнуться Связаться" [ref=e4568] [cursor=pointer]:
+                  - generic [ref=e4572]:
+                    - generic [ref=e4573]:
+                      - generic [ref=e4574]:
+                        - button "Добавить в избранное" [ref=e4575]:
+                          - img [ref=e4576]
+                        - button "Скрыть" [ref=e4579]:
+                          - img [ref=e4580]
+                      - generic [ref=e4583]: Сейчас смотрят 3 человека
+                      - link "Разработчик автономных ИИ агентов" [ref=e4586]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134609356?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e4588]: Разработчик автономных ИИ агентов
+                      - generic [ref=e4590]:
+                        - generic [ref=e4591]: 100 000 – 150 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e4593]: Опыт 3-6 лет
+                        - generic [ref=e4595]: Можно удалённо
+                      - generic [ref=e4597]:
+                        - generic [ref=e4599]:
+                          - link "ООО НПО Техно-Ас" [ref=e4600]:
+                            - /url: /employer/2392418?hhtmFrom=vacancy_search_list
+                            - generic [ref=e4603]: ООО НПО Техно-Ас
+                          - link [ref=e4604]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e4606]
+                        - generic [ref=e4612]:
+                          - img [ref=e4613]
+                          - generic [ref=e4617]: "3.6"
+                          - generic [ref=e4618]: •
+                          - generic [ref=e4621]: 6 отзывов
+                        - generic [ref=e4622]: Коломна, улица Октябрьской Революции, 406
+                    - generic [ref=e4627]:
+                      - button "Откликнуться" [ref=e4628]:
+                        - generic [ref=e4632]: Откликнуться
+                      - button "Связаться" [ref=e4634]:
+                        - generic [ref=e4638]: Связаться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 2 человека Fullstack-разработчик мобильных приложений 100 000 – 200 000 ₽ за месяц, на руки Опыт 1-3 года Можно удалённо Выплаты: два раза в месяц Подработка ООО МЕДИА ПОТОК Санкт-Петербург ● Ладожская и еще 3 ● ● ● Откликнуться Связаться" [ref=e4642] [cursor=pointer]':
+                  - generic [ref=e4646]:
+                    - generic [ref=e4647]:
+                      - generic [ref=e4648]:
+                        - button "Добавить в избранное" [ref=e4649]:
+                          - img [ref=e4650]
+                        - button "Скрыть" [ref=e4653]:
+                          - img [ref=e4654]
+                      - generic [ref=e4657]: Сейчас смотрят 2 человека
+                      - link "Fullstack-разработчик мобильных приложений" [ref=e4660]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134067445?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e4662]: Fullstack-разработчик мобильных приложений
+                      - generic [ref=e4664]:
+                        - generic [ref=e4665]: 100 000 – 200 000 ₽ за месяц, на руки
+                        - generic [ref=e4667]: Опыт 1-3 года
+                        - generic [ref=e4669]: Можно удалённо
+                        - generic [ref=e4672]: "Выплаты: два раза в месяц"
+                        - generic [ref=e4674]: Подработка
+                      - generic [ref=e4676]:
+                        - generic [ref=e4678]:
+                          - link "ООО МЕДИА ПОТОК" [ref=e4679]:
+                            - /url: /employer/12821213?hhtmFrom=vacancy_search_list
+                            - generic [ref=e4682]: ООО МЕДИА ПОТОК
+                          - link [ref=e4683]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e4685]
+                        - generic [ref=e4689]:
+                          - text: Санкт-Петербург
+                          - generic [ref=e4691]:
+                            - generic [ref=e4692]: ●
+                            - generic [ref=e4693]: Ладожская
+                          - generic [ref=e4694]: и еще 3
+                          - generic [ref=e4696]: ●
+                          - generic [ref=e4698]: ●
+                          - generic [ref=e4700]: ●
+                    - generic [ref=e4704]:
+                      - button "Откликнуться" [ref=e4705]:
+                        - generic [ref=e4709]: Откликнуться
+                      - button "Связаться" [ref=e4711]:
+                        - generic [ref=e4715]: Связаться
+                - button "Добавить в избранное Скрыть Сейчас смотрит 1 человек Frontend developer от 2 500 $ за месяц, на руки Опыт более 6 лет Можно удалённо ООО Трейдмарк холдер Москва Подходит по навыкам на 80% Вы откликнулись Чат" [ref=e4719] [cursor=pointer]:
+                  - generic [ref=e4723]:
+                    - generic [ref=e4724]:
+                      - generic [ref=e4725]:
+                        - button "Добавить в избранное" [ref=e4726]:
+                          - img [ref=e4727]
+                        - button "Скрыть" [ref=e4730]:
+                          - img [ref=e4731]
+                      - generic [ref=e4734]: Сейчас смотрит 1 человек
+                      - link "Frontend developer" [ref=e4737]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/133993749?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e4739]: Frontend developer
+                      - generic [ref=e4741]:
+                        - generic [ref=e4742]: от 2 500 $ за месяц, на руки
+                        - generic [ref=e4744]: Опыт более 6 лет
+                        - generic [ref=e4746]: Можно удалённо
+                      - generic [ref=e4748]:
+                        - generic [ref=e4750]:
+                          - link "ООО Трейдмарк холдер" [ref=e4751]:
+                            - /url: /employer/12459049?hhtmFrom=vacancy_search_list
+                            - generic [ref=e4754]: ООО Трейдмарк холдер
+                          - link [ref=e4755]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e4757]
+                        - generic [ref=e4761]: Москва
+                      - generic [ref=e4767]: Подходит по навыкам на 80%
+                    - generic [ref=e4771]:
+                      - generic [ref=e4772]:
+                        - img [ref=e4773]
+                        - generic [ref=e4779]: Вы откликнулись
+                      - button "Чат" [ref=e4780]:
+                        - generic [ref=e4784]: Чат
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 9 человек CTO / Technical Co-founder (MPMAX OS) 200 000 – 500 000 ₽ за месяц, на руки Опыт 1-3 года Можно удалённо Выплаты: за проект MPMAX Краснодар, р-н Центральный Откликнуться Связаться" [ref=e4788] [cursor=pointer]':
+                  - generic [ref=e4792]:
+                    - generic [ref=e4793]:
+                      - generic [ref=e4794]:
+                        - button "Добавить в избранное" [ref=e4795]:
+                          - img [ref=e4796]
+                        - button "Скрыть" [ref=e4799]:
+                          - img [ref=e4800]
+                      - generic [ref=e4803]: Сейчас смотрят 9 человек
+                      - link "CTO / Technical Co-founder (MPMAX OS)" [ref=e4806]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134828128?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e4808]: CTO / Technical Co-founder (MPMAX OS)
+                      - generic [ref=e4810]:
+                        - generic [ref=e4811]: 200 000 – 500 000 ₽ за месяц, на руки
+                        - generic [ref=e4813]: Опыт 1-3 года
+                        - generic [ref=e4815]: Можно удалённо
+                        - generic [ref=e4818]: "Выплаты: за проект"
+                      - generic [ref=e4820]:
+                        - generic [ref=e4822]:
+                          - link "MPMAX" [ref=e4823]:
+                            - /url: /employer/12506563?hhtmFrom=vacancy_search_list
+                            - generic [ref=e4826]: MPMAX
+                          - link [ref=e4827]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e4829]
+                        - generic [ref=e4834]: Краснодар, р-н Центральный
+                    - generic [ref=e4839]:
+                      - button "Откликнуться" [ref=e4840]:
+                        - generic [ref=e4844]: Откликнуться
+                      - button "Связаться" [ref=e4846]:
+                        - generic [ref=e4850]: Связаться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 2 человека Архитектор IT-проектов до 350 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц ООО В Кадре 4.2 • 41 отзыв Москва Откликнуться" [ref=e4854] [cursor=pointer]':
+                  - generic [ref=e4858]:
+                    - generic [ref=e4859]:
+                      - generic [ref=e4860]:
+                        - button "Добавить в избранное" [ref=e4861]:
+                          - img [ref=e4862]
+                        - button "Скрыть" [ref=e4865]:
+                          - img [ref=e4866]
+                      - generic [ref=e4869]: Сейчас смотрят 2 человека
+                      - link "Архитектор IT-проектов" [ref=e4872]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134525385?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e4874]: Архитектор IT-проектов
+                      - generic [ref=e4876]:
+                        - generic [ref=e4877]: до 350 000 ₽ за месяц, на руки
+                        - generic [ref=e4879]: Опыт 3-6 лет
+                        - generic [ref=e4881]: Можно удалённо
+                        - generic [ref=e4884]: "Выплаты: два раза в месяц"
+                      - generic [ref=e4886]:
+                        - generic [ref=e4888]:
+                          - link "ООО В Кадре" [ref=e4889]:
+                            - /url: /employer/10094968?hhtmFrom=vacancy_search_list
+                            - generic [ref=e4892]: ООО В Кадре
+                          - link [ref=e4893]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e4895]
+                        - generic [ref=e4901]:
+                          - img [ref=e4902]
+                          - generic [ref=e4906]: "4.2"
+                          - generic [ref=e4907]: •
+                          - generic [ref=e4910]: 41 отзыв
+                        - generic [ref=e4911]: Москва
+                    - button "Откликнуться" [ref=e4917]:
+                      - generic [ref=e4921]: Откликнуться
+                - button "Добавить в избранное Скрыть FULLSTACK Developer / Lead / Architect / от 368 000 ₽ за месяц, на руки Опыт более 6 лет Можно удалённо ООО Энерго Технолоджис 4.0 • 4 отзыва Москва ● Октябрьская и еще 1 ● Откликнуться" [ref=e4925] [cursor=pointer]:
+                  - generic [ref=e4929]:
+                    - generic [ref=e4930]:
+                      - generic [ref=e4931]:
+                        - button "Добавить в избранное" [ref=e4932]:
+                          - img [ref=e4933]
+                        - button "Скрыть" [ref=e4936]:
+                          - img [ref=e4937]
+                      - link "FULLSTACK Developer / Lead / Architect /" [ref=e4941]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134259502?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e4943]: FULLSTACK Developer / Lead / Architect /
+                      - generic [ref=e4945]:
+                        - generic [ref=e4946]: от 368 000 ₽ за месяц, на руки
+                        - generic [ref=e4948]: Опыт более 6 лет
+                        - generic [ref=e4950]: Можно удалённо
+                      - generic [ref=e4952]:
+                        - generic [ref=e4954]:
+                          - link "ООО Энерго Технолоджис" [ref=e4955]:
+                            - /url: /employer/4191326?hhtmFrom=vacancy_search_list
+                            - generic [ref=e4958]: ООО Энерго Технолоджис
+                          - link [ref=e4959]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e4961]
+                        - generic [ref=e4967]:
+                          - img [ref=e4968]
+                          - generic [ref=e4972]: "4.0"
+                          - generic [ref=e4973]: •
+                          - generic [ref=e4976]: 4 отзыва
+                        - generic [ref=e4977]:
+                          - text: Москва
+                          - generic [ref=e4979]:
+                            - generic [ref=e4980]: ●
+                            - generic [ref=e4981]: Октябрьская
+                          - generic [ref=e4982]: и еще 1
+                          - generic [ref=e4984]: ●
+                    - button "Откликнуться" [ref=e4989]:
+                      - generic [ref=e4993]: Откликнуться
+                - button "Добавить в избранное Скрыть Senior SDET / QA Automation (AQA) до 4 000 $ за месяц, на руки Опыт 3-6 лет Можно удалённо ИП Трантин Антон Васильевич 5.0 • 1 отзыв Москва Откликнуться" [ref=e4997] [cursor=pointer]:
+                  - generic [ref=e5001]:
+                    - generic [ref=e5002]:
+                      - generic [ref=e5003]:
+                        - button "Добавить в избранное" [ref=e5004]:
+                          - img [ref=e5005]
+                        - button "Скрыть" [ref=e5008]:
+                          - img [ref=e5009]
+                      - link "Senior SDET / QA Automation (AQA)" [ref=e5013]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134390538?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e5015]: Senior SDET / QA Automation (AQA)
+                      - generic [ref=e5017]:
+                        - generic [ref=e5018]: до 4 000 $ за месяц, на руки
+                        - generic [ref=e5020]: Опыт 3-6 лет
+                        - generic [ref=e5022]: Можно удалённо
+                      - generic [ref=e5024]:
+                        - generic [ref=e5026]:
+                          - link "ИП Трантин Антон Васильевич" [ref=e5027]:
+                            - /url: /employer/5859452?hhtmFrom=vacancy_search_list
+                            - generic [ref=e5030]: ИП Трантин Антон Васильевич
+                          - link [ref=e5031]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e5033]
+                        - generic [ref=e5039]:
+                          - img [ref=e5040]
+                          - generic [ref=e5044]: "5.0"
+                          - generic [ref=e5045]: •
+                          - generic [ref=e5048]: 1 отзыв
+                        - generic [ref=e5049]: Москва
+                    - button "Откликнуться" [ref=e5055]:
+                      - generic [ref=e5059]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрит 1 человек Tech Lead (Full Stack / PHP/JS) 300 000 – 400 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц UREMONT 4.2 • 36 отзывов Москва ● Калитники и еще 3 ● ● ● Откликнуться" [ref=e5063] [cursor=pointer]':
+                  - generic [ref=e5067]:
+                    - generic [ref=e5068]:
+                      - generic [ref=e5069]:
+                        - button "Добавить в избранное" [ref=e5070]:
+                          - img [ref=e5071]
+                        - button "Скрыть" [ref=e5074]:
+                          - img [ref=e5075]
+                      - generic [ref=e5078]: Сейчас смотрит 1 человек
+                      - link "Tech Lead (Full Stack / PHP/JS)" [ref=e5081]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134167938?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e5083]: Tech Lead (Full Stack / PHP/JS)
+                      - generic [ref=e5085]:
+                        - generic [ref=e5086]: 300 000 – 400 000 ₽ за месяц, на руки
+                        - generic [ref=e5088]: Опыт 3-6 лет
+                        - generic [ref=e5090]: Можно удалённо
+                        - generic [ref=e5093]: "Выплаты: два раза в месяц"
+                      - generic [ref=e5095]:
+                        - generic [ref=e5097]:
+                          - link "UREMONT" [ref=e5098]:
+                            - /url: /employer/1583990?hhtmFrom=vacancy_search_list
+                            - generic [ref=e5101]: UREMONT
+                          - link [ref=e5102]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e5104]
+                          - img [ref=e5112]
+                        - generic [ref=e5121]:
+                          - img [ref=e5122]
+                          - generic [ref=e5126]: "4.2"
+                          - generic [ref=e5127]: •
+                          - generic [ref=e5130]: 36 отзывов
+                        - generic [ref=e5131]:
+                          - text: Москва
+                          - generic [ref=e5133]:
+                            - generic [ref=e5134]: ●
+                            - generic [ref=e5135]: Калитники
+                          - generic [ref=e5136]: и еще 3
+                          - generic [ref=e5138]: ●
+                          - generic [ref=e5140]: ●
+                          - generic [ref=e5142]: ●
+                    - button "Откликнуться" [ref=e5147]:
+                      - generic [ref=e5151]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 9 человек Frontend-разработчик от 120 000 ₽ за месяц, до вычета налогов Опыт 1-3 года Можно удалённо Выплаты: раз в месяц ООО СОФИ И ПАРТНЕРЫ Ижевск Подходит по навыкам на 83% Откликнуться" [ref=e5155] [cursor=pointer]':
+                  - generic [ref=e5159]:
+                    - generic [ref=e5160]:
+                      - generic [ref=e5161]:
+                        - button "Добавить в избранное" [ref=e5162]:
+                          - img [ref=e5163]
+                        - button "Скрыть" [ref=e5166]:
+                          - img [ref=e5167]
+                      - generic [ref=e5170]: Сейчас смотрят 9 человек
+                      - link "Frontend-разработчик" [ref=e5173]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134703586?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e5175]: Frontend-разработчик
+                      - generic [ref=e5177]:
+                        - generic [ref=e5178]: от 120 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e5180]: Опыт 1-3 года
+                        - generic [ref=e5182]: Можно удалённо
+                        - generic [ref=e5185]: "Выплаты: раз в месяц"
+                      - generic [ref=e5187]:
+                        - generic [ref=e5189]:
+                          - link "ООО СОФИ И ПАРТНЕРЫ" [ref=e5190]:
+                            - /url: /employer/11977956?hhtmFrom=vacancy_search_list
+                            - generic [ref=e5193]: ООО СОФИ И ПАРТНЕРЫ
+                          - link [ref=e5194]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e5196]
+                        - generic [ref=e5200]: Ижевск
+                      - generic [ref=e5206]: Подходит по навыкам на 83%
+                    - button "Откликнуться" [ref=e5211]:
+                      - generic [ref=e5215]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 6 человек Ведущий фронтенд (frontend) разработчик/программист (JS, PHP, web) от 264 500 ₽ за месяц, до вычета налогов Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц СевенТест, НТЦ 4.8 • 4 отзыва Санкт-Петербург ● Крестовский остров и еще 3 ● ● ● Откликнуться" [ref=e5219] [cursor=pointer]':
+                  - generic [ref=e5223]:
+                    - generic [ref=e5224]:
+                      - generic [ref=e5225]:
+                        - button "Добавить в избранное" [ref=e5226]:
+                          - img [ref=e5227]
+                        - button "Скрыть" [ref=e5230]:
+                          - img [ref=e5231]
+                      - generic [ref=e5234]: Сейчас смотрят 6 человек
+                      - link "Ведущий фронтенд (frontend) разработчик/программист (JS, PHP, web)" [ref=e5237]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134629753?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e5239]: Ведущий фронтенд (frontend) разработчик/программист (JS, PHP, web)
+                      - generic [ref=e5241]:
+                        - generic [ref=e5242]: от 264 500 ₽ за месяц, до вычета налогов
+                        - generic [ref=e5244]: Опыт 3-6 лет
+                        - generic [ref=e5246]: Можно удалённо
+                        - generic [ref=e5249]: "Выплаты: два раза в месяц"
+                      - generic [ref=e5251]:
+                        - generic [ref=e5253]:
+                          - link "СевенТест, НТЦ" [ref=e5254]:
+                            - /url: /employer/887195?hhtmFrom=vacancy_search_list
+                            - generic [ref=e5257]: СевенТест, НТЦ
+                          - link [ref=e5258]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e5260]
+                        - generic [ref=e5266]:
+                          - img [ref=e5267]
+                          - generic [ref=e5271]: "4.8"
+                          - generic [ref=e5272]: •
+                          - generic [ref=e5275]: 4 отзыва
+                        - generic [ref=e5276]:
+                          - text: Санкт-Петербург
+                          - generic [ref=e5278]:
+                            - generic [ref=e5279]: ●
+                            - generic [ref=e5280]: Крестовский остров
+                          - generic [ref=e5281]: и еще 3
+                          - generic [ref=e5283]: ●
+                          - generic [ref=e5285]: ●
+                          - generic [ref=e5287]: ●
+                    - button "Откликнуться" [ref=e5292]:
+                      - generic [ref=e5296]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 3 человека Разработчик пользовательского интерфейса (Flutter разработчик) 245 000 – 350 000 ₽ за месяц, до вычета налогов Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц Вакансии Информационные технологии Информационные технологии 3.7 • 788 отзывов Москва, р-н Хорошёвский Подходит по навыкам на 66% Откликнуться" [ref=e5300] [cursor=pointer]':
+                  - generic [ref=e5304]:
+                    - generic [ref=e5305]:
+                      - generic [ref=e5306]:
+                        - button "Добавить в избранное" [ref=e5307]:
+                          - img [ref=e5308]
+                        - button "Скрыть" [ref=e5311]:
+                          - img [ref=e5312]
+                      - generic [ref=e5315]: Сейчас смотрят 3 человека
+                      - link "Разработчик пользовательского интерфейса (Flutter разработчик)" [ref=e5318]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134202003?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e5320]: Разработчик пользовательского интерфейса (Flutter разработчик)
+                      - generic [ref=e5322]:
+                        - generic [ref=e5323]: 245 000 – 350 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e5325]: Опыт 3-6 лет
+                        - generic [ref=e5327]: Можно удалённо
+                        - generic [ref=e5330]: "Выплаты: два раза в месяц"
+                      - generic [ref=e5332]:
+                        - link "Вакансии Информационные технологии" [ref=e5336]:
+                          - /url: /employer/53797?dpt=53797-53797-efkoinfo&hhtmFrom=vacancy_search_list
+                          - img "Информационные технологии" [ref=e5338]
+                        - generic [ref=e5339]:
+                          - link "Информационные технологии" [ref=e5340]:
+                            - /url: /employer/53797?dpt=53797-53797-efkoinfo&hhtmFrom=vacancy_search_list
+                            - generic [ref=e5343]: Информационные технологии
+                          - link [ref=e5344]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e5346]
+                        - generic [ref=e5352]:
+                          - img [ref=e5353]
+                          - generic [ref=e5357]: "3.7"
+                          - generic [ref=e5358]: •
+                          - generic [ref=e5361]: 788 отзывов
+                        - generic [ref=e5362]: Москва, р-н Хорошёвский
+                      - generic [ref=e5368]: Подходит по навыкам на 66%
+                    - button "Откликнуться" [ref=e5373]:
+                      - generic [ref=e5377]: Откликнуться
+                - button "Добавить в избранное Скрыть Сейчас смотрит 1 человек Руководитель группы разработки 300 000 – 350 000 ₽ за месяц, до вычета налогов Опыт более 6 лет Можно удалённо ООО СКАЙФОРТ РУС 3.2 • 6 отзывов Москва ● Библиотека им.Ленина и еще 3 ● ● ● Откликнуться Связаться" [ref=e5381] [cursor=pointer]:
+                  - generic [ref=e5385]:
+                    - generic [ref=e5386]:
+                      - generic [ref=e5387]:
+                        - button "Добавить в избранное" [ref=e5388]:
+                          - img [ref=e5389]
+                        - button "Скрыть" [ref=e5392]:
+                          - img [ref=e5393]
+                      - generic [ref=e5396]: Сейчас смотрит 1 человек
+                      - link "Руководитель группы разработки" [ref=e5399]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/133965069?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e5401]: Руководитель группы разработки
+                      - generic [ref=e5403]:
+                        - generic [ref=e5404]: 300 000 – 350 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e5406]: Опыт более 6 лет
+                        - generic [ref=e5408]: Можно удалённо
+                      - generic [ref=e5410]:
+                        - generic [ref=e5412]:
+                          - link "ООО СКАЙФОРТ РУС" [ref=e5413]:
+                            - /url: /employer/5676844?hhtmFrom=vacancy_search_list
+                            - generic [ref=e5416]: ООО СКАЙФОРТ РУС
+                          - link [ref=e5417]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e5419]
+                        - generic [ref=e5425]:
+                          - img [ref=e5426]
+                          - generic [ref=e5430]: "3.2"
+                          - generic [ref=e5431]: •
+                          - generic [ref=e5434]: 6 отзывов
+                        - generic [ref=e5435]:
+                          - text: Москва
+                          - generic [ref=e5437]:
+                            - generic [ref=e5438]: ●
+                            - generic [ref=e5439]: Библиотека им.Ленина
+                          - generic [ref=e5440]: и еще 3
+                          - generic [ref=e5442]: ●
+                          - generic [ref=e5444]: ●
+                          - generic [ref=e5446]: ●
+                    - generic [ref=e5450]:
+                      - button "Откликнуться" [ref=e5451]:
+                        - generic [ref=e5455]: Откликнуться
+                      - button "Связаться" [ref=e5457]:
+                        - generic [ref=e5461]: Связаться
+                - button "Добавить в избранное Скрыть Сейчас смотрят 3 человека Senior AI / R&D Engineer 310 000 – 330 000 ₽ за месяц, до вычета налогов Опыт более 6 лет Можно удалённо ЛИАН 4.6 • 8 отзывов Москва Откликнуться" [ref=e5465] [cursor=pointer]:
+                  - generic [ref=e5469]:
+                    - generic [ref=e5470]:
+                      - generic [ref=e5471]:
+                        - button "Добавить в избранное" [ref=e5472]:
+                          - img [ref=e5473]
+                        - button "Скрыть" [ref=e5476]:
+                          - img [ref=e5477]
+                      - generic [ref=e5480]: Сейчас смотрят 3 человека
+                      - link "Senior AI / R&D Engineer" [ref=e5483]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134710810?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e5485]: Senior AI / R&D Engineer
+                      - generic [ref=e5487]:
+                        - generic [ref=e5488]: 310 000 – 330 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e5490]: Опыт более 6 лет
+                        - generic [ref=e5492]: Можно удалённо
+                      - generic [ref=e5494]:
+                        - generic [ref=e5496]:
+                          - link "ЛИАН" [ref=e5497]:
+                            - /url: /employer/4768936?hhtmFrom=vacancy_search_list
+                            - generic [ref=e5500]: ЛИАН
+                          - link [ref=e5501]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e5503]
+                        - generic [ref=e5509]:
+                          - img [ref=e5510]
+                          - generic [ref=e5514]: "4.6"
+                          - generic [ref=e5515]: •
+                          - generic [ref=e5518]: 8 отзывов
+                        - generic [ref=e5519]: Москва
+                    - button "Откликнуться" [ref=e5525]:
+                      - generic [ref=e5529]: Откликнуться
+                - button "Добавить в избранное Скрыть Сейчас смотрит 1 человек Системный аналитик WEB (маркетплейсы) 200 000 – 220 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо ООО В Кадре 4.2 • 41 отзыв Москва Откликнуться" [ref=e5533] [cursor=pointer]:
+                  - generic [ref=e5537]:
+                    - generic [ref=e5538]:
+                      - generic [ref=e5539]:
+                        - button "Добавить в избранное" [ref=e5540]:
+                          - img [ref=e5541]
+                        - button "Скрыть" [ref=e5544]:
+                          - img [ref=e5545]
+                      - generic [ref=e5548]: Сейчас смотрит 1 человек
+                      - link "Системный аналитик WEB (маркетплейсы)" [ref=e5551]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134250859?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e5553]: Системный аналитик WEB (маркетплейсы)
+                      - generic [ref=e5555]:
+                        - generic [ref=e5556]: 200 000 – 220 000 ₽ за месяц, на руки
+                        - generic [ref=e5558]: Опыт 3-6 лет
+                        - generic [ref=e5560]: Можно удалённо
+                      - generic [ref=e5562]:
+                        - generic [ref=e5564]:
+                          - link "ООО В Кадре" [ref=e5565]:
+                            - /url: /employer/10094968?hhtmFrom=vacancy_search_list
+                            - generic [ref=e5568]: ООО В Кадре
+                          - link [ref=e5569]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e5571]
+                        - generic [ref=e5577]:
+                          - img [ref=e5578]
+                          - generic [ref=e5582]: "4.2"
+                          - generic [ref=e5583]: •
+                          - generic [ref=e5586]: 41 отзыв
+                        - generic [ref=e5587]: Москва
+                    - button "Откликнуться" [ref=e5593]:
+                      - generic [ref=e5597]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Технический директор (CTO) 250 000 – 400 000 ₽ за месяц, до вычета налогов Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц STAX 4.4 • 8 отзывов Москва ● Библиотека им.Ленина и еще 3 ● ● ● Откликнуться" [ref=e5601] [cursor=pointer]':
+                  - generic [ref=e5605]:
+                    - generic [ref=e5606]:
+                      - generic [ref=e5607]:
+                        - button "Добавить в избранное" [ref=e5608]:
+                          - img [ref=e5609]
+                        - button "Скрыть" [ref=e5612]:
+                          - img [ref=e5613]
+                      - link "Технический директор (CTO)" [ref=e5617]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134188752?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e5619]: Технический директор (CTO)
+                      - generic [ref=e5621]:
+                        - generic [ref=e5622]: 250 000 – 400 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e5624]: Опыт 3-6 лет
+                        - generic [ref=e5626]: Можно удалённо
+                        - generic [ref=e5629]: "Выплаты: два раза в месяц"
+                      - generic [ref=e5631]:
+                        - generic [ref=e5633]:
+                          - link "STAX" [ref=e5634]:
+                            - /url: /employer/5298157?hhtmFrom=vacancy_search_list
+                            - generic [ref=e5637]: STAX
+                          - link [ref=e5638]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e5640]
+                        - generic [ref=e5646]:
+                          - img [ref=e5647]
+                          - generic [ref=e5651]: "4.4"
+                          - generic [ref=e5652]: •
+                          - generic [ref=e5655]: 8 отзывов
+                        - generic [ref=e5656]:
+                          - text: Москва
+                          - generic [ref=e5658]:
+                            - generic [ref=e5659]: ●
+                            - generic [ref=e5660]: Библиотека им.Ленина
+                          - generic [ref=e5661]: и еще 3
+                          - generic [ref=e5663]: ●
+                          - generic [ref=e5665]: ●
+                          - generic [ref=e5667]: ●
+                    - button "Откликнуться" [ref=e5672]:
+                      - generic [ref=e5676]: Откликнуться
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 11 человек Фронтенд-разработчик | Frontend React + TypeScript 260 000 – 300 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц Вакансии ROSSKO ROSSKO 4.2 • 594 отзыва Москва Подходит по навыкам на 83% Вы откликнулись Чат" [ref=e5680] [cursor=pointer]':
+                  - generic [ref=e5684]:
+                    - generic [ref=e5685]:
+                      - generic [ref=e5686]:
+                        - button "Добавить в избранное" [ref=e5687]:
+                          - img [ref=e5688]
+                        - button "Скрыть" [ref=e5691]:
+                          - img [ref=e5692]
+                      - generic [ref=e5695]: Сейчас смотрят 11 человек
+                      - link "Фронтенд-разработчик | Frontend React + TypeScript" [ref=e5698]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134598590?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e5700]: Фронтенд-разработчик | Frontend React + TypeScript
+                      - generic [ref=e5702]:
+                        - generic [ref=e5703]: 260 000 – 300 000 ₽ за месяц, на руки
+                        - generic [ref=e5705]: Опыт 3-6 лет
+                        - generic [ref=e5707]: Можно удалённо
+                        - generic [ref=e5710]: "Выплаты: два раза в месяц"
+                      - generic [ref=e5712]:
+                        - link "Вакансии ROSSKO" [ref=e5716]:
+                          - /url: /employer/245592?hhtmFrom=vacancy_search_list
+                          - img "ROSSKO" [ref=e5718]
+                        - generic [ref=e5719]:
+                          - link "ROSSKO" [ref=e5720]:
+                            - /url: /employer/245592?hhtmFrom=vacancy_search_list
+                            - generic [ref=e5723]: ROSSKO
+                          - link [ref=e5724]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e5726]
+                          - link [ref=e5730]:
+                            - /url: https://rating.hh.ru/history/rating2025?utm_source=hh.ru&utm_medium=referral&utm_campaign=icon&utm_term=applicant
+                            - img [ref=e5732]
+                        - generic [ref=e5739]:
+                          - img [ref=e5740]
+                          - generic [ref=e5744]: "4.2"
+                          - generic [ref=e5745]: •
+                          - generic [ref=e5748]: 594 отзыва
+                        - generic [ref=e5749]: Москва
+                      - generic [ref=e5755]: Подходит по навыкам на 83%
+                    - generic [ref=e5759]:
+                      - generic [ref=e5760]:
+                        - img [ref=e5761]
+                        - generic [ref=e5767]: Вы откликнулись
+                      - button "Чат" [ref=e5768]:
+                        - generic [ref=e5772]: Чат
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 3 человека Fullstack-разработчик (TypeScript, React, Next.js) от 200 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц TOOLUM Москва Вы откликнулись Чат" [ref=e5776] [cursor=pointer]':
+                  - generic [ref=e5780]:
+                    - generic [ref=e5781]:
+                      - generic [ref=e5782]:
+                        - button "Добавить в избранное" [ref=e5783]:
+                          - img [ref=e5784]
+                        - button "Скрыть" [ref=e5787]:
+                          - img [ref=e5788]
+                      - generic [ref=e5791]: Сейчас смотрят 3 человека
+                      - link "Fullstack-разработчик (TypeScript, React, Next.js)" [ref=e5794]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134273648?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e5796]: Fullstack-разработчик (TypeScript, React, Next.js)
+                      - generic [ref=e5798]:
+                        - generic [ref=e5799]: от 200 000 ₽ за месяц, на руки
+                        - generic [ref=e5801]: Опыт 3-6 лет
+                        - generic [ref=e5803]: Можно удалённо
+                        - generic [ref=e5806]: "Выплаты: два раза в месяц"
+                      - generic [ref=e5808]:
+                        - generic [ref=e5810]:
+                          - link "TOOLUM" [ref=e5811]:
+                            - /url: /employer/12843645?hhtmFrom=vacancy_search_list
+                            - generic [ref=e5814]: TOOLUM
+                          - link [ref=e5815]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e5817]
+                        - generic [ref=e5821]: Москва
+                    - generic [ref=e5826]:
+                      - generic [ref=e5827]:
+                        - img [ref=e5828]
+                        - generic [ref=e5834]: Вы откликнулись
+                      - button "Чат" [ref=e5835]:
+                        - generic [ref=e5839]: Чат
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 5 человек Frontend разработчик на React от 150 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц ООО Софтплэкс Сервисис 4.8 • 1 отзыв Новосибирск Подходит по навыкам на 100% Вы откликнулись Чат" [ref=e5843] [cursor=pointer]':
+                  - generic [ref=e5847]:
+                    - generic [ref=e5848]:
+                      - generic [ref=e5849]:
+                        - button "Добавить в избранное" [ref=e5850]:
+                          - img [ref=e5851]
+                        - button "Скрыть" [ref=e5854]:
+                          - img [ref=e5855]
+                      - generic [ref=e5858]: Сейчас смотрят 5 человек
+                      - link "Frontend разработчик на React" [ref=e5861]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134785289?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e5863]: Frontend разработчик на React
+                      - generic [ref=e5865]:
+                        - generic [ref=e5866]: от 150 000 ₽ за месяц, на руки
+                        - generic [ref=e5868]: Опыт 3-6 лет
+                        - generic [ref=e5870]: Можно удалённо
+                        - generic [ref=e5873]: "Выплаты: два раза в месяц"
+                      - generic [ref=e5875]:
+                        - generic [ref=e5877]:
+                          - link "ООО Софтплэкс Сервисис" [ref=e5878]:
+                            - /url: /employer/11388333?hhtmFrom=vacancy_search_list
+                            - generic [ref=e5881]: ООО Софтплэкс Сервисис
+                          - link [ref=e5882]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e5884]
+                        - generic [ref=e5890]:
+                          - img [ref=e5891]
+                          - generic [ref=e5895]: "4.8"
+                          - generic [ref=e5896]: •
+                          - generic [ref=e5899]: 1 отзыв
+                        - generic [ref=e5900]: Новосибирск
+                      - generic [ref=e5906]: Подходит по навыкам на 100%
+                    - generic [ref=e5910]:
+                      - generic [ref=e5911]:
+                        - img [ref=e5912]
+                        - generic [ref=e5918]: Вы откликнулись
+                      - button "Чат" [ref=e5919]:
+                        - generic [ref=e5923]: Чат
+                - button "Добавить в избранное Скрыть Сейчас смотрят 4 человека Frontend developer (Москва) до 190 000 ₽ за месяц, на руки Опыт более 6 лет Можно удалённо Вакансии ИЦ АЙ-ТЕКО ООО ИЦ АЙ-ТЕКО 4.2 • 88 отзывов Москва ● Библиотека им.Ленина и еще 3 ● ● ● Подходит по навыкам на 80% Вы откликнулись Чат Связаться" [ref=e5927] [cursor=pointer]:
+                  - generic [ref=e5931]:
+                    - generic [ref=e5932]:
+                      - generic [ref=e5933]:
+                        - button "Добавить в избранное" [ref=e5934]:
+                          - img [ref=e5935]
+                        - button "Скрыть" [ref=e5938]:
+                          - img [ref=e5939]
+                      - generic [ref=e5942]: Сейчас смотрят 4 человека
+                      - link "Frontend developer (Москва)" [ref=e5945]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134599651?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e5947]: Frontend developer (Москва)
+                      - generic [ref=e5949]:
+                        - generic [ref=e5950]: до 190 000 ₽ за месяц, на руки
+                        - generic [ref=e5952]: Опыт более 6 лет
+                        - generic [ref=e5954]: Можно удалённо
+                      - generic [ref=e5956]:
+                        - link "Вакансии ИЦ АЙ-ТЕКО" [ref=e5960]:
+                          - /url: /employer/872178?hhtmFrom=vacancy_search_list
+                          - img "ИЦ АЙ-ТЕКО" [ref=e5962]
+                        - generic [ref=e5963]:
+                          - link "ООО ИЦ АЙ-ТЕКО" [ref=e5964]:
+                            - /url: /employer/872178?hhtmFrom=vacancy_search_list
+                            - generic [ref=e5967]: ООО ИЦ АЙ-ТЕКО
+                          - link [ref=e5968]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e5970]
+                        - generic [ref=e5977]:
+                          - img [ref=e5978]
+                          - generic [ref=e5982]: "4.2"
+                          - generic [ref=e5983]: •
+                          - generic [ref=e5986]: 88 отзывов
+                        - generic [ref=e5987]:
+                          - text: Москва
+                          - generic [ref=e5989]:
+                            - generic [ref=e5990]: ●
+                            - generic [ref=e5991]: Библиотека им.Ленина
+                          - generic [ref=e5992]: и еще 3
+                          - generic [ref=e5994]: ●
+                          - generic [ref=e5996]: ●
+                          - generic [ref=e5998]: ●
+                      - generic [ref=e6003]: Подходит по навыкам на 80%
+                    - generic [ref=e6007]:
+                      - generic [ref=e6008]:
+                        - img [ref=e6009]
+                        - generic [ref=e6015]: Вы откликнулись
+                      - button "Чат" [ref=e6016]:
+                        - generic [ref=e6020]: Чат
+                      - button "Связаться" [ref=e6022]:
+                        - generic [ref=e6026]: Связаться
+                - button "Добавить в избранное Скрыть Сейчас смотрят 4 человека Разработчик фронтенд (React, Next.js) от 150 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо CATAPULTO.RU 4.5 • 27 отзывов Москва ● Библиотека им.Ленина и еще 3 ● ● ● Вы откликнулись Чат Связаться" [ref=e6030] [cursor=pointer]:
+                  - generic [ref=e6034]:
+                    - generic [ref=e6035]:
+                      - generic [ref=e6036]:
+                        - button "Добавить в избранное" [ref=e6037]:
+                          - img [ref=e6038]
+                        - button "Скрыть" [ref=e6041]:
+                          - img [ref=e6042]
+                      - generic [ref=e6045]: Сейчас смотрят 4 человека
+                      - link "Разработчик фронтенд (React, Next.js)" [ref=e6048]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134531849?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e6050]: Разработчик фронтенд (React, Next.js)
+                      - generic [ref=e6052]:
+                        - generic [ref=e6053]: от 150 000 ₽ за месяц, на руки
+                        - generic [ref=e6055]: Опыт 3-6 лет
+                        - generic [ref=e6057]: Можно удалённо
+                      - generic [ref=e6059]:
+                        - generic [ref=e6061]:
+                          - link "CATAPULTO.RU" [ref=e6062]:
+                            - /url: /employer/1776381?hhtmFrom=vacancy_search_list
+                            - generic [ref=e6065]: CATAPULTO.RU
+                          - link [ref=e6066]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e6068]
+                        - generic [ref=e6074]:
+                          - img [ref=e6075]
+                          - generic [ref=e6079]: "4.5"
+                          - generic [ref=e6080]: •
+                          - generic [ref=e6083]: 27 отзывов
+                        - generic [ref=e6084]:
+                          - text: Москва
+                          - generic [ref=e6086]:
+                            - generic [ref=e6087]: ●
+                            - generic [ref=e6088]: Библиотека им.Ленина
+                          - generic [ref=e6089]: и еще 3
+                          - generic [ref=e6091]: ●
+                          - generic [ref=e6093]: ●
+                          - generic [ref=e6095]: ●
+                    - generic [ref=e6099]:
+                      - generic [ref=e6100]:
+                        - img [ref=e6101]
+                        - generic [ref=e6107]: Вы откликнулись
+                      - button "Чат" [ref=e6108]:
+                        - generic [ref=e6112]: Чат
+                      - button "Связаться" [ref=e6114]:
+                        - generic [ref=e6118]: Связаться
+                - button "Добавить в избранное Скрыть Сейчас смотрят 3 человека Frontend-разработчик 150 000 – 200 000 ₽ за месяц, на руки Опыт 1-3 года Можно удалённо Mkeeper Санкт-Петербург Вы откликнулись Чат" [ref=e6122] [cursor=pointer]:
+                  - generic [ref=e6126]:
+                    - generic [ref=e6127]:
+                      - generic [ref=e6128]:
+                        - button "Добавить в избранное" [ref=e6129]:
+                          - img [ref=e6130]
+                        - button "Скрыть" [ref=e6133]:
+                          - img [ref=e6134]
+                      - generic [ref=e6137]: Сейчас смотрят 3 человека
+                      - link "Frontend-разработчик" [ref=e6140]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134157546?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e6142]: Frontend-разработчик
+                      - generic [ref=e6144]:
+                        - generic [ref=e6145]: 150 000 – 200 000 ₽ за месяц, на руки
+                        - generic [ref=e6147]: Опыт 1-3 года
+                        - generic [ref=e6149]: Можно удалённо
+                      - generic [ref=e6151]:
+                        - generic [ref=e6153]:
+                          - link "Mkeeper" [ref=e6154]:
+                            - /url: /employer/9552673?hhtmFrom=vacancy_search_list
+                            - generic [ref=e6157]: Mkeeper
+                          - link [ref=e6158]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e6160]
+                        - generic [ref=e6164]: Санкт-Петербург
+                    - generic [ref=e6169]:
+                      - generic [ref=e6170]:
+                        - img [ref=e6171]
+                        - generic [ref=e6177]: Вы откликнулись
+                      - button "Чат" [ref=e6178]:
+                        - generic [ref=e6182]: Чат
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 3 человека Frontend-разработчик (React) до 150 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц ООО Триада 4.6 • 2 отзыва Москва Подходит по навыкам на 100% Вам отказали Чат" [ref=e6186] [cursor=pointer]':
+                  - generic [ref=e6190]:
+                    - generic [ref=e6191]:
+                      - generic [ref=e6192]:
+                        - button "Добавить в избранное" [ref=e6193]:
+                          - img [ref=e6194]
+                        - button "Скрыть" [ref=e6197]:
+                          - img [ref=e6198]
+                      - generic [ref=e6201]: Сейчас смотрят 3 человека
+                      - link "Frontend-разработчик (React)" [ref=e6204]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134185687?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e6206]: Frontend-разработчик (React)
+                      - generic [ref=e6208]:
+                        - generic [ref=e6209]: до 150 000 ₽ за месяц, на руки
+                        - generic [ref=e6211]: Опыт 3-6 лет
+                        - generic [ref=e6213]: Можно удалённо
+                        - generic [ref=e6216]: "Выплаты: два раза в месяц"
+                      - generic [ref=e6218]:
+                        - generic [ref=e6220]:
+                          - link "ООО Триада" [ref=e6221]:
+                            - /url: /employer/5966898?hhtmFrom=vacancy_search_list
+                            - generic [ref=e6224]: ООО Триада
+                          - link [ref=e6225]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e6227]
+                        - generic [ref=e6233]:
+                          - img [ref=e6234]
+                          - generic [ref=e6238]: "4.6"
+                          - generic [ref=e6239]: •
+                          - generic [ref=e6242]: 2 отзыва
+                        - generic [ref=e6243]: Москва
+                      - generic [ref=e6249]: Подходит по навыкам на 100%
+                    - generic [ref=e6253]:
+                      - generic [ref=e6254]:
+                        - img [ref=e6255]
+                        - generic [ref=e6261]: Вам отказали
+                      - button "Чат" [ref=e6262]:
+                        - generic [ref=e6266]: Чат
+                - 'button "Добавить в избранное Скрыть Сейчас смотрит 1 человек Senior (Middle) Frontend Developer (React / TypeScript) 150 000 – 250 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: два раза в месяц Соколов Андрей Киров (Кировская область) Вы откликнулись Чат" [ref=e6270] [cursor=pointer]':
+                  - generic [ref=e6274]:
+                    - generic [ref=e6275]:
+                      - generic [ref=e6276]:
+                        - button "Добавить в избранное" [ref=e6277]:
+                          - img [ref=e6278]
+                        - button "Скрыть" [ref=e6281]:
+                          - img [ref=e6282]
+                      - generic [ref=e6285]: Сейчас смотрит 1 человек
+                      - link "Senior (Middle) Frontend Developer (React / TypeScript)" [ref=e6288]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/133968138?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e6290]: Senior (Middle) Frontend Developer (React / TypeScript)
+                      - generic [ref=e6292]:
+                        - generic [ref=e6293]: 150 000 – 250 000 ₽ за месяц, на руки
+                        - generic [ref=e6295]: Опыт 3-6 лет
+                        - generic [ref=e6297]: Можно удалённо
+                        - generic [ref=e6300]: "Выплаты: два раза в месяц"
+                      - generic [ref=e6302]:
+                        - generic [ref=e6304]:
+                          - link "Соколов Андрей" [ref=e6305]:
+                            - /url: /employer/12840836?hhtmFrom=vacancy_search_list
+                            - generic [ref=e6308]: Соколов Андрей
+                          - link [ref=e6309]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e6311]
+                        - generic [ref=e6315]: Киров (Кировская область)
+                    - generic [ref=e6320]:
+                      - generic [ref=e6321]:
+                        - img [ref=e6322]
+                        - generic [ref=e6328]: Вы откликнулись
+                      - button "Чат" [ref=e6329]:
+                        - generic [ref=e6333]: Чат
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 5 человек Frontend-разработчик от 120 000 ₽ за месяц, до вычета налогов Опыт 1-3 года Можно удалённо Выплаты: раз в месяц ООО СОФИ И ПАРТНЕРЫ Казань Подходит по навыкам на 83% Вас пригласили Чат" [ref=e6337] [cursor=pointer]':
+                  - generic [ref=e6341]:
+                    - generic [ref=e6342]:
+                      - generic [ref=e6343]:
+                        - button "Добавить в избранное" [ref=e6344]:
+                          - img [ref=e6345]
+                        - button "Скрыть" [ref=e6348]:
+                          - img [ref=e6349]
+                      - generic [ref=e6352]: Сейчас смотрят 5 человек
+                      - link "Frontend-разработчик" [ref=e6355]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134047283?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e6357]: Frontend-разработчик
+                      - generic [ref=e6359]:
+                        - generic [ref=e6360]: от 120 000 ₽ за месяц, до вычета налогов
+                        - generic [ref=e6362]: Опыт 1-3 года
+                        - generic [ref=e6364]: Можно удалённо
+                        - generic [ref=e6367]: "Выплаты: раз в месяц"
+                      - generic [ref=e6369]:
+                        - generic [ref=e6371]:
+                          - link "ООО СОФИ И ПАРТНЕРЫ" [ref=e6372]:
+                            - /url: /employer/11977956?hhtmFrom=vacancy_search_list
+                            - generic [ref=e6375]: ООО СОФИ И ПАРТНЕРЫ
+                          - link [ref=e6376]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e6378]
+                        - generic [ref=e6382]: Казань
+                      - generic [ref=e6388]: Подходит по навыкам на 83%
+                    - generic [ref=e6392]:
+                      - generic [ref=e6393]:
+                        - img [ref=e6394]
+                        - generic [ref=e6400]: Вас пригласили
+                      - button "Чат" [ref=e6401]:
+                        - generic [ref=e6405]: Чат
+                - 'button "Добавить в избранное Скрыть Frontend Developer (React / Next.js) 120 000 – 200 000 ₽ за месяц, на руки Опыт 3-6 лет Можно удалённо Выплаты: раз в месяц ИП Никонов Алексей Владимирович Санкт-Петербург Вы откликнулись Чат" [ref=e6409] [cursor=pointer]':
+                  - generic [ref=e6413]:
+                    - generic [ref=e6414]:
+                      - generic [ref=e6415]:
+                        - button "Добавить в избранное" [ref=e6416]:
+                          - img [ref=e6417]
+                        - button "Скрыть" [ref=e6420]:
+                          - img [ref=e6421]
+                      - link "Frontend Developer (React / Next.js)" [ref=e6425]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/134008789?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e6427]: Frontend Developer (React / Next.js)
+                      - generic [ref=e6429]:
+                        - generic [ref=e6430]: 120 000 – 200 000 ₽ за месяц, на руки
+                        - generic [ref=e6432]: Опыт 3-6 лет
+                        - generic [ref=e6434]: Можно удалённо
+                        - generic [ref=e6437]: "Выплаты: раз в месяц"
+                      - generic [ref=e6439]:
+                        - generic [ref=e6441]:
+                          - link "ИП Никонов Алексей Владимирович" [ref=e6442]:
+                            - /url: /employer/10681030?hhtmFrom=vacancy_search_list
+                            - generic [ref=e6445]: ИП Никонов Алексей Владимирович
+                          - link [ref=e6446]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e6448]
+                        - generic [ref=e6452]: Санкт-Петербург
+                    - generic [ref=e6457]:
+                      - generic [ref=e6458]:
+                        - img [ref=e6459]
+                        - generic [ref=e6465]: Вы откликнулись
+                      - button "Чат" [ref=e6466]:
+                        - generic [ref=e6470]: Чат
+                - 'button "Добавить в избранное Скрыть Сейчас смотрят 3 человека Middle Frontend-разработчик (React, Next.js, TypeScript) до 150 000 ₽ за месяц, на руки Опыт 1-3 года Можно удалённо Выплаты: два раза в месяц 100UP 4.0 • 17 отзывов Москва ● Дмитровская и еще 3 ● ● ● Вы откликнулись Чат" [ref=e6474] [cursor=pointer]':
+                  - generic [ref=e6478]:
+                    - generic [ref=e6479]:
+                      - generic [ref=e6480]:
+                        - button "Добавить в избранное" [ref=e6481]:
+                          - img [ref=e6482]
+                        - button "Скрыть" [ref=e6485]:
+                          - img [ref=e6486]
+                      - generic [ref=e6489]: Сейчас смотрят 3 человека
+                      - link "Middle Frontend-разработчик (React, Next.js, TypeScript)" [ref=e6492]:
+                        - /url: https://ulyanovsk.hh.ru/vacancy/133986116?query=frontend+react&hhtmFrom=vacancy_search_list
+                        - generic [ref=e6494]: Middle Frontend-разработчик (React, Next.js, TypeScript)
+                      - generic [ref=e6496]:
+                        - generic [ref=e6497]: до 150 000 ₽ за месяц, на руки
+                        - generic [ref=e6499]: Опыт 1-3 года
+                        - generic [ref=e6501]: Можно удалённо
+                        - generic [ref=e6504]: "Выплаты: два раза в месяц"
+                      - generic [ref=e6506]:
+                        - generic [ref=e6508]:
+                          - link "100UP" [ref=e6509]:
+                            - /url: /employer/1085634?hhtmFrom=vacancy_search_list
+                            - generic [ref=e6512]: 100UP
+                          - link [ref=e6513]:
+                            - /url: https://feedback.hh.ru/article/details/id/5951
+                            - img [ref=e6515]
+                        - generic [ref=e6521]:
+                          - img [ref=e6522]
+                          - generic [ref=e6526]: "4.0"
+                          - generic [ref=e6527]: •
+                          - generic [ref=e6530]: 17 отзывов
+                        - generic [ref=e6531]:
+                          - text: Москва
+                          - generic [ref=e6533]:
+                            - generic [ref=e6534]: ●
+                            - generic [ref=e6535]: Дмитровская
+                          - generic [ref=e6536]: и еще 3
+                          - generic [ref=e6538]: ●
+                          - generic [ref=e6540]: ●
+                          - generic [ref=e6542]: ●
+                    - generic [ref=e6546]:
+                      - generic [ref=e6547]:
+                        - img [ref=e6548]
+                        - generic [ref=e6554]: Вы откликнулись
+                      - button "Чат" [ref=e6555]:
+                        - generic [ref=e6559]: Чат
+            - generic [ref=e6562]:
+              - heading "Быстрые фильтры подбора вакансий" [level=2] [ref=e6563]
+              - list [ref=e6565]:
+                - listitem [ref=e6566]:
+                  - link "Без опыта работы" [ref=e6568]:
+                    - /url: /vacancies/bez_opyta_raboty
+                    - generic [ref=e6570]: Без опыта работы
+                - listitem [ref=e6571]:
+                  - link "Вечерняя и ночная" [ref=e6573]:
+                    - /url: /vacancies/vechernyaya_i_nochnaya
+                    - generic [ref=e6575]: Вечерняя и ночная
+                - listitem [ref=e6576]:
+                  - link "Вахтовый метод" [ref=e6578]:
+                    - /url: /vacancies/vakhtoviy_metod
+                    - generic [ref=e6580]: Вахтовый метод
+                - listitem [ref=e6581]:
+                  - link "График 5/2" [ref=e6583]:
+                    - /url: /vacancies/5-2
+                    - generic [ref=e6585]: График 5/2
+                - listitem [ref=e6586]:
+                  - link "Гибкий график" [ref=e6588]:
+                    - /url: /vacancies/gibkiy_grafik
+                    - generic [ref=e6590]: Гибкий график
+                - listitem [ref=e6591]:
+                  - link "Два через два" [ref=e6593]:
+                    - /url: /vacancies/2-2
+                    - generic [ref=e6595]: Два через два
+                - listitem [ref=e6596]:
+                  - link "За последние три дня" [ref=e6598]:
+                    - /url: /vacancies/za_poslednie_tri_dnya
+                    - generic [ref=e6600]: За последние три дня
+                - listitem [ref=e6601]:
+                  - link "За сутки" [ref=e6603]:
+                    - /url: /vacancies/za_sutki
+                    - generic [ref=e6605]: За сутки
+                - listitem [ref=e6606]:
+                  - link "От прямых работодателей" [ref=e6608]:
+                    - /url: /vacancies/ot_pryamih_rabotodateley
+                    - generic [ref=e6610]: От прямых работодателей
+                - listitem [ref=e6611]:
+                  - link "Полный день" [ref=e6613]:
+                    - /url: /vacancies/polniy_den
+                    - generic [ref=e6615]: Полный день
+                - listitem [ref=e6616]:
+                  - link "По совместительству" [ref=e6618]:
+                    - /url: /vacancies/po_sovmestitelstvu
+                    - generic [ref=e6620]: По совместительству
+                - listitem [ref=e6621]:
+                  - link "Подработка" [ref=e6623]:
+                    - /url: /vacancies/podrabotka
+                    - generic [ref=e6625]: Подработка
+                - listitem [ref=e6626]:
+                  - link "Полная занятость" [ref=e6628]:
+                    - /url: /vacancies/polnaya_zanyatost
+                    - generic [ref=e6630]: Полная занятость
+                - listitem [ref=e6631]:
+                  - link "Для людей с инвалидностью" [ref=e6633]:
+                    - /url: /vacancies/rabota_dlya_invalidov
+                    - generic [ref=e6635]: Для людей с инвалидностью
+                - listitem [ref=e6636]:
+                  - link "Сменный график" [ref=e6638]:
+                    - /url: /vacancies/smenniy_grafik
+                    - generic [ref=e6640]: Сменный график
+                - listitem [ref=e6641]:
+                  - link "Сутки через двое" [ref=e6643]:
+                    - /url: /vacancies/1-2
+                    - generic [ref=e6645]: Сутки через двое
+                - listitem [ref=e6646]:
+                  - link "Сутки через трое" [ref=e6648]:
+                    - /url: /vacancies/1-3
+                    - generic [ref=e6650]: Сутки через трое
+                - listitem [ref=e6651]:
+                  - link "Три через три" [ref=e6653]:
+                    - /url: /vacancies/3-3
+                    - generic [ref=e6655]: Три через три
+                - listitem [ref=e6656]:
+                  - link "Удаленная работа" [ref=e6658]:
+                    - /url: /vacancies/udalennaya_rabota
+                    - generic [ref=e6660]: Удаленная работа
+                - listitem [ref=e6661]:
+                  - link "Частичная занятость" [ref=e6663]:
+                    - /url: /vacancies/chastichnaya_zanyatost
+                    - generic [ref=e6665]: Частичная занятость
+      - contentinfo [ref=e6669]:
+        - generic [ref=e6673]:
+          - generic [ref=e6674]:
+            - generic [ref=e6676]:
+              - generic [ref=e6677]: HeadHunter
+              - list [ref=e6679]:
+                - listitem [ref=e6680]:
+                  - link "О компании" [ref=e6682]:
+                    - /url: /article/28?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6684]: О компании
+                - listitem [ref=e6685]:
+                  - link "Наши вакансии" [ref=e6687]:
+                    - /url: /employer/1455?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6689]: Наши вакансии
+                - listitem [ref=e6690]:
+                  - link "Реклама на сайте" [ref=e6692]:
+                    - /url: /article/promoproducts?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6694]: Реклама на сайте
+                - listitem [ref=e6695]:
+                  - link "Требования к ПО" [ref=e6697]:
+                    - /url: /article/176?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6699]: Требования к ПО
+                - listitem [ref=e6700]:
+                  - link "Безопасный HeadHunter" [ref=e6702]:
+                    - /url: /safety?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6704]: Безопасный HeadHunter
+                - listitem [ref=e6705]:
+                  - link "HeadHunter API" [ref=e6707]:
+                    - /url: https://dev.hh.ru/?utm_source=hh.ru&utm_medium=referral&utm_campaign=from_footer_new
+                    - generic [ref=e6709]: HeadHunter API
+                - listitem [ref=e6710]:
+                  - link "Партнерам" [ref=e6712]:
+                    - /url: /partners?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6714]: Партнерам
+                - listitem [ref=e6715]:
+                  - link "Инвесторам" [ref=e6717]:
+                    - /url: https://investor.hh.ru/
+                    - generic [ref=e6719]: Инвесторам
+                - listitem [ref=e6720]:
+                  - link "Каталог компаний" [ref=e6722]:
+                    - /url: /employers_company?hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6724]: Каталог компаний
+                - listitem [ref=e6725]:
+                  - link "Поиск по вакансиям в Ульяновске" [ref=e6727]:
+                    - /url: /vacancies
+                    - generic [ref=e6729]: Поиск по вакансиям в Ульяновске
+                - listitem [ref=e6730]:
+                  - 'link "Сетка: соцсеть для нетворкинга" [ref=e6732]':
+                    - /url: https://setka.ru/
+                    - generic [ref=e6734]: "Сетка: соцсеть для нетворкинга"
+            - generic [ref=e6736]:
+              - generic [ref=e6737]: Соискателям
+              - list [ref=e6739]:
+                - listitem [ref=e6740]:
+                  - link "hh PRO" [ref=e6742]:
+                    - /url: /applicant-services/hhpro?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6744]: hh PRO
+                - listitem [ref=e6745]:
+                  - link "Готовое резюме" [ref=e6747]:
+                    - /url: /article/expert_resume?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6749]: Готовое резюме
+                - listitem [ref=e6750]:
+                  - link "Все сервисы" [ref=e6752]:
+                    - /url: /services?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6754]: Все сервисы
+                - listitem [ref=e6755]:
+                  - link "Профориентация" [ref=e6757]:
+                    - /url: /article/proforientation_promo?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6759]: Профориентация
+                - listitem [ref=e6760]:
+                  - link "Хочу у вас работать" [ref=e6762]:
+                    - /url: /applicant-services/hhpro?rte=true&from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6764]: Хочу у вас работать
+                - listitem [ref=e6765]:
+                  - link "Производственный календарь" [ref=e6767]:
+                    - /url: /calendar?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6769]: Производственный календарь
+                - listitem [ref=e6770]:
+                  - link "Экспертная рекомендация" [ref=e6772]:
+                    - /url: /article/resume_audit?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6774]: Экспертная рекомендация
+              - generic [ref=e6776]: Новости и статьи
+              - list [ref=e6778]:
+                - listitem [ref=e6779]:
+                  - link "Блог" [ref=e6781]:
+                    - /url: /blog?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6783]: Блог
+                - listitem [ref=e6784]:
+                  - link "О компаниях в игровой форме" [ref=e6786]:
+                    - /url: /articles/guide-to-companies/special-projects?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6788]: О компаниях в игровой форме
+                - listitem [ref=e6789]:
+                  - link "Жизнь в компании" [ref=e6791]:
+                    - /url: /articles/guide-to-companies/insider?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6793]: Жизнь в компании
+                - listitem [ref=e6794]:
+                  - link "ИТ-проекты" [ref=e6796]:
+                    - /url: /articles/guide-to-companies/it-projects?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6798]: ИТ-проекты
+                - listitem [ref=e6799]:
+                  - link "Рейтинг работодателей России" [ref=e6801]:
+                    - /url: https://rating.hh.ru/poll?utm_source=hh.ru&utm_medium=referral&utm_campaign=from_footer_new
+                    - generic [ref=e6803]: Рейтинг работодателей России
+            - generic [ref=e6805]:
+              - generic [ref=e6806]: Молодым специалистам
+              - list [ref=e6808]:
+                - listitem [ref=e6809]:
+                  - link "Карьера для молодых специалистов" [ref=e6811]:
+                    - /url: /youth_vacancies?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                    - generic [ref=e6813]: Карьера для молодых специалистов
+                - listitem [ref=e6814]:
+                  - link "Школа программистов" [ref=e6816]:
+                    - /url: http://school.hh.ru/?utm_source=hh.ru&utm_medium=referral&utm_campaign=from_footer_new
+                    - generic [ref=e6818]: Школа программистов
+                - listitem [ref=e6819]:
+                  - link "Карьера в некоммерческих организациях" [ref=e6821]:
+                    - /url: https://nko.hh.ru/?utm_source=hh.ru&utm_medium=referral&utm_campaign=from_footer_new
+                    - generic [ref=e6823]: Карьера в некоммерческих организациях
+              - list [ref=e6825]:
+                - listitem [ref=e6826]:
+                  - generic [ref=e6827]: Боты для уведомлений
+                  - generic [ref=e6829]:
+                    - button "Подключить telegram бот" [ref=e6830] [cursor=pointer]:
+                      - img [ref=e6835]
+                    - button "Подключить viber бот" [ref=e6837] [cursor=pointer]:
+                      - img [ref=e6842]
+                    - button "Подключить ВК бот" [ref=e6845] [cursor=pointer]:
+                      - img [ref=e6850]
+              - generic [ref=e6854]:
+                - generic [ref=e6855]: Мобильное приложение
+                - img "QR-код для установки мобильного приложения" [ref=e6857]
+          - list [ref=e6861]:
+            - listitem [ref=e6862]:
+              - link "Этика и комплаенс" [ref=e6864]:
+                - /url: /article/compliance?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                - generic [ref=e6866]: Этика и комплаенс
+            - listitem [ref=e6867]:
+              - link "Оказание услуг" [ref=e6869]:
+                - /url: /conditions?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                - generic [ref=e6871]: Оказание услуг
+            - listitem [ref=e6872]:
+              - link "Использование сайтов" [ref=e6874]:
+                - /url: /terms?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                - generic [ref=e6876]: Использование сайтов
+            - listitem [ref=e6877]:
+              - link "Защита персональных данных" [ref=e6879]:
+                - /url: /article/personal_data?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                - generic [ref=e6881]: Защита персональных данных
+            - listitem [ref=e6882]:
+              - link "Пользовательское соглашение" [ref=e6884]:
+                - /url: /account/agreement?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                - generic [ref=e6886]: Пользовательское соглашение
+            - listitem [ref=e6887]:
+              - link "ИТ аккредитация" [ref=e6889]:
+                - /url: /article/it-accreditation?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=vacancy_search_list
+                - generic [ref=e6891]: ИТ аккредитация
+          - generic [ref=e6897]:
+            - text: На информационном ресурсе hh.ru
+            - link "применяются рекомендательные технологии" [ref=e6898] [cursor=pointer]:
+              - /url: /article/recommendation_technologies?hhtmFrom=vacancy_search_list
+            - text: (информационные технологии предоставления информации на основе сбора, систематизации и анализа сведений, относящихся к предпочтениям пользователей сети «Интернет», находящихся на территории Российской Федерации)
+          - generic [ref=e6903]:
+            - generic [ref=e6904]:
+              - button "Перейти в Сетку" [ref=e6905] [cursor=pointer]:
+                - img [ref=e6910]
+              - button "Перейти в ВК" [ref=e6912] [cursor=pointer]:
+                - img [ref=e6917]
+              - button "Перейти в Дзен" [ref=e6920] [cursor=pointer]:
+                - img [ref=e6925]
+              - button "Перейти в Telegram" [ref=e6928] [cursor=pointer]:
+                - img [ref=e6933]
+            - generic [ref=e6936]:
+              - list [ref=e6937]:
+                - listitem [ref=e6938]:
+                  - combobox "Выбор языка сайта" [ref=e6940]:
+                    - generic [ref=e6944]:
+                      - img [ref=e6945]
+                      - text: Русский
+              - generic [ref=e6949]: © 2026 ООО «Хэдхантер»
+    - button [ref=e6950] [cursor=pointer]:
+      - img [ref=e6951]
+  - iframe
+  - iframe

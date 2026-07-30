@@ -3,5 +3,45 @@
     "path": "pansionat",
     "name": "Пансионат «СимбирскЪ»",
     "description": "База знаний проекта пансионата в Ульяновске: конкуренты, SEO-анализ, голубой океан, стратегия."
+  },
+  {
+    "path": "FrontendEdu",
+    "name": "FrontendEdu",
+    "description": "Обучение фронтенд-разработке: React, TypeScript, собеседования, архитектура."
+  },
+  {
+    "path": "web3Crypto",
+    "name": "Web3 / Crypto",
+    "description": "Web3 и блокчейн-разработка: смарт-контракты, DeFi, NFT, трудоустройство."
+  },
+  {
+    "path": "JobHunt",
+    "name": "JobHunt",
+    "description": "Поиск работы: резюме, собеседования, стратегия трудоустройства."
+  },
+  {
+    "path": "SamogonCalc",
+    "name": "СамогонКальк",
+    "description": "Самогонный калькулятор: проект, архитектура, маркетинг."
+  },
+  {
+    "path": "dnevnikParkinson",
+    "name": "Дневник Паркинсона",
+    "description": "Приложение-дневник для людей с болезнью Паркинсона."
+  },
+  {
+    "path": "green-crown-seo-unu",
+    "name": "Green Crown SEO",
+    "description": "SEO-проект: анализ, стратегия, продвижение."
+  },
+  {
+    "path": "hermesKnowledge",
+    "name": "Hermes Knowledge",
+    "description": "База знаний по Hermes Agent: настройка, скиллы, плагины."
+  },
+  {
+    "path": "uniSeo",
+    "name": "UniSEO",
+    "description": "SEO-проект: семантика, структура, контент."
   }
 ]

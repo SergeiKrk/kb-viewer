@@ -1,0 +1,2357 @@
+{
+  "osnovy-samogonovareniya": {
+    "total": 193,
+    "articles": [
+      {
+        "title": "Как правильно разбавить спирт водой до 40 градусов или другой крепости",
+        "url": "https://alcofan.com/kak-razvesti-spirt-vodoj-v-domashnix-usloviyax.html",
+        "page": 1
+      },
+      {
+        "title": "Сахарный самогон в домашних условиях – рецепт браги и перегонка",
+        "url": "https://alcofan.com/kak-sdelat-samogon-iz-saxara-i-drozhzhej.html",
+        "page": 1
+      },
+      {
+        "title": "Как правильно отбирать «головы», «тело» и «хвосты» самогона",
+        "url": "https://alcofan.com/kak-otdelit-golovy-i-xvosty-v-samogone.html",
+        "page": 1
+      },
+      {
+        "title": "Как из спирта сделать водку – пошаговый рецепт с ориентацией на ГОСТ",
+        "url": "https://alcofan.com/kak-iz-spirta-sdelat-vodku-xoroshego-kachestva.html",
+        "page": 1
+      },
+      {
+        "title": "Самогон из яблок с сахаром и без (только сок): рецепт браги и двойная перегонка",
+        "url": "https://alcofan.com/samogon-iz-yablok-v-domashnix-usloviyax.html",
+        "page": 1
+      },
+      {
+        "title": "Самогон из варенья: рецепт браги и правильная перегонка",
+        "url": "https://alcofan.com/texnologiya-proizvodstva-samogona-iz-varenya.html",
+        "page": 1
+      },
+      {
+        "title": "Как убрать запах самогона – 7 эффективных методов очистки",
+        "url": "https://alcofan.com/kak-ochistit-samogon-ot-nepriyatnogo-zapaxa.html",
+        "page": 1
+      },
+      {
+        "title": "Вторая перегонка самогона – пошаговая инструкция по дробной дистилляции спирта-сырца",
+        "url": "https://alcofan.com/uluchshenie-samogona-putem-dvojnoj-peregonki.html",
+        "page": 1
+      },
+      {
+        "title": "Простой пшеничный самогон с сахаром – рецепт браги и перегонка",
+        "url": "https://alcofan.com/samogon-iz-pshenicy-recept-i-texnologiya-proizvodstva.html",
+        "page": 1
+      },
+      {
+        "title": "Правильная температура перегонки браги",
+        "url": "https://alcofan.com/pravilnaya-temperatura-peregonki-bragi.html",
+        "page": 1
+      },
+      {
+        "title": "Брага из пшеницы без дрожжей – рецепт и технология перегонки в самогон",
+        "url": "https://alcofan.com/delaem-pshenichnuyu-bragu-bez-drozhzhej.html",
+        "page": 2
+      },
+      {
+        "title": "Настойка самогона на дубовой коре или щепе (чипсах): подготовка, дозировка, рецепты",
+        "url": "https://alcofan.com/dubovyj-samogon-nastojka-na-kore-i-shhepe.html",
+        "page": 2
+      },
+      {
+        "title": "Как смягчить самогон простыми способами: сахаром, лимонной кислотой и т.д.",
+        "url": "https://alcofan.com/chem-smyagchit-vkus-samogona.html",
+        "page": 2
+      },
+      {
+        "title": "Что делать если сладкая брага не бродит или перестала бродить",
+        "url": "https://alcofan.com/pochemu-ne-brodit-braga-i-chto-delat.html",
+        "page": 2
+      },
+      {
+        "title": "Как очистить самогон углём – 3 метода углевания",
+        "url": "https://alcofan.com/ochistka-samogona-uglem-sovety-iz-praktiki.html",
+        "page": 2
+      },
+      {
+        "title": "Самогон на Кодзи – рецепт зерновой браги: кукурузной, пшеничной, рисовой…",
+        "url": "https://alcofan.com/samogon-na-kodzi.html",
+        "page": 2
+      },
+      {
+        "title": "Самогон из мёда – рецепт браги (с сахаром и без), перегонка",
+        "url": "https://alcofan.com/samogon-iz-meda-v-domashnix-usloviyax.html",
+        "page": 2
+      },
+      {
+        "title": "Домашний виски из самогона – 2 лучших рецепта имитации",
+        "url": "https://alcofan.com/domashnij-viski-iz-samogona-3-varianty-imitacii-napitka.html",
+        "page": 2
+      },
+      {
+        "title": "Как инвертировать сахар для браги и вина",
+        "url": "https://alcofan.com/invertirovannyj-saxar-dlya-samogona.html",
+        "page": 2
+      },
+      {
+        "title": "6 методов определения готовности браги к перегонке",
+        "url": "https://alcofan.com/metody-opredeleniya-gotovnosti-bragi-k-peregonke.html",
+        "page": 2
+      },
+      {
+        "title": "Брага на спиртовых дрожжах: гидромодуль и рецепт",
+        "url": "https://alcofan.com/prigotovlenie-bragi-na-spirtovyx-drozhzhax.html",
+        "page": 3
+      },
+      {
+        "title": "Гидрозатвор для брожения своими руками: лучшие конструкции для вина и браги",
+        "url": "https://alcofan.com/konstrukcii-samodelnyx-gidrozatvorov-dlya-vina-i-bragi.html",
+        "page": 3
+      },
+      {
+        "title": "Как подготовить новую дубовую бочку к использованию путём вымачивания",
+        "url": "https://alcofan.com/podgotovka-bochek-iz-duba.html",
+        "page": 3
+      },
+      {
+        "title": "Как очистить самогон кокосовым углём: дозировка и методики",
+        "url": "https://alcofan.com/kak-ispolzovat-kokosovyj-ugol-dlya-ochistki-samogona.html",
+        "page": 3
+      },
+      {
+        "title": "Домашний бурбон: рецепт кукурузной браги и перегонка, выдержка самогона",
+        "url": "https://alcofan.com/samogon-iz-kukuruzy-recept-bragi.html",
+        "page": 3
+      },
+      {
+        "title": "Правильный абрикосовый самогон",
+        "url": "https://alcofan.com/recept-i-texnologiya-prigotovleniya-abrikosovogo-samogona.html",
+        "page": 3
+      },
+      {
+        "title": "Как очистить самогон молоком – 2 метода (с перегонкой и без)",
+        "url": "https://alcofan.com/kak-ochistit-samogon-molokom.html",
+        "page": 3
+      },
+      {
+        "title": "Домашний солод из ячменя, пшеницы или ржи – технология проращивания и сушки зерна",
+        "url": "https://alcofan.com/prigotovlenie-soloda-v-domashnix-usloviyax.html",
+        "page": 3
+      },
+      {
+        "title": "Сливовый самогон: рецепт браги с сахаром и без, перегонка",
+        "url": "https://alcofan.com/prigotovlenie-bragi-iz-sliv-v-domashnix-usloviyax.html",
+        "page": 3
+      },
+      {
+        "title": "Почему мутнеет самогон: 5 причин и способы очистки",
+        "url": "https://alcofan.com/prichiny-mutnosti-samogona.html",
+        "page": 3
+      },
+      {
+        "title": "Как сделать домашнюю водку – правильный рецепт приготовления",
+        "url": "https://alcofan.com/kak-sdelat-vodku.html",
+        "page": 4
+      },
+      {
+        "title": "Полугар (хлебное вино) – подзабытый русский зерновой дистиллят",
+        "url": "https://alcofan.com/napitok-polugar-xlebnoe-vino.html",
+        "page": 4
+      },
+      {
+        "title": "Очистка самогона через фильтр-кувшин для воды: «Аквафор», «Барьер», «Гейзер» и пр.",
+        "url": "https://alcofan.com/kak-chistit-samogon-akvaforom.html",
+        "page": 4
+      },
+      {
+        "title": "25 прикольных этикеток на бутылку самогона",
+        "url": "https://alcofan.com/besplatnye-shablony-etiketok-na-samogon.html",
+        "page": 4
+      },
+      {
+        "title": "Самогон из берёзового сока (с сахаром и без) – рецепт браги и перегонка",
+        "url": "https://alcofan.com/texnologiya-prigotovleniya-samogona-iz-berezovogo-soka.html",
+        "page": 4
+      },
+      {
+        "title": "Самогон из груш с сахаром и без: рецепт браги, перегонка",
+        "url": "https://alcofan.com/dva-recepta-grushevogo-samogona-s-drozhzhami-i-bez.html",
+        "page": 4
+      },
+      {
+        "title": "Самогон из винограда Изабелла: правильный рецепт браги и перегонка",
+        "url": "https://alcofan.com/gotovim-samogon-iz-vinograda-po-prostomu-receptu.html",
+        "page": 4
+      },
+      {
+        "title": "Самогон из солода (ячменного, пшеничного и т.д.) – классический рецепт браги",
+        "url": "https://alcofan.com/prigotovlenie-bragi-iz-soloda.html",
+        "page": 4
+      },
+      {
+        "title": "Технология «горячего» и «холодного» осахаривания крахмалосодержащего сырья",
+        "url": "https://alcofan.com/osaxarivanie-kraxmala-muki-krupy.html",
+        "page": 4
+      },
+      {
+        "title": "Сливовица: классический рецепт балканского самогона из слив",
+        "url": "https://alcofan.com/prigotovlenie-i-upotreblenie-domashnej-slivovicy.html",
+        "page": 4
+      },
+      {
+        "title": "Как правильно осветлять брагу – 6 эффективных способов очистки",
+        "url": "https://alcofan.com/effektivnye-metody-osvetleniya-bragi.html",
+        "page": 5
+      },
+      {
+        "title": "Технология перегонки вина в самогон",
+        "url": "https://alcofan.com/texnologiya-peregonki-vina-na-samogon.html",
+        "page": 5
+      },
+      {
+        "title": "Чем закрасить самогон и убрать запах – 12 лучших средств",
+        "url": "https://alcofan.com/kak-izmenit-cvet-samogona.html",
+        "page": 5
+      },
+      {
+        "title": "Виски из спирта – рецепт настойки-имитации на дубовых колышках",
+        "url": "https://alcofan.com/kak-sdelat-viski-iz-spirta.html",
+        "page": 5
+      },
+      {
+        "title": "7 методов погасить (убрать) пену в браге при брожении",
+        "url": "https://alcofan.com/kak-ubrat-penu-v-brage.html",
+        "page": 5
+      },
+      {
+        "title": "Виноградный самогон: простой рецепт браги с сахаром и без",
+        "url": "https://alcofan.com/texnologiya-prigotovleniya-vinogradnoj-bragi-dlya-samogona.html",
+        "page": 5
+      },
+      {
+        "title": "Ячменный самогон: рецепт браги с зелёным солодом",
+        "url": "https://alcofan.com/samogon-iz-yachmenya-v-domashnix-usloviyax.html",
+        "page": 5
+      },
+      {
+        "title": "Технология приготовления карамельного красителя (колера) для домашнего коньяка, виски и самогона",
+        "url": "https://alcofan.com/kak-prigotovit-karamelnyj-koler.html",
+        "page": 5
+      },
+      {
+        "title": "Почему самогон получается кислым, и что делать с прокисшей брагой",
+        "url": "https://alcofan.com/chto-delat-s-kislym-samogonom.html",
+        "page": 5
+      },
+      {
+        "title": "Самогон из яблочного или виноградного жмыха (выжимок)",
+        "url": "https://alcofan.com/samogon-iz-zhmyxa.html",
+        "page": 5
+      },
+      {
+        "title": "Подкормка дрожжей сахарной браги – 4 метода ускорить брожение",
+        "url": "https://alcofan.com/podkormka-drozhzhej-bragi-saxarnogo-samogona.html",
+        "page": 6
+      },
+      {
+        "title": "Как повторно использовать брагу, или что делать с бардой (кубовым остатком)",
+        "url": "https://alcofan.com/chto-delat-s-ostatkami-bragi.html",
+        "page": 6
+      },
+      {
+        "title": "Как перегнать брагу без самогонного аппарата – 3 простых метода",
+        "url": "https://alcofan.com/samogon-bez-samogonnogo-apparata.html",
+        "page": 6
+      },
+      {
+        "title": "Домашний Киршвассер (вишнёвый самогон) – рецепт браги и правильная перегонка",
+        "url": "https://alcofan.com/recept-bragi-iz-vishen.html",
+        "page": 6
+      },
+      {
+        "title": "Особенности применения сухих и прессованных хлебопекарных дрожжей для браги",
+        "url": "https://alcofan.com/optimalnoe-kolichestvo-drozhzhej-dlya-bragi.html",
+        "page": 6
+      },
+      {
+        "title": "Оригинальный самогон из хлеба – без солода, ферментов и дрожжей",
+        "url": "https://alcofan.com/recept-xlebnoj-bragi.html",
+        "page": 6
+      },
+      {
+        "title": "Как хранить брагу до перегонки: сроки и подготовка",
+        "url": "https://alcofan.com/khranenie-bragi-do-peregonki.html",
+        "page": 6
+      },
+      {
+        "title": "Классический самогон из риса – рецепт браги с солодом и перегонка",
+        "url": "https://alcofan.com/risovyj-samogon-v-domashnix-usloviyax.html",
+        "page": 6
+      },
+      {
+        "title": "Самогон из зелёного солода: проращивание зерна, осахаривание, рецепт браги, перегонка",
+        "url": "https://alcofan.com/zelenyj-solod-v-domashnix-usloviyax.html",
+        "page": 6
+      },
+      {
+        "title": "Какой гидромодуль для браги лучше: 1:3, 1:4 или 1:5",
+        "url": "https://alcofan.com/raschet-gidromodulya-dlya-samogona-i-piva.html",
+        "page": 6
+      },
+      {
+        "title": "Питьевая брага – 3 простых рецепта: из сахара (мёда), варенья, и сока (компота)",
+        "url": "https://alcofan.com/recepty-pitevoj-bragi-iz-varenya-i-fruktovogo-soka.html",
+        "page": 7
+      },
+      {
+        "title": "Зачем и как правильно добавлять соду в самогон",
+        "url": "https://alcofan.com/pravilnaya-ochistka-samogona-pishhevoj-i-kausticheskoj-sodoj.html",
+        "page": 7
+      },
+      {
+        "title": "Значение сивушных масел в самогоне и способы их очистки",
+        "url": "https://alcofan.com/ochistka-samogona-ot-sivushnyx-masel.html",
+        "page": 7
+      },
+      {
+        "title": "Очистка самогона марганцовкой: целесообразность, пропорции, технология",
+        "url": "https://alcofan.com/prostaya-ochistka-samogona-margancovkoj.html",
+        "page": 7
+      },
+      {
+        "title": "Как рассчитать абсолютный (чистый) спирт в браге и сырце",
+        "url": "https://alcofan.com/raschet-golov-po-absolyutnomu-spirtu.html",
+        "page": 7
+      },
+      {
+        "title": "Нужно ли перемешивать брагу при брожении",
+        "url": "https://alcofan.com/stoit-li-peremeshivat-bragu.html",
+        "page": 7
+      },
+      {
+        "title": "Особенности хранения самогона – факторы, влияющие на срок годности",
+        "url": "https://alcofan.com/srok-godnosti-samogona.html",
+        "page": 7
+      },
+      {
+        "title": "Метод Габриэля: понятие, преимущества и недостатки",
+        "url": "https://alcofan.com/peregonka-po-metodu-gabrielya.html",
+        "page": 7
+      },
+      {
+        "title": "Спиртовое брожение – магия превращения сахара в этиловый спирт",
+        "url": "https://alcofan.com/osobennosti-spirtovogo-brozheniya.html",
+        "page": 7
+      },
+      {
+        "title": "Нужно ли перегонять самогон третий раз",
+        "url": "https://alcofan.com/peregonyat-li-samogon-tretij-raz.html",
+        "page": 7
+      },
+      {
+        "title": "Как выбрать дрожжи для браги (самогона): виды и особенности использования",
+        "url": "https://alcofan.com/drozhzhi-dlya-samogona-delaem-pravilnyj-vybor.html",
+        "page": 8
+      },
+      {
+        "title": "Мацерация самогона: понятие, пропорции, универсальная технология",
+        "url": "https://alcofan.com/tekhnologiya-maceracii-samogona.html",
+        "page": 8
+      },
+      {
+        "title": "Как выбрать бродильную ёмкость для браги, вина и пива",
+        "url": "https://alcofan.com/vybiraem-emkost-dlya-brozheniya-vina.html",
+        "page": 8
+      },
+      {
+        "title": "Брага на горохе с сахаром – быстрый рецепт (отыграет за 3-4 дня)",
+        "url": "https://alcofan.com/samogon-iz-goroxa.html",
+        "page": 8
+      },
+      {
+        "title": "Шнапс – знаменитый немецкий фруктовый самогон",
+        "url": "https://alcofan.com/shnaps-znamenityj-nemeckij-fruktovyj-samogon.html",
+        "page": 8
+      },
+      {
+        "title": "Самогон из муки (пшеничной, ржаной, кукурузной и т.д.) горячим и холодным осахариванием",
+        "url": "https://alcofan.com/recept-bragi-iz-muki.html",
+        "page": 8
+      },
+      {
+        "title": "Как выбрать воду для браги и правильно её подготовить",
+        "url": "https://alcofan.com/pravilnyj-vybor-vody-dlya-bragi.html",
+        "page": 8
+      },
+      {
+        "title": "Выдержка самогона в дубовой бочке: крепость заливки, длительность, условия хранения",
+        "url": "https://alcofan.com/krepost-zalivaemogo-distillyata-v-bochku.html",
+        "page": 8
+      },
+      {
+        "title": "Тутовка – домашний аналог кавказского самогона из шелковицы",
+        "url": "https://alcofan.com/domashnyaya-tutovka.html",
+        "page": 8
+      },
+      {
+        "title": "Топ 5 коктейлей с самогоном",
+        "url": "https://alcofan.com/kak-sdelat-koktejl-iz-saomgona.html",
+        "page": 8
+      },
+      {
+        "title": "Как размножить дрожжи: винные, спиртовые, пивные, хлебопекарные",
+        "url": "https://alcofan.com/razmnozhenie-drozhzhej-v-domashnix-usloviyax.html",
+        "page": 9
+      },
+      {
+        "title": "Ржаной самогон из зерна или крупы",
+        "url": "https://alcofan.com/kak-sdelat-samogon-iz-rzhi.html",
+        "page": 9
+      },
+      {
+        "title": "Первая перегонка самогона – инструкция по дистилляции браги в спирт-сырец",
+        "url": "https://alcofan.com/kak-pravilno-peregnat-bragu-v-samogon.html",
+        "page": 9
+      },
+      {
+        "title": "Самогон из пива – правильная технология перегонки",
+        "url": "https://alcofan.com/samogon-iz-piva-po-prostomu-receptu.html",
+        "page": 9
+      },
+      {
+        "title": "Зерновая брага на ферментах методом холодного или горячего старта",
+        "url": "https://alcofan.com/kak-sdelat-samogon-iz-fermentov.html",
+        "page": 9
+      },
+      {
+        "title": "Самогон из компота: старого, забродившего или слегка заплесневевшего",
+        "url": "https://alcofan.com/kak-postavit-bragu-iz-kompota.html",
+        "page": 9
+      },
+      {
+        "title": "Домашняя хлебная водка (сахарно-зерновой самогон)",
+        "url": "https://alcofan.com/xlebnaya-vodka-ponyatie-i-klassicheskij-recept-napitka.html",
+        "page": 9
+      },
+      {
+        "title": "Самогон из крахмала методом классического осахаривания",
+        "url": "https://alcofan.com/braga-iz-kraxmala.html",
+        "page": 9
+      },
+      {
+        "title": "Старка (Starka) – славянский ответ шотландскому виски",
+        "url": "https://alcofan.com/starka-rzhanaya-vodka.html",
+        "page": 9
+      },
+      {
+        "title": "Самогон из фруктозы или декстрозы (глюкозы): рецепт браги, перегонка",
+        "url": "https://alcofan.com/braga-iz-fruktozy-ili-glyukozy.html",
+        "page": 9
+      },
+      {
+        "title": "Самогон из арбузов: правильный рецепт браги и перегонка",
+        "url": "https://alcofan.com/recept-bragi-iz-arbuza-dlya-samogona.html",
+        "page": 10
+      },
+      {
+        "title": "Быстрая брага для самогона (отыграет за 3 дня)",
+        "url": "https://alcofan.com/bystryj-samogon-ili-kak-sdelat-bragu-za-3-dnya.html",
+        "page": 10
+      },
+      {
+        "title": "Самогон из алычи: рецепт браги и перегонка",
+        "url": "https://alcofan.com/prostoj-recept-alychovogo-samogona.html",
+        "page": 10
+      },
+      {
+        "title": "Рецепт Пейсаховки – еврейской изюмной водки (самогона)",
+        "url": "https://alcofan.com/evrejskaya-izyumnaya-vodka-pejsaxovka-klassicheskij-recept.html",
+        "page": 10
+      },
+      {
+        "title": "Самогон из картошки: классический рецепт браги",
+        "url": "https://alcofan.com/kartofelnyj-samogon-babka-svoimi-rukami.html",
+        "page": 10
+      },
+      {
+        "title": "Самогон из бананов: правильный рецепт браги, перегонка",
+        "url": "https://alcofan.com/prigotovlenie-bananovoj-bragi.html",
+        "page": 10
+      },
+      {
+        "title": "Оптимальная скорость отбора «голов» при ректификации и дистилляции",
+        "url": "https://alcofan.com/kak-rasschitat-skorost-otbora-golov.html",
+        "page": 10
+      },
+      {
+        "title": "Самогон из смородины: чёрной, красной или белой",
+        "url": "https://alcofan.com/samogon-iz-chernoj-i-krasnoj-smorodiny-bez-drozhzhej.html",
+        "page": 10
+      },
+      {
+        "title": "Целесообразность использования антибиотиков для браги",
+        "url": "https://alcofan.com/antibiotiki-v-samogone-i-brage.html",
+        "page": 10
+      },
+      {
+        "title": "Самогон из яблочной или виноградной мезги: рецепт браги, перегонка",
+        "url": "https://alcofan.com/samogon-iz-mezgi-v-domashnix-usloviyax.html",
+        "page": 10
+      },
+      {
+        "title": "Почему горчит самогон: причины, профилактика и способ убрать горечь",
+        "url": "https://alcofan.com/chto-delat-esli-samogon-poluchilsya-gorkij.html",
+        "page": 11
+      },
+      {
+        "title": "Ароматный самогон из помидоров или томатной пасты",
+        "url": "https://alcofan.com/braga-iz-pomidorov-ili-tomatnoj-pasty.html",
+        "page": 11
+      },
+      {
+        "title": "Как почистить самогонный аппарат снаружи и внутри",
+        "url": "https://alcofan.com/kak-myt-samogonnyj-apparat.html",
+        "page": 11
+      },
+      {
+        "title": "Нужно ли добавлять соль и соду в брагу (самогон) перед перегонкой",
+        "url": "https://alcofan.com/sol-i-soda-pri-peregonke-samogona.html",
+        "page": 11
+      },
+      {
+        "title": "Самогон из черешни – рецепт браги с сахаром и без",
+        "url": "https://alcofan.com/recepty-bragi-iz-chereshni-na-iskusstvennyx-i-dikix-drozhzhax.html",
+        "page": 11
+      },
+      {
+        "title": "«Косорыловка» – самогон из свеклы",
+        "url": "https://alcofan.com/braga-iz-svekly.html",
+        "page": 11
+      },
+      {
+        "title": "Самогон из рябины (черноплодки или красных ягод): рецепт браги, перегонка",
+        "url": "https://alcofan.com/samogon-iz-ryabiny-recepty.html",
+        "page": 11
+      },
+      {
+        "title": "Очистка самогона белком куриного яйца",
+        "url": "https://alcofan.com/ochistka-samogona-belkom-yajca-v-domashnix-usloviyax.html",
+        "page": 11
+      },
+      {
+        "title": "Самогон из просроченных конфет (шоколадных, карамельных, с начинкой)",
+        "url": "https://alcofan.com/prigotovlenie-bragi-iz-konfet-i-shokolada.html",
+        "page": 11
+      },
+      {
+        "title": "Самогон из сухофруктов: рецепт браги, перегонка",
+        "url": "https://alcofan.com/samogon-iz-sushenyx-fruktov.html",
+        "page": 11
+      },
+      {
+        "title": "Самогон из айвы с сахаром и без: рецепт браги, перегонка",
+        "url": "https://alcofan.com/recept-samogona-iz-ajvy.html",
+        "page": 12
+      },
+      {
+        "title": "Самогон из гречки методом осахаривания – рецепт гречневого виски",
+        "url": "https://alcofan.com/recept-grechnevogo-samogona.html",
+        "page": 12
+      },
+      {
+        "title": "Оптимальна крепость самогона для питья, заливки в бочку и приготовления настоек",
+        "url": "https://alcofan.com/optimalnaya-krepost-samogona.html",
+        "page": 12
+      },
+      {
+        "title": "Как дегазировать брагу перед перегонкой – 2 правильных метода",
+        "url": "https://alcofan.com/kak-degazirovat-bragu.html",
+        "page": 12
+      },
+      {
+        "title": "Персиковый самогон: рецепт браги и перегонка",
+        "url": "https://alcofan.com/recept-bragi-iz-persikov.html",
+        "page": 12
+      },
+      {
+        "title": "Техника безопасности при самогоноварении (дистилляции и ректификации)",
+        "url": "https://alcofan.com/pravila-bezopasnosti-v-samogonovarenii.html",
+        "page": 12
+      },
+      {
+        "title": "Что лучше пить: водку или самогон",
+        "url": "https://alcofan.com/raznica-mezhdu-vodkoj-i-samogonom.html",
+        "page": 12
+      },
+      {
+        "title": "Мандариновый самогон: рецепт браги (с сахаром и без), перегонка",
+        "url": "https://alcofan.com/kak-sdelat-bragu-iz-mandarinov.html",
+        "page": 12
+      },
+      {
+        "title": "Технология очистки самогона чёрным ржаным хлебом",
+        "url": "https://alcofan.com/xleb-dlya-ochistki-samogona.html",
+        "page": 12
+      },
+      {
+        "title": "Плюсы и минусы применения меди в самогонных аппаратах и колоннах",
+        "url": "https://alcofan.com/ispolzovanie-medi-v-samogonovarenii.html",
+        "page": 12
+      },
+      {
+        "title": "Самогон из тыквы с сахаром и без: рецепт браги, правильная перегонка",
+        "url": "https://alcofan.com/tykvennyj-samogon-v-domashnix-usloviyax.html",
+        "page": 13
+      },
+      {
+        "title": "Клубничный самогон с сахаром и без",
+        "url": "https://alcofan.com/prigotovlenie-klubnichnogo-samogona.html",
+        "page": 13
+      },
+      {
+        "title": "Самогон из концентрированного или магазинного сока",
+        "url": "https://alcofan.com/braga-iz-magazinnogo-ili-koncentrirovannogo-soka.html",
+        "page": 13
+      },
+      {
+        "title": "Ароматизация самогона через сухопарник",
+        "url": "https://alcofan.com/chto-mozhno-dobavit-v-suxoparnik-pri-peregonke.html",
+        "page": 13
+      },
+      {
+        "title": "Методика осветления браги лимонной кислотой (соком)",
+        "url": "https://alcofan.com/ochistka-braga-limonnoj-kislotoj.html",
+        "page": 13
+      },
+      {
+        "title": "Самогон из хурмы",
+        "url": "https://alcofan.com/kak-sdelat-samogon-iz-xurmy.html",
+        "page": 13
+      },
+      {
+        "title": "Понятие, преимущества и недостатки вакуумной дистилляции",
+        "url": "https://alcofan.com/chto-takoe-vakuumnaya-distillyaciya.html",
+        "page": 13
+      },
+      {
+        "title": "Бонификаторы для самогоноварения: понятие, целесообразность, замена",
+        "url": "https://alcofan.com/xarakteristika-bonifikatorov-dlya-samogona.html",
+        "page": 13
+      },
+      {
+        "title": "Как устранить запах браги при брожении и перегонке",
+        "url": "https://alcofan.com/kak-izbavitsya-ot-zapakha-bragi.html",
+        "page": 13
+      },
+      {
+        "title": "Самогон из дыни: рецепт браги с сахаром и без, перегонка",
+        "url": "https://alcofan.com/recept-dynnogo-samogona.html",
+        "page": 13
+      },
+      {
+        "title": "Борьба с плесенью на браге",
+        "url": "https://alcofan.com/chto-delat-esli-na-poverxnosti-bragi-poyavilas-plesen.html",
+        "page": 14
+      },
+      {
+        "title": "Самогон из терна: рецепт браги с сахаром и без, перегонка",
+        "url": "https://alcofan.com/braga-iz-terna-dlya-samogona.html",
+        "page": 14
+      },
+      {
+        "title": "Причины появления сладкого привкуса в самогоне или спирте-ректификате",
+        "url": "https://alcofan.com/sladkij-privkus-samogona-ili-rektifikata.html",
+        "page": 14
+      },
+      {
+        "title": "Самогон из овса (хлопьев геркулеса, муки или зерна)",
+        "url": "https://alcofan.com/samogon-iz-ovsa-xlopev-gerkulesa-muki-ili-zerna.html",
+        "page": 14
+      },
+      {
+        "title": "Самогон из кабачков",
+        "url": "https://alcofan.com/recept-kabachkovogo-samogona.html",
+        "page": 14
+      },
+      {
+        "title": "Как уменьшить количество метилового спирта в самогоне и домашнем вине",
+        "url": "https://alcofan.com/vred-pektina-v-vine-i-brage.html",
+        "page": 14
+      },
+      {
+        "title": "Методика приготовления самогона из перловки",
+        "url": "https://alcofan.com/braga-i-samogon-iz-perlovoj-krupy.html",
+        "page": 14
+      },
+      {
+        "title": "Дистилляция ректификата или зачем перегонять спирт",
+        "url": "https://alcofan.com/kak-sdelat-distillyaciyu-spirta-rektifikata.html",
+        "page": 14
+      },
+      {
+        "title": "Самогон из крыжовника (агруса, берсени): рецепт браги и перегонка",
+        "url": "https://alcofan.com/braga-iz-yagod-kryzhovnika.html",
+        "page": 14
+      },
+      {
+        "title": "Домашняя яблочная водка (прозрачная, с ароматом и привкусом яблок)",
+        "url": "https://alcofan.com/samodelnaya-vodka-s-aromatom-yabloka.html",
+        "page": 14
+      },
+      {
+        "title": "Очистка самогона растительным маслом",
+        "url": "https://alcofan.com/maslo-dlya-ochistki-samogona-ot-sivuxi.html",
+        "page": 15
+      },
+      {
+        "title": "Закваска из хмеля для зерновых и сахарных браг",
+        "url": "https://alcofan.com/khmelevaya-zakvaska-dlya-samogona.html",
+        "page": 15
+      },
+      {
+        "title": "Самогон из инжира (смоквы, винной ягоды, плодов фигового дерева)",
+        "url": "https://alcofan.com/prigotovlenie-inzhirnogo-samogona.html",
+        "page": 15
+      },
+      {
+        "title": "Самогон из просроченного кваса или квасного сусла",
+        "url": "https://alcofan.com/braga-iz-kvasa-v-domashnix-usloviyax.html",
+        "page": 15
+      },
+      {
+        "title": "Теория приготовления сахарной браги",
+        "url": "https://alcofan.com/pravilnaya-saxarnaya-braga.html",
+        "page": 15
+      },
+      {
+        "title": "Как избавиться от изоамила в самогоне",
+        "url": "https://alcofan.com/kak-ubrat-izoamilovyj-spirt-v-samogone.html",
+        "page": 15
+      },
+      {
+        "title": "Теоретический выход спирта и проверка готовности браги взвешиванием",
+        "url": "https://alcofan.com/skolko-spirta-poluchaetsya-iz-saxara.html",
+        "page": 15
+      },
+      {
+        "title": "Марвин «Попкорн» Саттон (Marvin Popcorn Sutton) – самый известный самогонщик и его рецепт бурбона",
+        "url": "https://alcofan.com/biografiya-i-burbon-ot-marvina-sattona.html",
+        "page": 15
+      },
+      {
+        "title": "Почему в самогоне появляются белые хлопья и как это исправить",
+        "url": "https://alcofan.com/belyj-osadok-xlopya-v-samogone.html",
+        "page": 15
+      },
+      {
+        "title": "Малиновый самогон – рецепт браги с дрожжами и без (на диких)",
+        "url": "https://alcofan.com/kak-sdelat-samogon-iz-maliny.html",
+        "page": 15
+      },
+      {
+        "title": "Разбавление самогона дистиллированной водой: плюсы и минусы",
+        "url": "https://alcofan.com/mozhno-li-razvodit-samogon-distillirovannoj-vodoj.html",
+        "page": 16
+      },
+      {
+        "title": "Самогон из топинамбура (земляной груши)",
+        "url": "https://alcofan.com/kak-sdelat-samogon-iz-topinambura.html",
+        "page": 16
+      },
+      {
+        "title": "Технология приготовления самогона из боярышника",
+        "url": "https://alcofan.com/braga-iz-boyaryshnika-dlya-samogona.html",
+        "page": 16
+      },
+      {
+        "title": "Самогон из сгущёнки",
+        "url": "https://alcofan.com/samogon-iz-sgushhennogo-moloka.html",
+        "page": 16
+      },
+      {
+        "title": "Почему брага или самогон пахнет ацетоном",
+        "url": "https://alcofan.com/zapax-acetona-v-samogone-ili-brage.html",
+        "page": 16
+      },
+      {
+        "title": "Причины и методы борьбы со взрывным кипением браги или спирта-сырца",
+        "url": "https://alcofan.com/kak-borotsya-so-vzryvnym-kipeniem-samogonnogo-apparata.html",
+        "page": 16
+      },
+      {
+        "title": "Безопасно ли использовать Винофлок для осветления вина, браги и пива",
+        "url": "https://alcofan.com/chto-takoe-vinoflok.html",
+        "page": 16
+      },
+      {
+        "title": "Самогон из апельсинов",
+        "url": "https://alcofan.com/samogon-iz-apelsinovogo-soka.html",
+        "page": 16
+      },
+      {
+        "title": "Особенности термориформинга (термического созревания) дистиллятов",
+        "url": "https://alcofan.com/chto-takoe-termoriforming-distillyatov.html",
+        "page": 16
+      },
+      {
+        "title": "Понятие и методы борьбы с брызгоуносом при перегонке",
+        "url": "https://alcofan.com/kak-zashhititsya-ot-bryzgounosa.html",
+        "page": 16
+      },
+      {
+        "title": "Целесообразно ли ставить брагу из сахара на Кодзи дрожжах",
+        "url": "https://alcofan.com/braga-na-saxare-s-kodzi.html",
+        "page": 17
+      },
+      {
+        "title": "Самогон из кизила с сахаром и без: рецепт браги, перегонка",
+        "url": "https://alcofan.com/kak-sdelat-kizilovyj-samogon.html",
+        "page": 17
+      },
+      {
+        "title": "Методика осветления браги спиртом (водкой)",
+        "url": "https://alcofan.com/osvetlenie-saxarnoj-bragi-spirtom.html",
+        "page": 17
+      },
+      {
+        "title": "Особенности белой и красной схем брожения",
+        "url": "https://alcofan.com/brozhenie-po-krasnoj-i-beloj-sxeme.html",
+        "page": 17
+      },
+      {
+        "title": "Самогон из патоки (мальтозной, свекличной и других видов)",
+        "url": "https://alcofan.com/recept-bragi-iz-patoki.html",
+        "page": 17
+      },
+      {
+        "title": "Домашняя мандариновая водка (прозрачная с цитрусовым ароматом)",
+        "url": "https://alcofan.com/kak-sdelat-mandarinovuyu-vodku.html",
+        "page": 17
+      },
+      {
+        "title": "Тюремные методы гнать самогон: из чего заключенные делают брагу и как перегоняют",
+        "url": "https://alcofan.com/kak-v-tyurme-delayut-samogon.html",
+        "page": 17
+      },
+      {
+        "title": "Огуречный самогон",
+        "url": "https://alcofan.com/ogurechnyj-samogon.html",
+        "page": 17
+      },
+      {
+        "title": "Самогон из моркови",
+        "url": "https://alcofan.com/morkovnyj-samogon-v-domashnix-usloviyax.html",
+        "page": 17
+      },
+      {
+        "title": "Какой сахар использовать для браги",
+        "url": "https://alcofan.com/na-kakom-saxare-stavit-bragu.html",
+        "page": 17
+      },
+      {
+        "title": "Финиковый самогон",
+        "url": "https://alcofan.com/braga-iz-finikov.html",
+        "page": 18
+      },
+      {
+        "title": "Особенности применения турбо дрожжей для самогона и вина",
+        "url": "https://alcofan.com/kak-ispolzovat-turbo-drozhzhi.html",
+        "page": 18
+      },
+      {
+        "title": "Домашняя анисовая водка",
+        "url": "https://alcofan.com/kak-sdelat-anisovuyu-vodku.html",
+        "page": 18
+      },
+      {
+        "title": "Краткая история самогона в мире и на Руси",
+        "url": "https://alcofan.com/istoriya-proisxozhdeniya-samogona.html",
+        "page": 18
+      },
+      {
+        "title": "Технология приготовления самогона из фейхоа",
+        "url": "https://alcofan.com/braga-iz-fejxoa.html",
+        "page": 18
+      },
+      {
+        "title": "Правильный самогон из ананасов",
+        "url": "https://alcofan.com/prigotovlenie-i-peregonka-ananasovoj-bragi.html",
+        "page": 18
+      },
+      {
+        "title": "Бочковая и бутылочная выдержка – когда старение вредит спиртному",
+        "url": "https://alcofan.com/kak-dolgo-xranit-alkogol.html",
+        "page": 18
+      },
+      {
+        "title": "Самогон из ирги",
+        "url": "https://alcofan.com/prigotovlenie-i-peregonka-bragi-iz-irgi.html",
+        "page": 18
+      },
+      {
+        "title": "Гранатовый самогон",
+        "url": "https://alcofan.com/kak-sdelat-samogon-iz-granata.html",
+        "page": 18
+      },
+      {
+        "title": "Самогон из шиповника: свежих, замороженных или сушеных ягод",
+        "url": "https://alcofan.com/recept-samogona-iz-yagod-shipovnika.html",
+        "page": 18
+      },
+      {
+        "title": "Самогон из ежевики",
+        "url": "https://alcofan.com/prigotovlenie-bragi-iz-ezheviki-i-peregonka.html",
+        "page": 19
+      },
+      {
+        "title": "Самогон из киви",
+        "url": "https://alcofan.com/samogon-i-braga-iz-kivi.html",
+        "page": 19
+      },
+      {
+        "title": "Самогон из черной бузины",
+        "url": "https://alcofan.com/kak-sdelat-bragu-iz-chernoj-buziny.html",
+        "page": 19
+      },
+      {
+        "title": "Брага из макарон с солодом и на Кодзи",
+        "url": "https://alcofan.com/kak-sdelat-bragu-na-makaronakh.html",
+        "page": 19
+      },
+      {
+        "title": "Самогон из манго",
+        "url": "https://alcofan.com/recept-mangovogo-samogona.html",
+        "page": 19
+      },
+      {
+        "title": "Как ускорить брожение браги – 7 методов «поторопить» дрожжи",
+        "url": "https://alcofan.com/kak-uskorit-process-brozheniya-bragi.html",
+        "page": 19
+      },
+      {
+        "title": "Самогон из черёмухи (чёрных или красных ягод)",
+        "url": "https://alcofan.com/kak-prigotovit-cheremukhovyj-samogon.html",
+        "page": 19
+      },
+      {
+        "title": "Домашняя водка с ароматом клубники",
+        "url": "https://alcofan.com/kak-sdelat-klubnichnuyu-vodku.html",
+        "page": 19
+      },
+      {
+        "title": "Самогон из ревеня – оригинальный способ улучшить сахарный дистиллят",
+        "url": "https://alcofan.com/kak-sdelat-bragu-iz-revenya.html",
+        "page": 19
+      },
+      {
+        "title": "Что делать с «головами» и «хвостами» самогона – все варианты использования",
+        "url": "https://alcofan.com/kak-mozhno-ispolzovat-khvost-i-golovu-samogona.html",
+        "page": 19
+      },
+      {
+        "title": "Самогон из фасоли (с солодом или на Кодзи)",
+        "url": "https://alcofan.com/recept-bragi-iz-fasoli.html",
+        "page": 20
+      },
+      {
+        "title": "Особенности переработки «голов» и «хвостов» самогона на ректификационной колонне",
+        "url": "https://alcofan.com/kak-pravilno-rektifitsirovat-golovy-i-khvosty-ot-samogona.html",
+        "page": 20
+      },
+      {
+        "title": "Аэрация самогона: для чего нужна, методы, время, плюсы и минуты",
+        "url": "https://alcofan.com/nuzhna-li-aeratsiya-samogona.html",
+        "page": 20
+      }
+    ]
+  },
+  "oborudovanie": {
+    "total": 52,
+    "articles": [
+      {
+        "title": "Правильная температура перегонки браги",
+        "url": "https://alcofan.com/pravilnaya-temperatura-peregonki-bragi.html",
+        "page": 1
+      },
+      {
+        "title": "Настойка самогона на дубовой коре или щепе (чипсах): подготовка, дозировка, рецепты",
+        "url": "https://alcofan.com/dubovyj-samogon-nastojka-na-kore-i-shhepe.html",
+        "page": 1
+      },
+      {
+        "title": "Как сделать самогонный аппарат в домашних условиях – инструкция и чертежи",
+        "url": "https://alcofan.com/domashnij-samogonnyj-apparat.html",
+        "page": 1
+      },
+      {
+        "title": "Как правильно пользоваться спиртометром: инструкция и нюансы",
+        "url": "https://alcofan.com/kak-izmeryat-spirtometrom-krepost-spirta.html",
+        "page": 1
+      },
+      {
+        "title": "Как выбрать самогонный аппарат: 5 факторов оценки",
+        "url": "https://alcofan.com/kak-pravilno-vybrat-samogonnyj-apparat.html",
+        "page": 1
+      },
+      {
+        "title": "Правила использования сахарометра и виномера",
+        "url": "https://alcofan.com/instrukciya-dlya-saxarometra-i-vinomera.html",
+        "page": 1
+      },
+      {
+        "title": "Пошаговая инструкция работы на ректификационной и бражной колонне",
+        "url": "https://alcofan.com/kak-polzovatsya-rektifikacionnoj-kolonnoj.html",
+        "page": 1
+      },
+      {
+        "title": "Гидрозатвор для брожения своими руками: лучшие конструкции для вина и браги",
+        "url": "https://alcofan.com/konstrukcii-samodelnyx-gidrozatvorov-dlya-vina-i-bragi.html",
+        "page": 1
+      },
+      {
+        "title": "Как подготовить новую дубовую бочку к использованию путём вымачивания",
+        "url": "https://alcofan.com/podgotovka-bochek-iz-duba.html",
+        "page": 1
+      },
+      {
+        "title": "Перчатка на вине вместо гидрозатвора",
+        "url": "https://alcofan.com/vino-s-perchatkoj-v-domashnix-usloviyax.html",
+        "page": 1
+      },
+      {
+        "title": "Как сделать ректификационную колонну – расчет параметров системы",
+        "url": "https://alcofan.com/kak-samomu-sdelat-rektifikacionnuyu-kolonnu.html",
+        "page": 2
+      },
+      {
+        "title": "Технология изготовления змеевика для самогонного аппарата",
+        "url": "https://alcofan.com/kak-sdelat-zmeevik-dlya-samogonnogo-apparata.html",
+        "page": 2
+      },
+      {
+        "title": "Теория ректификации спирта и принцип работы ректификационной колонны",
+        "url": "https://alcofan.com/sxema-raboty-rektifikacionnoj-kolonny.html",
+        "page": 2
+      },
+      {
+        "title": "Регулярная проволочная насадка Панченкова (РПН) – понятие и особенности эксплуатации",
+        "url": "https://alcofan.com/dlya-chego-nuzhna-nasadka-panchenkova.html",
+        "page": 2
+      },
+      {
+        "title": "Самогонный аппарат с сухопарником своими руками",
+        "url": "https://alcofan.com/samogonnyj-apparat-s-suxoparnikom-svoimi-rukami.html",
+        "page": 2
+      },
+      {
+        "title": "Хранение домашнего вина в пластиковых бутылках и стеклянных банках",
+        "url": "https://alcofan.com/mozhno-li-xranit-vino-v-plastikovyx-butylkax-i-bankax.html",
+        "page": 2
+      },
+      {
+        "title": "Как перегнать брагу без самогонного аппарата – 3 простых метода",
+        "url": "https://alcofan.com/samogon-bez-samogonnogo-apparata.html",
+        "page": 2
+      },
+      {
+        "title": "Простейшая угольная колонна для очистки самогона",
+        "url": "https://alcofan.com/konstrukciya-ugolnogo-filtra-dlya-samogona.html",
+        "page": 2
+      },
+      {
+        "title": "Типы управления ректификационными и бражными колоннами – виды узлов отбора",
+        "url": "https://alcofan.com/sxemy-otbora-produkta-v-kolonnax.html",
+        "page": 2
+      },
+      {
+        "title": "Как пользоваться рефрактометром: подробная инструкция",
+        "url": "https://alcofan.com/kak-polzovatsya-refraktometrom-podrobnaya-instrukciya.html",
+        "page": 2
+      },
+      {
+        "title": "Тарельчатые колонны: понятие, виды, выбор, изготовление своими руками",
+        "url": "https://alcofan.com/kolonny-tarelchatogo-tipa.html",
+        "page": 3
+      },
+      {
+        "title": "Как правильно выбрать индукционную плиту для самогоноварения",
+        "url": "https://alcofan.com/indukcionnaya-plita-dlya-samogona.html",
+        "page": 3
+      },
+      {
+        "title": "Как выбрать бродильную ёмкость для браги, вина и пива",
+        "url": "https://alcofan.com/vybiraem-emkost-dlya-brozheniya-vina.html",
+        "page": 3
+      },
+      {
+        "title": "Как выбрать царгу к самогонному аппарату, бражной или ректификационной колонне",
+        "url": "https://alcofan.com/pravilnaya-carga-samogonnogo-apparata-i-kolonny.html",
+        "page": 3
+      },
+      {
+        "title": "Понятие, вехи развития и особенности эксплуатации бражной колонны",
+        "url": "https://alcofan.com/rabota-brazhnoj-kolonny.html",
+        "page": 3
+      },
+      {
+        "title": "Изготовление и применение дефлегматора Димрота",
+        "url": "https://alcofan.com/izgotovlenie-dimrota-svoimi-rukami.html",
+        "page": 3
+      },
+      {
+        "title": "Бражная гравицапа из пластиковой бутылки для ускорения брожения",
+        "url": "https://alcofan.com/kak-sdelat-gravicapu-dlya-bragi.html",
+        "page": 3
+      },
+      {
+        "title": "Попугай для самогона – устройство, измеряющее крепость в реальном времени",
+        "url": "https://alcofan.com/popugaj-dlya-samogona-ustrojstvo-izmeryayushhee-krepost-v-realnom-vremeni.html",
+        "page": 3
+      },
+      {
+        "title": "Производительность ректификационной колонны в зависимости от диаметра царги или объема куба",
+        "url": "https://alcofan.com/chto-vliyaet-na-proizvoditelnost-rektifikacionnoj-kolonny.html",
+        "page": 3
+      },
+      {
+        "title": "Причины и методы борьбы с захлебом колонны",
+        "url": "https://alcofan.com/zaxleb-apparata-kolonnogo-tipa.html",
+        "page": 3
+      },
+      {
+        "title": "Аламбик – древнейший самогонный аппарат из меди",
+        "url": "https://alcofan.com/samogonnyj-apparat-alambik.html",
+        "page": 4
+      },
+      {
+        "title": "Самогонный аппарат многоступенчатой дистилляции (МСД): характеристика, плюсы и минусы",
+        "url": "https://alcofan.com/sistema-msd-v-samogonovarenii.html",
+        "page": 4
+      },
+      {
+        "title": "Джин-корзина – устройство для получения ароматного спирта",
+        "url": "https://alcofan.com/kak-polzovatsya-dzhin-korzinoj.html",
+        "page": 4
+      },
+      {
+        "title": "Как почистить самогонный аппарат снаружи и внутри",
+        "url": "https://alcofan.com/kak-myt-samogonnyj-apparat.html",
+        "page": 4
+      },
+      {
+        "title": "Тонкости установки термометра в перегонном кубе",
+        "url": "https://alcofan.com/termometr-dlya-kuba-samogonnogo-apparata.html",
+        "page": 4
+      },
+      {
+        "title": "Самодельный самогонный аппарат из скороварки",
+        "url": "https://alcofan.com/sxema-samodelnogo-samogonnogo-apparata-iz-skorovarki.html",
+        "page": 4
+      },
+      {
+        "title": "Вертикальный кожухотрубный дефлегматор или холодильник",
+        "url": "https://alcofan.com/kak-sdelat-kozhuxotrubnik-dlya-samogonovareniya.html",
+        "page": 4
+      },
+      {
+        "title": "Выбор насадки для ректификационных и бражных колонн",
+        "url": "https://alcofan.com/nasadki-dlya-apparatov-kolonnogo-tipa.html",
+        "page": 4
+      },
+      {
+        "title": "Царга пастеризации для отбора «голов» при ректификации",
+        "url": "https://alcofan.com/carga-pasterizacii-rektifikacionnoj-kolonny.html",
+        "page": 4
+      },
+      {
+        "title": "Техника безопасности при самогоноварении (дистилляции и ректификации)",
+        "url": "https://alcofan.com/pravila-bezopasnosti-v-samogonovarenii.html",
+        "page": 4
+      },
+      {
+        "title": "Как устранить течь в дубовой бочке – 4 простых метода",
+        "url": "https://alcofan.com/chto-delat-esli-bochka-techet.html",
+        "page": 5
+      },
+      {
+        "title": "Плюсы и минусы применения меди в самогонных аппаратах и колоннах",
+        "url": "https://alcofan.com/ispolzovanie-medi-v-samogonovarenii.html",
+        "page": 5
+      },
+      {
+        "title": "Как выбрать дубовую бочку: 8 факторов оценки",
+        "url": "https://alcofan.com/kakaya-dubovaya-bochka-luchshe.html",
+        "page": 5
+      },
+      {
+        "title": "Технология утепления куба самогонного аппарата",
+        "url": "https://alcofan.com/zachem-i-kak-uteplyat-peregonnyj-kub.html",
+        "page": 5
+      },
+      {
+        "title": "Понятие, преимущества и недостатки вакуумной дистилляции",
+        "url": "https://alcofan.com/chto-takoe-vakuumnaya-distillyaciya.html",
+        "page": 5
+      },
+      {
+        "title": "Требования к предохранительному клапану самогонного аппарата (колонны)",
+        "url": "https://alcofan.com/predoxranitelnyj-klapan-dlya-samogonnogo-apparata.html",
+        "page": 5
+      },
+      {
+        "title": "Метод перегонки паром густых браг",
+        "url": "https://alcofan.com/nagrevanie-bragi-vodyanym-parom.html",
+        "page": 5
+      },
+      {
+        "title": "Режим потстилл (pot still) в самогонном аппарате: назначение и как использовать",
+        "url": "https://alcofan.com/pervyj-peregon-v-rezhime-potstill.html",
+        "page": 5
+      },
+      {
+        "title": "Подготовка бражной и ректификационной колонны к первому запуску",
+        "url": "https://alcofan.com/kak-proverit-kolonnu.html",
+        "page": 5
+      },
+      {
+        "title": "Зачем нужна трубка связи с атмосферой (ТСА) при дистилляции и ректификации",
+        "url": "https://alcofan.com/chto-takoe-trubka-dlya-svyazi-s-atmosferoj.html",
+        "page": 5
+      },
+      {
+        "title": "Как увеличить скорость перегонки самогона, подняв производительность аппарата",
+        "url": "https://alcofan.com/chto-vliyaet-na-skorost-samogonnogo-apparata.html",
+        "page": 6
+      },
+      {
+        "title": "Нужно ли утеплять царгу самогонного аппарата",
+        "url": "https://alcofan.com/nuzhno-li-uteplyat-samogonnyj-apparat.html",
+        "page": 6
+      }
+    ]
+  },
+  "nastojki": {
+    "total": 161,
+    "articles": [
+      {
+        "title": "Вишнёвая настойка – 3 лучших рецепта",
+        "url": "https://alcofan.com/recept-nastojki-na-vishne-v-domashnix-usloviyax.html",
+        "page": 1
+      },
+      {
+        "title": "Настойка из черноплодной рябины (черноплодки): 3 лучших рецепта",
+        "url": "https://alcofan.com/nastojki-iz-chernoplodki-chernoj-ryabiny.html",
+        "page": 1
+      },
+      {
+        "title": "Настойки на смородине (красной и чёрной): 3 лучших рецепта",
+        "url": "https://alcofan.com/recepty-nastoek-iz-chernoj-i-krasnoj-smorodiny-na-vodke-spirte-samogone.html",
+        "page": 1
+      },
+      {
+        "title": "Домашняя Хреновуха на самогоне или водке по классическому рецепту",
+        "url": "https://alcofan.com/prigotovlenie-xrenovuxi-v-domashnix-usloviyax.html",
+        "page": 1
+      },
+      {
+        "title": "Настойка на кедровых орешках: 3 рецепта на водке, самогоне, спирте",
+        "url": "https://alcofan.com/kedrovka-nastojka-samogona-vodki-spirta-na-kedrovyx-oreshkax.html",
+        "page": 1
+      },
+      {
+        "title": "Настойка самогона на дубовой коре или щепе (чипсах): подготовка, дозировка, рецепты",
+        "url": "https://alcofan.com/dubovyj-samogon-nastojka-na-kore-i-shhepe.html",
+        "page": 1
+      },
+      {
+        "title": "Настойка на сливе: 2 лучших рецепта (с косточками и без)",
+        "url": "https://alcofan.com/slivovaya-nastojka-v-domashnix-usloviyax.html",
+        "page": 1
+      },
+      {
+        "title": "Настойка на клюкве: 3 рецепта на водке (самогоне, спирту)",
+        "url": "https://alcofan.com/domashnyaya-klyukovka-%e2%80%93-nastojka-vodki-na-klyukve.html",
+        "page": 1
+      },
+      {
+        "title": "Настойка на имбире с медом и лимоном: 2 рецепта (классический и быстрый)",
+        "url": "https://alcofan.com/recepty-nastoek-iz-imbirya.html",
+        "page": 1
+      },
+      {
+        "title": "Яблочная настойка: 3 лучших рецепта на водке, самогоне, спирте",
+        "url": "https://alcofan.com/texnologiya-prigotovleniya-domashnej-yablochnoj-nastojki.html",
+        "page": 1
+      },
+      {
+        "title": "Домашняя Перцовка с мёдом",
+        "url": "https://alcofan.com/prigotovlenie-domashnej-percovki-s-medom.html",
+        "page": 2
+      },
+      {
+        "title": "Клубничная настойка: 3 лучших рецепта на водке, самогоне и коньяке",
+        "url": "https://alcofan.com/recept-nastojki-iz-klubniki.html",
+        "page": 2
+      },
+      {
+        "title": "Лимонная настойка – 3 рецепта на водке, самогоне и спирте",
+        "url": "https://alcofan.com/limonnaya-nastojka-v-domashnix-usloviyax.html",
+        "page": 2
+      },
+      {
+        "title": "Настойки клюквы на спирту или крепком дистилляте: 3 рецепта",
+        "url": "https://alcofan.com/podborka-receptov-klyukvy-na-spirtu.html",
+        "page": 2
+      },
+      {
+        "title": "Настойка на винограде: 2 рецепта для тёмных и светлых ягод",
+        "url": "https://alcofan.com/domashnie-vinogradnye-nastojki-na-vodke-spirte-samogone.html",
+        "page": 2
+      },
+      {
+        "title": "Латгальский коньяк – латвийская настойка-имитация",
+        "url": "https://alcofan.com/recept-latgalskogo-konyaka.html",
+        "page": 2
+      },
+      {
+        "title": "Настойки на черносливе: 3 рецепта на водке, самогоне, спирту",
+        "url": "https://alcofan.com/recepty-domashnix-nastoek-vodki-samogona-i-spirta-na-chernoslive.html",
+        "page": 2
+      },
+      {
+        "title": "Коньяк из водки в домашних условиях: как сделать настойку-имитацию",
+        "url": "https://alcofan.com/kak-sdelat-konyak-iz-vodki.html",
+        "page": 2
+      },
+      {
+        "title": "«Анисовка» – 2 лучших рецепта домашней анисовой настойки (с перегонкой и без)",
+        "url": "https://alcofan.com/prigotovlenie-anisovoj-vodki-i-nastojki.html",
+        "page": 2
+      },
+      {
+        "title": "Апельсиновые настойки на водке, самогоне и спирту: 3 лучших рецепта",
+        "url": "https://alcofan.com/recepty-apelsinovyx-nastoek-na-vodke-samogone-i-spirte.html",
+        "page": 2
+      },
+      {
+        "title": "Медовые настойки – 5 лучших рецептов с водкой (самогоном, спиртом)",
+        "url": "https://alcofan.com/medovaya-vodka-recepty-nastoek.html",
+        "page": 3
+      },
+      {
+        "title": "Калгановка – настойка корня калгана на самогоне (водке, спирту)",
+        "url": "https://alcofan.com/kalganovka-%e2%80%93vkusnaya-i-poleznaya-nastojka-kornya-kalgana-na-vodke.html",
+        "page": 3
+      },
+      {
+        "title": "Грушевая настойка: 3 рецепта на водке (самогоне, спирте)",
+        "url": "https://alcofan.com/recepty-grushevyx-nastoek.html",
+        "page": 3
+      },
+      {
+        "title": "Настойка из варенья на водке (самогоне, спирте)",
+        "url": "https://alcofan.com/nastojki-iz-starogo-varenya-na-vodke-samogone-spirte.html",
+        "page": 3
+      },
+      {
+        "title": "Настойка на мяте (свежей или сушёной) – 3 лучших рецепта",
+        "url": "https://alcofan.com/domashnyaya-myatnaya-nastojka.html",
+        "page": 3
+      },
+      {
+        "title": "Настойка из облепихи: рецепт на водке (самогоне, спирту)",
+        "url": "https://alcofan.com/nastojka-iz-oblepixi-na-vodke.html",
+        "page": 3
+      },
+      {
+        "title": "Виски из спирта – рецепт настойки-имитации на дубовых колышках",
+        "url": "https://alcofan.com/kak-sdelat-viski-iz-spirta.html",
+        "page": 3
+      },
+      {
+        "title": "Рецепты настоек из брусники",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-iz-brusniki.html",
+        "page": 3
+      },
+      {
+        "title": "Настойка из замороженных ягод (смородины, вишни, малины и т.д.)",
+        "url": "https://alcofan.com/nastojka-iz-zamorozhennykh-yagod-na-vodke-i-samogone.html",
+        "page": 3
+      },
+      {
+        "title": "Лимонная водка: 2 рецепта (с перегонкой и только настаивание)",
+        "url": "https://alcofan.com/limonnaya-vodka-v-domashnix-usloviyax.html",
+        "page": 3
+      },
+      {
+        "title": "Бородинская настойка: 2 рецепта (на перловке и хлебе)",
+        "url": "https://alcofan.com/recepty-borodinskoj-nastojki.html",
+        "page": 4
+      },
+      {
+        "title": "Настойка на скорлупе макадамии (австралийского ореха)",
+        "url": "https://alcofan.com/nastojka-na-orekhakh-makadamiya.html",
+        "page": 4
+      },
+      {
+        "title": "Изюмовка – домашняя настойка на изюме самогона (водки, спирта)",
+        "url": "https://alcofan.com/recept-nastojki-iz-izyuma.html",
+        "page": 4
+      },
+      {
+        "title": "Сливянка на водке (самогоне, спирту): простой рецепт настойки",
+        "url": "https://alcofan.com/vkusnaya-domashnyaya-slivyanka-na-vodke-i-spirtu.html",
+        "page": 4
+      },
+      {
+        "title": "Малиновая настойка: 3 рецепта на водке (спирту), коньяке и самогоне",
+        "url": "https://alcofan.com/recepty-nastoek-maliny-na-vodke-i-konyake.html",
+        "page": 4
+      },
+      {
+        "title": "Настойка из терна на водке (самогоне, коньяке)",
+        "url": "https://alcofan.com/nastojka-iz-terna-na-vodke-spirte-samogone.html",
+        "page": 4
+      },
+      {
+        "title": "Настойка на абрикосах – 3 лучших рецепта",
+        "url": "https://alcofan.com/nastojka-iz-abrikosov-na-vodke-samogone-i-spirte.html",
+        "page": 4
+      },
+      {
+        "title": "Домашняя «Зубровка» – классический рецепт настойки",
+        "url": "https://alcofan.com/recept-domashnej-zubrovki.html",
+        "page": 4
+      },
+      {
+        "title": "Настойки на кофе: 3 лучших рецепта",
+        "url": "https://alcofan.com/kofejnyj-samogon-i-vodka.html",
+        "page": 4
+      },
+      {
+        "title": "Настойка на мандаринах: правильный рецепт на корках (цедре)",
+        "url": "https://alcofan.com/nastojka-na-mandarinovyx-korkax.html",
+        "page": 4
+      },
+      {
+        "title": "Настойка на калине: классический рецепт на водке, самогоне или спирту",
+        "url": "https://alcofan.com/vodka-na-kaline-recept-nastojki.html",
+        "page": 5
+      },
+      {
+        "title": "Питьевые настойки из ягод боярышника",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-iz-boyaryshnika.html",
+        "page": 5
+      },
+      {
+        "title": "Настойка на ежевике",
+        "url": "https://alcofan.com/nastojka-iz-ezheviki-na-vodke-samogone-spirte.html",
+        "page": 5
+      },
+      {
+        "title": "Крепкий Мохито – домашняя настойка на лайме с мятой",
+        "url": "https://alcofan.com/recept-domashnej-nastojki-lajma-na-vodke.html",
+        "page": 5
+      },
+      {
+        "title": "Можжевеловая настойка на ягодах – питьевой рецепт",
+        "url": "https://alcofan.com/nastojka-na-mozhzhevelovyx-yagodax.html",
+        "page": 5
+      },
+      {
+        "title": "Настойка из крыжовника на водке (самогоне): 2 рецепта",
+        "url": "https://alcofan.com/recepty-nastoek-iz-kryzhovnika-na-vodke-samogone-spirte.html",
+        "page": 5
+      },
+      {
+        "title": "«Кизиловка» – домашняя кизиловая настойка на водке (самогоне, спирту)",
+        "url": "https://alcofan.com/nastojka-iz-kizila-v-domashnix-usloviyax.html",
+        "page": 5
+      },
+      {
+        "title": "Настойка вишни на коньяке с листьями и гвоздикой",
+        "url": "https://alcofan.com/konyak-na-vishne.html",
+        "page": 5
+      },
+      {
+        "title": "Настойка на конфетах быстрого приготовления",
+        "url": "https://alcofan.com/nastojka-iz-ledencov-ili-karamelek-bystrogo-prigotovleniya.html",
+        "page": 5
+      },
+      {
+        "title": "Домашняя Крамбамбуля – белорусская медовая настойка со специями",
+        "url": "https://alcofan.com/recept-i-prigotovlenie-krambambuli.html",
+        "page": 5
+      },
+      {
+        "title": "Банановая настойка на водке (самогоне, спирте)",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-iz-banana.html",
+        "page": 6
+      },
+      {
+        "title": "Настойка на чернике – 2 простых рецепта",
+        "url": "https://alcofan.com/nastojka-iz-cherniki-v-domashnix-usloviyax.html",
+        "page": 6
+      },
+      {
+        "title": "Арбузная настойка на водке (спирте, самогоне) по классическому рецепту",
+        "url": "https://alcofan.com/recept-arbuznoj-nastojki.html",
+        "page": 6
+      },
+      {
+        "title": "Грейпфрутовая настойка – 3 лучших рецепта",
+        "url": "https://alcofan.com/nastojki-iz-grejpfruta-v-domashnix-usloviyax.html",
+        "page": 6
+      },
+      {
+        "title": "Настойка на кураге: 2 простых рецепта на водке (самогоне, спирте)",
+        "url": "https://alcofan.com/recept-nastojki-iz-kuragi-v-domashnix-usloviyax.html",
+        "page": 6
+      },
+      {
+        "title": "Питьевая настойка из шиповника: 2 рецепта на водке (самогоне, спирту)",
+        "url": "https://alcofan.com/nastojka-shipovnika-v-domashnix-usloviyax.html",
+        "page": 6
+      },
+      {
+        "title": "Настойки на орехах: 2 рецепта на перепонках грецких и ядрышках кедровых",
+        "url": "https://alcofan.com/vodka-na-orexax-%e2%80%93-dva-klassicheskix-recepta.html",
+        "page": 6
+      },
+      {
+        "title": "Настойка на дыне: 2 рецепта с водкой (самогоном, спиртом)",
+        "url": "https://alcofan.com/nastojka-vodka-s-dynej.html",
+        "page": 6
+      },
+      {
+        "title": "Настойка на черемухе – 3 лучших рецепта",
+        "url": "https://alcofan.com/nastojka-cheremuxi-na-vodke-samogone-i-spirte.html",
+        "page": 6
+      },
+      {
+        "title": "Ерофеич – рецепт дворянской настойки на травах",
+        "url": "https://alcofan.com/prigotovlenie-nastojki-erofeich.html",
+        "page": 6
+      },
+      {
+        "title": "Барбарисовая настойка из сушеных или свежих ягод",
+        "url": "https://alcofan.com/recept-nastojki-na-yagodax-barbarisa.html",
+        "page": 7
+      },
+      {
+        "title": "Настойка на киви с сушеной цедрой",
+        "url": "https://alcofan.com/nastojka-na-kivi-v-domashnix-usloviyax.html",
+        "page": 7
+      },
+      {
+        "title": "Настойка на черешне: 3 лучших рецепта на водке, самогоне и коньяке",
+        "url": "https://alcofan.com/recept-nastojki-iz-chereshni-v-domashnix-usloviyax.html",
+        "page": 7
+      },
+      {
+        "title": "Чайные настойки на водке, самогоне и спирту: 3 лучших рецепта",
+        "url": "https://alcofan.com/vkusnye-chajnye-nastojki-na-vodke-i-samogone.html",
+        "page": 7
+      },
+      {
+        "title": "Ананасовая настойка из свежей или консервированной мякоти",
+        "url": "https://alcofan.com/nastojka-na-ananase-vodki-spirta-samogona.html",
+        "page": 7
+      },
+      {
+        "title": "Настойка на жимолости",
+        "url": "https://alcofan.com/recept-nastojki-na-zhimolosti-v-domashnix-usloviyax.html",
+        "page": 7
+      },
+      {
+        "title": "Сиббиттер – сибирский таежный дистиллят",
+        "url": "https://alcofan.com/sibirskaya-nastojka-sibbitter.html",
+        "page": 7
+      },
+      {
+        "title": "Настойка из лепестков чайной розы по классическому рецепту",
+        "url": "https://alcofan.com/recept-nastojki-iz-rozy.html",
+        "page": 7
+      },
+      {
+        "title": "Фисташковая настойка (на скорлупе)",
+        "url": "https://alcofan.com/fistashkovaya-nastojka-na-samogone.html",
+        "page": 7
+      },
+      {
+        "title": "Персиковая настойка на водке (самогоне, коньяке)",
+        "url": "https://alcofan.com/nastojka-na-persikax.html",
+        "page": 7
+      },
+      {
+        "title": "Питьевая настойка на липовом цвете – 2 лучших рецепта",
+        "url": "https://alcofan.com/nastojka-cvetkov-lipy-na-vodke-i-samogone.html",
+        "page": 8
+      },
+      {
+        "title": "Рябина на коньяке – рецепт легендарной настойки времён СССР",
+        "url": "https://alcofan.com/domashnyaya-nastojka-ryabiny-na-konyake.html",
+        "page": 8
+      },
+      {
+        "title": "Настойка на каркаде с имбирём или апельсиновой цедрой",
+        "url": "https://alcofan.com/nastojka-na-chae-karkade-gibikuse-sudanskoj-roze.html",
+        "page": 8
+      },
+      {
+        "title": "Питьевая чесночная настойка на водке (самогоне, спирте) с красным перцем",
+        "url": "https://alcofan.com/recepty-chesnochnoj-nastojki-na-spirtu-i-vodke.html",
+        "page": 8
+      },
+      {
+        "title": "Гранатовая настойка на водке (самогоне, спирту): классический рецепт",
+        "url": "https://alcofan.com/granatovaya-nastojka-i-liker-na-vodke.html",
+        "page": 8
+      },
+      {
+        "title": "Тархуновка – питьевая настойка на тархуне (эстрагоне)",
+        "url": "https://alcofan.com/domashnyaya-tarxunovaya-nastojka.html",
+        "page": 8
+      },
+      {
+        "title": "Шоколадная водка – простой рецепт настойки на шоколаде",
+        "url": "https://alcofan.com/shokoladnaya-vodka-nastojka-vodki-spirta-ili-samogona-na-shokolade.html",
+        "page": 8
+      },
+      {
+        "title": "Кюммель (Kümmel) – рецепт настойки тмина на самогоне (водке, спирту)",
+        "url": "https://alcofan.com/recept-tminnoj-nastojki-kyummel.html",
+        "page": 8
+      },
+      {
+        "title": "Настойка из алычи на водке (самогоне, спирту): простой рецепт",
+        "url": "https://alcofan.com/prigotovlenie-nastojki-iz-alychi.html",
+        "page": 8
+      },
+      {
+        "title": "Каразюм – домашняя настойка изюма на самогоне или водке со специями",
+        "url": "https://alcofan.com/recept-karazyuma.html",
+        "page": 8
+      },
+      {
+        "title": "Финиковая настойка на самогоне (водке) – рецепт с косточками",
+        "url": "https://alcofan.com/domashnyaya-finikovaya-nastojka.html",
+        "page": 9
+      },
+      {
+        "title": "Настойка на ирге",
+        "url": "https://alcofan.com/domashnyaya-nastojka-irgi-na-vodke-samogone-spirte.html",
+        "page": 9
+      },
+      {
+        "title": "Настойка на шелковице с лимоном: рецепт на водке (самогоне, коньяке)",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-shelkovicy-na-vodke-i-spirte.html",
+        "page": 9
+      },
+      {
+        "title": "Питьевая настойка из красной рябины на водке (спирте, самогоне): классический рецепт",
+        "url": "https://alcofan.com/nastojki-iz-ryabiny-na-vodke.html",
+        "page": 9
+      },
+      {
+        "title": "Настойка на солоде (ржаном ферментированном)",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-iz-fermentirovannogo-soloda.html",
+        "page": 9
+      },
+      {
+        "title": "Кокосовая настойка на стружке или свежей мякоти",
+        "url": "https://alcofan.com/nastojka-iz-kokosa-v-domashnix-usloviyax.html",
+        "page": 9
+      },
+      {
+        "title": "Берёзовка – питьевая настойка на березовых почках (бруньках)",
+        "url": "https://alcofan.com/berezovaya-nastojka-na-vodke-i-spirte.html",
+        "page": 9
+      },
+      {
+        "title": "Настойка из перца-чили (жгучего) с медом",
+        "url": "https://alcofan.com/pitevaya-nastojka-iz-zhguchego-perca.html",
+        "page": 9
+      },
+      {
+        "title": "«Стрижамент» – история, культура пития и рецепт легендарной советской настойки",
+        "url": "https://alcofan.com/strizhament-v-domashnix-usloviyax.html",
+        "page": 9
+      },
+      {
+        "title": "Укроповка – питьевая настойка на укропе (из семян и зонтиков)",
+        "url": "https://alcofan.com/domashnyaya-ukropovaya-nastojka.html",
+        "page": 9
+      },
+      {
+        "title": "Питьевая настойка из гвоздики, лимонной цедры и корицы",
+        "url": "https://alcofan.com/gvozdika-na-vodke-samogone-spirte.html",
+        "page": 10
+      },
+      {
+        "title": "Настойка на манго из свежей, сушёной или консервированной мякоти",
+        "url": "https://alcofan.com/recept-mangovoj-nastojki.html",
+        "page": 10
+      },
+      {
+        "title": "Настойка на морошке",
+        "url": "https://alcofan.com/nastojka-moroshki-na-vodke-ili-spirtu.html",
+        "page": 10
+      },
+      {
+        "title": "Клюква на коньяке: 2 рецепта легендарной настойки",
+        "url": "https://alcofan.com/nastojki-klyukvy-na-konyake-dva-luchshix-recepta.html",
+        "page": 10
+      },
+      {
+        "title": "Технология приготовления настоек в вакууме",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-v-vakuume.html",
+        "page": 10
+      },
+      {
+        "title": "Тыквенная настойка на самогоне (водке, спирту)",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-iz-tykvy.html",
+        "page": 10
+      },
+      {
+        "title": "Домашняя настойка джина на малине с лимонной цедрой",
+        "url": "https://alcofan.com/malinovaya-nastojka-na-dzhine.html",
+        "page": 10
+      },
+      {
+        "title": "Технология приготовления классической «Беловежской» настойки",
+        "url": "https://alcofan.com/nastojka-belovezhskaya-pushha.html",
+        "page": 10
+      },
+      {
+        "title": "Щавелевая настойка с мёдом – «домашний» и «барный» рецепты",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-iz-shhavelya-na-vodke.html",
+        "page": 10
+      },
+      {
+        "title": "Настойка на базилике с лимонной цедрой",
+        "url": "https://alcofan.com/recept-prigotovleniya-bazilikovoj-nastojki.html",
+        "page": 10
+      },
+      {
+        "title": "Настойка на голубике",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-iz-golubiki.html",
+        "page": 11
+      },
+      {
+        "title": "Настойка на землянике по классическому рецепту",
+        "url": "https://alcofan.com/recept-zemlyanichnoj-nastojki.html",
+        "page": 11
+      },
+      {
+        "title": "Миндальная настойка на водке (самогоне, спирту)",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-iz-mindalya.html",
+        "page": 11
+      },
+      {
+        "title": "Настойка из фейхоа с клюквой (клубникой) или только на плодах",
+        "url": "https://alcofan.com/recept-vodki-na-fejxoa.html",
+        "page": 11
+      },
+      {
+        "title": "Настойка графа Орлова",
+        "url": "https://alcofan.com/nastojka-orlova.html",
+        "page": 11
+      },
+      {
+        "title": "Охотничья настойка: 2 рецепта (народный и приближённый к ГОСТ СССР)",
+        "url": "https://alcofan.com/oxotnichya-nastojka-v-domashnix-usloviyax.html",
+        "page": 11
+      },
+      {
+        "title": "Жгучая настойка на хрене с имбирем и медом",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-na-khrene-v-domashnikh-usloviyakh.html",
+        "page": 11
+      },
+      {
+        "title": "Настойка корицы на водке (самогоне, спирте) с мёдом и кофе",
+        "url": "https://alcofan.com/nastojka-iz-koricy-s-medom.html",
+        "page": 11
+      },
+      {
+        "title": "Настойка из копченой груши",
+        "url": "https://alcofan.com/nastojka-na-kopchenoj-grushe-v-domashnikh-usloviyakh.html",
+        "page": 11
+      },
+      {
+        "title": "Огуречная настойка с укропом и петрушкой",
+        "url": "https://alcofan.com/domashnyaya-nastojka-na-ogurcax.html",
+        "page": 11
+      },
+      {
+        "title": "Настойка на корках помело",
+        "url": "https://alcofan.com/nastojka-vodki-na-pomelo.html",
+        "page": 12
+      },
+      {
+        "title": "Настойка на фундуке (лесном орехе, лещине)",
+        "url": "https://alcofan.com/nastojka-iz-orexov-funduka.html",
+        "page": 12
+      },
+      {
+        "title": "Настойка на инжире (свежем или сушёном) с имбирём и гвоздикой",
+        "url": "https://alcofan.com/domashnyaya-nastojka-na-plodax-inzhira.html",
+        "page": 12
+      },
+      {
+        "title": "Питьевая настойка на зелёных грецких орехах",
+        "url": "https://alcofan.com/nastojka-zelenykh-orekhov-na-vodke.html",
+        "page": 12
+      },
+      {
+        "title": "Запеканка – понятие и рецепт традиционного русского спиртного из печи",
+        "url": "https://alcofan.com/alkogolnyj-napitok-zapekanka.html",
+        "page": 12
+      },
+      {
+        "title": "Питьевая настойка на Иван-чае (кипрее узколистном)",
+        "url": "https://alcofan.com/ivan-chaj-na-samogone-ili-vodke.html",
+        "page": 12
+      },
+      {
+        "title": "Классическая настойка на гречке",
+        "url": "https://alcofan.com/domashnyaya-grechnevaya-nastojka.html",
+        "page": 12
+      },
+      {
+        "title": "Настойка на хурме с апельсинами",
+        "url": "https://alcofan.com/kak-prigotovit-nastojku-xurmy.html",
+        "page": 12
+      },
+      {
+        "title": "Питьевая настойка перегородок грецкого ореха на водке (самогоне, спирте)",
+        "url": "https://alcofan.com/nastojka-na-orexovyx-peregorodkax.html",
+        "page": 12
+      },
+      {
+        "title": "Мужская рыбацкая настойка",
+        "url": "https://alcofan.com/alkogolnaya-nastojka-dlya-rybakov.html",
+        "page": 12
+      },
+      {
+        "title": "Питьевая настойка на стеблях ревеня с лимоном",
+        "url": "https://alcofan.com/domashnyaya-revnevaya-nastojka.html",
+        "page": 13
+      },
+      {
+        "title": "Водка по-Шаляпински (настойка на чае и лимонной цедре)",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-shalyapina.html",
+        "page": 13
+      },
+      {
+        "title": "Питьевая настойка на цветках белой акции",
+        "url": "https://alcofan.com/nastojka-iz-cvetkov-akacii.html",
+        "page": 13
+      },
+      {
+        "title": "Сельдереевка – питьевая настойка из сельдерея на водке (самогоне, спирте)",
+        "url": "https://alcofan.com/domashnyaya-nastojka-iz-seldereya.html",
+        "page": 13
+      },
+      {
+        "title": "Настойка из кумквата",
+        "url": "https://alcofan.com/kumkvatovaya-nastojka-v-domashnix-usloviyax.html",
+        "page": 13
+      },
+      {
+        "title": "Zubrowka (Зубровка)",
+        "url": "https://alcofan.com/marka-nastoek-zubrowka.html",
+        "page": 13
+      },
+      {
+        "title": "Быстрая настойка из компота: вишневого, клубничного, яблочного и т.д.",
+        "url": "https://alcofan.com/kak-sdelat-nalivku-iz-kompota.html",
+        "page": 13
+      },
+      {
+        "title": "Кантемировка – настойка из черного чая и апельсина",
+        "url": "https://alcofan.com/apelsinovaya-nastojka-s-chaem.html",
+        "page": 13
+      },
+      {
+        "title": "Настойка из айвы на водке (самогоне, спирту)",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-iz-ajvy-v-domashnikh-usloviyakh.html",
+        "page": 13
+      },
+      {
+        "title": "Настойка на ранетках (мелкосортных яблоках)",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-iz-ranetok.html",
+        "page": 13
+      },
+      {
+        "title": "Настойка коньяка на чёрной смородине",
+        "url": "https://alcofan.com/nastojka-na-chernoj-smorodine-na-konyake.html",
+        "page": 14
+      },
+      {
+        "title": "Алкоборщ – настойка на свекле, говядине и капусте",
+        "url": "https://alcofan.com/nastojka-alkoborshh.html",
+        "page": 14
+      },
+      {
+        "title": "Настойка на белой смородине с апельсиновой цедрой",
+        "url": "https://alcofan.com/domashnyaya-nastojka-iz-yagod-beloj-smorodiny.html",
+        "page": 14
+      },
+      {
+        "title": "Настойка Солоухина (со жгучим перцем и чесноком)",
+        "url": "https://alcofan.com/nastojka-solouxina-na-vodke.html",
+        "page": 14
+      },
+      {
+        "title": "Настойка на йоште",
+        "url": "https://alcofan.com/nastojka-iz-yagod-joshty.html",
+        "page": 14
+      },
+      {
+        "title": "Настойка на моркови с укропом",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-iz-morkovi.html",
+        "page": 14
+      },
+      {
+        "title": "Простая настойка на маракуйе",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-iz-marakuji.html",
+        "page": 14
+      },
+      {
+        "title": "Настойка на печёных яблоках",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-na-pechenykh-yablokakh.html",
+        "page": 14
+      },
+      {
+        "title": "Ораховац (Orahovac) – пряная хорватская настойка на неспелых грецких орехах",
+        "url": "https://alcofan.com/alkogolnyj-napitok-oraxovac.html",
+        "page": 14
+      },
+      {
+        "title": "Кантабас – настойка из почек черной смородины",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-iz-pochek-smorodiny-recept.html",
+        "page": 14
+      },
+      {
+        "title": "Простая настойка из ягод личи (китайской сливы)",
+        "url": "https://alcofan.com/domashnyaya-nastojka-iz-lichi.html",
+        "page": 15
+      },
+      {
+        "title": "Грибная настойка с хреном под шашлык и другие мясные блюда",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-iz-gribov.html",
+        "page": 15
+      },
+      {
+        "title": "Кардамоновка – питьевая настойка на кардамоне с лимоном",
+        "url": "https://alcofan.com/kardamonovaya-nastojka-v-domashnix-usloviyax.html",
+        "page": 15
+      },
+      {
+        "title": "Доктор Август (Doctor August) – российский бренд настоек и ликеров",
+        "url": "https://alcofan.com/kak-pravilno-pit-likery-doctor-august.html",
+        "page": 15
+      },
+      {
+        "title": "Кельтовка – настойка на апельсиновом и лимонном соке с медом и специями",
+        "url": "https://alcofan.com/kak-prigotovit-napitok-keltovka.html",
+        "page": 15
+      },
+      {
+        "title": "Питьевая настойка из белых сушеных грибов",
+        "url": "https://alcofan.com/domashnyaya-nastojka-iz-belyx-gribov.html",
+        "page": 15
+      },
+      {
+        "title": "Элберетовка – «эльфийская» апельсиновая настойка на спирте",
+        "url": "https://alcofan.com/apelsinovaya-nastojka-elberetovka.html",
+        "page": 15
+      },
+      {
+        "title": "Настойка из сухих яблок на водке (самогоне, спирте): простой рецепт",
+        "url": "https://alcofan.com/nastojka-na-sushenyx-yablokax-v-domashnix-usloviyax.html",
+        "page": 15
+      },
+      {
+        "title": "Питьевая настойка фенхеля на водке (самогоне)",
+        "url": "https://alcofan.com/nastojka-na-semenax-fenxelya.html",
+        "page": 15
+      },
+      {
+        "title": "Настойка на солёной карамели",
+        "url": "https://alcofan.com/recept-nastojki-na-solyonoj-karameli.html",
+        "page": 15
+      },
+      {
+        "title": "«Московская» травяная настойка",
+        "url": "https://alcofan.com/kak-prigotovit-moskovskuyu-nastojku-na-travax.html",
+        "page": 16
+      },
+      {
+        "title": "В чём разница между настойками, наливками и ликёрами",
+        "url": "https://alcofan.com/chem-otlichayutsya-alkogolnye-nastojki-i-nalivki.html",
+        "page": 16
+      },
+      {
+        "title": "Настойка на арахисе с медом и специями",
+        "url": "https://alcofan.com/domashnyaya-araxisovaya-nastojka.html",
+        "page": 16
+      },
+      {
+        "title": "Оригинальная настойка на беконе с лимонной цедрой",
+        "url": "https://alcofan.com/burbon-i-vodka-na-bekone.html",
+        "page": 16
+      },
+      {
+        "title": "Питьевая настойка на косточках винограда с черносливом и курагой",
+        "url": "https://alcofan.com/kak-sdelat-nastoyku-iz-kostochek-vinograda.html",
+        "page": 16
+      },
+      {
+        "title": "Настойка на мушмуле (японской сливе)",
+        "url": "https://alcofan.com/domashnyaya-nastojka-iz-mushmuly.html",
+        "page": 16
+      },
+      {
+        "title": "Кальвадосовка – домашняя яблочная настойка, имитирующая настоящий кальвадос",
+        "url": "https://alcofan.com/kak-sdelat-poxozhuyu-na-kalvados-yablochnuyu-nastojku.html",
+        "page": 16
+      },
+      {
+        "title": "Настойка на черноплодной рябине с красным острым перцем",
+        "url": "https://alcofan.com/nastojka-iz-chernoplodki-i-ostrogo-perca.html",
+        "page": 16
+      },
+      {
+        "title": "Настойка из актинидии на водке, самогоне или спирте",
+        "url": "https://alcofan.com/nastojka-aktinidii-na-samogone-ili-vodke.html",
+        "page": 16
+      },
+      {
+        "title": "Питьевая настойка из листьев хрена на водке или самогоне",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-na-listyax-xrena.html",
+        "page": 16
+      },
+      {
+        "title": "Настойка на какао порошке",
+        "url": "https://alcofan.com/nastoyka-kakao-na-vodke-ili-samogone.html",
+        "page": 17
+      }
+    ]
+  },
+  "nalivki": {
+    "total": 61,
+    "articles": [
+      {
+        "title": "Вишнёвая наливка: 2 лучших рецепта (с водкой и без)",
+        "url": "https://alcofan.com/nalivka-iz-vishni-v-domashnix-usloviyax.html",
+        "page": 1
+      },
+      {
+        "title": "Сливовая наливка: 2 рецепта (с водкой и без)",
+        "url": "https://alcofan.com/texnologiya-prigotovleniya-nalivki-iz-sliv.html",
+        "page": 1
+      },
+      {
+        "title": "Наливка из смородины: 4 рецепта для чёрных и красных ягод",
+        "url": "https://alcofan.com/nalivki-iz-smorodiny-recepty-i-prigotovlenie.html",
+        "page": 1
+      },
+      {
+        "title": "Малиновая наливка: 2 простых рецепта (с водкой и без)",
+        "url": "https://alcofan.com/nalivka-iz-maliny-v-domashnix-usloviyax.html",
+        "page": 1
+      },
+      {
+        "title": "Апельсиновая наливка – 3 лучших рецепта",
+        "url": "https://alcofan.com/apelsinovaya-nalivka-v-domashnix-usloviyax.html",
+        "page": 1
+      },
+      {
+        "title": "Абрикосовая наливка – 2 рецепта (с водкой и без)",
+        "url": "https://alcofan.com/nalivka-iz-abrikosov-v-domashnix-usloviyax.html",
+        "page": 1
+      },
+      {
+        "title": "Виноградная наливка: 3 лучших рецепта для красных и белых ягод",
+        "url": "https://alcofan.com/vinogradnaya-nalivka.html",
+        "page": 1
+      },
+      {
+        "title": "Клубничные наливки: 3 лучших рецепта (с водкой и брожением)",
+        "url": "https://alcofan.com/kak-sdelat-nalivku-iz-klubniki.html",
+        "page": 1
+      },
+      {
+        "title": "Наливка из черноплодной рябины (черноплодки): 2 лучших рецепта",
+        "url": "https://alcofan.com/nalivka-iz-chernoplodnoj-ryabiny-v-domashnix-usloviyax.html",
+        "page": 1
+      },
+      {
+        "title": "Наливка «100 листьев (33 листа)»",
+        "url": "https://alcofan.com/kak-sdelat-nalivku-iz-listev-s-yagodami.html",
+        "page": 1
+      },
+      {
+        "title": "Наливка из терна: 2 рецепта (с водкой и без)",
+        "url": "https://alcofan.com/nalivka-iz-terna-v-domashnix-usloviyax.html",
+        "page": 2
+      },
+      {
+        "title": "Наливка из черешни с водкой и без – 2 рецепта",
+        "url": "https://alcofan.com/dva-luchshix-recepta-nalivki-iz-chereshni.html",
+        "page": 2
+      },
+      {
+        "title": "Наливка из кизила: 2 рецепта (с водкой и без)",
+        "url": "https://alcofan.com/nalivka-iz-kizila-v-domashnix-usloviyax.html",
+        "page": 2
+      },
+      {
+        "title": "Наливка из варенья (с водкой или без) – 2 рецепта",
+        "url": "https://alcofan.com/recepty-nalivok-iz-varenya-v-domashnix-usloviyax.html",
+        "page": 2
+      },
+      {
+        "title": "Спотыкач: понятие и домашний рецепт наливки",
+        "url": "https://alcofan.com/alkogolnaya-nalivka-spotykach.html",
+        "page": 2
+      },
+      {
+        "title": "Яблочная наливка: 3 рецепта с водкой (самогоном) и без",
+        "url": "https://alcofan.com/dva-recepta-vkusnyx-yablochnyx-nalivok.html",
+        "page": 2
+      },
+      {
+        "title": "Наливка из айвы на водке (самогоне, спирту)",
+        "url": "https://alcofan.com/domashnyaya-ajvovaya-nalivka.html",
+        "page": 2
+      },
+      {
+        "title": "Наливка из красной рябины: 2 лучших рецепта",
+        "url": "https://alcofan.com/delaem-nalivku-iz-krasnoj-ryabiny.html",
+        "page": 2
+      },
+      {
+        "title": "Наливка из алычи с водкой (самогоном) и без: 2 рецепта",
+        "url": "https://alcofan.com/kak-sdelat-nalivku-iz-alychi.html",
+        "page": 2
+      },
+      {
+        "title": "Грушевая наливка на водке (самогоне, спирте)",
+        "url": "https://alcofan.com/recept-nalivki-iz-grush.html",
+        "page": 2
+      },
+      {
+        "title": "Наливка из крыжовника: 2 лучших рецепта (с водкой и без)",
+        "url": "https://alcofan.com/nalivka-iz-kryzhovnika-v-domashnix-usloviyax.html",
+        "page": 3
+      },
+      {
+        "title": "Наливка из калины: 2 рецепта на водке, самогоне или спирту",
+        "url": "https://alcofan.com/kalinovye-nalivki-na-vodke.html",
+        "page": 3
+      },
+      {
+        "title": "«Кремлёвские звёзды» – классический рецепт гранатовой наливки",
+        "url": "https://alcofan.com/granatovaya-nalivka-na-vodke-i-spirtu.html",
+        "page": 3
+      },
+      {
+        "title": "Наливка из шелковицы (тутовых ягод): 2 рецепта",
+        "url": "https://alcofan.com/prostaya-nalivka-iz-shelkovicy-tutovyx-yagod.html",
+        "page": 3
+      },
+      {
+        "title": "Наливка из ежевики с водкой и без (только брожением)",
+        "url": "https://alcofan.com/nalivka-iz-ezheviki-v-domashnix-usloviyax.html",
+        "page": 3
+      },
+      {
+        "title": "Клюквенная наливка: рецепты с водкой (самогоном) и без (брожением)",
+        "url": "https://alcofan.com/domashnie-klyukvennye-nalivki.html",
+        "page": 3
+      },
+      {
+        "title": "Наливка из ягод боярышника на водке",
+        "url": "https://alcofan.com/kak-prigotovit-nalivku-iz-boyaryshnika.html",
+        "page": 3
+      },
+      {
+        "title": "Наливка из лепестков роз: быстрый и классический рецепты",
+        "url": "https://alcofan.com/recept-nalivki-iz-rozy.html",
+        "page": 3
+      },
+      {
+        "title": "Наливка из замороженных ягод (вишни, клубники, смородины и т.д.)",
+        "url": "https://alcofan.com/kak-sdelat-nalivku-iz-zamorozhennyx-yagod.html",
+        "page": 3
+      },
+      {
+        "title": "Наливка из дыни на водке (самогоне, спирте)",
+        "url": "https://alcofan.com/nalivka-iz-dyni-na-vodke.html",
+        "page": 3
+      },
+      {
+        "title": "Наливка из облепихи: с водкой (самогоном) и без",
+        "url": "https://alcofan.com/prigotovlenie-domashnej-nalivki-iz-oblepixi.html",
+        "page": 4
+      },
+      {
+        "title": "Наливки из ирги: рецепты с водкой (спиртом) и без (методом брожения)",
+        "url": "https://alcofan.com/recepty-nalivki-iz-irgi.html",
+        "page": 4
+      },
+      {
+        "title": "Наливка из брусники на водке, самогоне или спирту",
+        "url": "https://alcofan.com/recept-brusnichnoj-nalivki-na-vodke-i-spirte.html",
+        "page": 4
+      },
+      {
+        "title": "Технология приготовления настоек в вакууме",
+        "url": "https://alcofan.com/kak-sdelat-nastojku-v-vakuume.html",
+        "page": 4
+      },
+      {
+        "title": "Наливка из черёмухи: рецепты с водкой и без (брожением)",
+        "url": "https://alcofan.com/recepty-nalivok-iz-cheremuxi.html",
+        "page": 4
+      },
+      {
+        "title": "Персиковая наливка: 2 рецепта (с водкой и без)",
+        "url": "https://alcofan.com/recepty-nalivok-iz-persikov.html",
+        "page": 4
+      },
+      {
+        "title": "Наливка из черники методом брожения (без водки, самогона)",
+        "url": "https://alcofan.com/recept-nalivki-iz-cherniki.html",
+        "page": 4
+      },
+      {
+        "title": "Простая наливка из шиповника на водке (самогоне, спирту)",
+        "url": "https://alcofan.com/recept-domashnej-nalivki-iz-shipovnika.html",
+        "page": 4
+      },
+      {
+        "title": "Наливка из чернослива с лимоном",
+        "url": "https://alcofan.com/recept-chernoslivovoj-nalivki.html",
+        "page": 4
+      },
+      {
+        "title": "Наливка из манго на водке (самогоне, спирту) с лимоном и гвоздикой",
+        "url": "https://alcofan.com/kak-sdelat-mangovuyu-nalivku.html",
+        "page": 4
+      },
+      {
+        "title": "Наливка из грецких орехов – 3 лучших рецепта",
+        "url": "https://alcofan.com/recept-domashnej-nalivki-iz-greckix-orexov.html",
+        "page": 5
+      },
+      {
+        "title": "Наливка из белой смородины – 2 лучших рецепта",
+        "url": "https://alcofan.com/prigotovlenie-nalivki-iz-beloj-smorodiny.html",
+        "page": 5
+      },
+      {
+        "title": "Наливка из жимолости – 2 рецепта (с водкой и без)",
+        "url": "https://alcofan.com/nalivka-iz-zhimolosti-v-domashnix-usloviyax.html",
+        "page": 5
+      },
+      {
+        "title": "Барбарисовая наливка на водке (спирте, самогоне)",
+        "url": "https://alcofan.com/domashnyaya-nalivka-iz-barbarisa.html",
+        "page": 5
+      },
+      {
+        "title": "Наливка из голубики с водкой (самогоном, спиртом) и методом брожения",
+        "url": "https://alcofan.com/recepty-nalivok-iz-golubiki.html",
+        "page": 5
+      },
+      {
+        "title": "Наливка из фейхоа на водке (самогоне, спирту)",
+        "url": "https://alcofan.com/domashnyaya-nalivka-iz-fejxoa.html",
+        "page": 5
+      },
+      {
+        "title": "Наливка из йошты с водкой (самогоном) и без",
+        "url": "https://alcofan.com/nalivka-iz-yagod-joshty.html",
+        "page": 5
+      },
+      {
+        "title": "«Праздничная» – домашняя мандариновая наливка с еловым привкусом",
+        "url": "https://alcofan.com/prostaya-nalivka-iz-mandarin-v-domashnix-usloviyax.html",
+        "page": 5
+      },
+      {
+        "title": "Наливка из арбуза с мятой и ванилью",
+        "url": "https://alcofan.com/arbuznaya-nalivka-s-aromatom-myaty.html",
+        "page": 5
+      },
+      {
+        "title": "Наливка из киви с цитрусовой цедрой",
+        "url": "https://alcofan.com/kak-sdelat-nalivku-iz-kivi.html",
+        "page": 5
+      },
+      {
+        "title": "Базиликовая наливка на водке (самогоне, спирту)",
+        "url": "https://alcofan.com/kak-sdelat-nalivku-iz-bazilika.html",
+        "page": 6
+      },
+      {
+        "title": "Наливка из ягод черной бузины – 2 рецепта (с водкой и без)",
+        "url": "https://alcofan.com/kak-sdelat-nalivku-iz-yagod-buziny.html",
+        "page": 6
+      },
+      {
+        "title": "Наливка из инжира с ванилью",
+        "url": "https://alcofan.com/kak-sdelat-inzhirnuyu-nalivku.html",
+        "page": 6
+      },
+      {
+        "title": "Лимонная наливка с кофе",
+        "url": "https://alcofan.com/nalivka-iz-limona-v-domashnix-usloviyax.html",
+        "page": 6
+      },
+      {
+        "title": "Наливка из земляники без водки (методом брожения)",
+        "url": "https://alcofan.com/nalivka-iz-zemlyaniki-v-domashnix-usloviyax.html",
+        "page": 6
+      },
+      {
+        "title": "Наливка из морошки на водке (спирту) и брожением",
+        "url": "https://alcofan.com/recept-nalivki-iz-yagod-moroshki.html",
+        "page": 6
+      },
+      {
+        "title": "Наливка из одуванчиков без водки",
+        "url": "https://alcofan.com/domashnyaya-oduvanchikovaya-nalivka.html",
+        "page": 6
+      },
+      {
+        "title": "Наливка из хурмы с имбирем",
+        "url": "https://alcofan.com/krepkaya-nalivka-iz-xurmy-s-imbirem.html",
+        "page": 6
+      },
+      {
+        "title": "В чём разница между настойками, наливками и ликёрами",
+        "url": "https://alcofan.com/chem-otlichayutsya-alkogolnye-nastojki-i-nalivki.html",
+        "page": 6
+      },
+      {
+        "title": "Наливка из запеченной тыквы: оригинальный рецепт",
+        "url": "https://alcofan.com/kak-sdelat-tykvennuyu-nalivku.html",
+        "page": 6
+      },
+      {
+        "title": "Банановая наливка с молоком, сливками и куркумой",
+        "url": "https://alcofan.com/kak-sdelat-nalivku-iz-bananov.html",
+        "page": 7
+      }
+    ]
+  }
+}

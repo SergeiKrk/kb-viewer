@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "ef2e9e586e5a4729",
+    "type": "split",
+    "children": [
+      {
+        "id": "ada9978aec9c8be9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9552088baf3b3670",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "621f70b8bf0b7828",
+    "type": "split",
+    "children": [
+      {
+        "id": "ddae923bf2276e49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3fb30362136a728",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "050f133cc538f4e7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "6634456006c62b91",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "448177321ca65a60",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0c78ea8677d9f67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11f953e3d93fe7e3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02 - SEO запросы green-crown.ru.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для 02 - SEO запросы green-crown.ru"
+            }
+          },
+          {
+            "id": "415840045706af72",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02 - SEO запросы green-crown.ru.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из 02 - SEO запросы green-crown.ru"
+            }
+          },
+          {
+            "id": "3ce2968835d61c84",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "fcc69b372561dd19",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "1e7c824fd791a2a4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02 - SEO запросы green-crown.ru.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура 02 - SEO запросы green-crown.ru"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
+    }
+  },
+  "active": "9552088baf3b3670",
+  "lastOpenFiles": [
+    "AGENTS.md",
+    "index.md",
+    "log.md",
+    "CLAUDE.md",
+    "wiki/Главная.md",
+    "05 - Партизанский маркетинг и площадки.md",
+    "wiki/Главная - green-crown.ru.md",
+    "wiki/05 - Партизанский маркетинг и площадки.md",
+    "wiki/04 - Технический аудит.md",
+    "wiki/03 - Позиции в поисковиках.md",
+    "wiki/02 - SEO запросы green-crown.ru.md",
+    "wiki/01 - Конкуренты green-crown.ru.md",
+    "wiki/00 - Анализ сайта green-crown.ru.md",
+    "wiki",
+    "raw",
+    "04 - Технический аудит.md",
+    "03 - Позиции в поисковиках.md",
+    "02 - SEO запросы green-crown.ru.md",
+    "01 - Конкуренты green-crown.ru.md",
+    "00 - Анализ сайта green-crown.ru.md"
+  ]
+}

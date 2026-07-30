@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<style>
+    @page {
+        size: A4 landscape;
+        margin: 8mm 10mm 8mm 10mm;
+    }
+    body {
+        font-family: 'DejaVu Sans', Arial, sans-serif;
+        font-size: 7.5pt;
+        color: #222;
+        line-height: 1.3;
+    }
+    h1 {
+        font-size: 11pt;
+        text-align: center;
+        margin: 0 0 3mm 0;
+    }
+    h2 {
+        font-size: 9pt;
+        margin: 0 0 2mm 0;
+        border-bottom: 1px solid #999;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3mm;
+        padding: 2mm 3mm;
+        background: #f0f0f0;
+        border-radius: 3px;
+    }
+    .header .left { font-weight: bold; font-size: 8pt; }
+    .header .right { text-align: right; font-size: 7pt; }
+    .meds-ref {
+        margin-bottom: 3mm;
+        padding: 2mm 3mm;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        page-break-inside: avoid;
+    }
+    .meds-ref table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .meds-ref th {
+        background: #e8e8e8;
+        padding: 1mm 2mm;
+        font-size: 6.5pt;
+        text-align: left;
+    }
+    .meds-ref td {
+        padding: 0.8mm 2mm;
+        font-size: 6.5pt;
+        border-bottom: 1px dotted #ddd;
+    }
+    .day-page {
+        page-break-inside: avoid;
+        margin-bottom: 3mm;
+    }
+    .day-title {
+        font-size: 9pt;
+        font-weight: bold;
+        background: #4472C4;
+        color: white;
+        padding: 1.5mm 3mm;
+        border-radius: 3px;
+    }
+    table.main {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 6.5pt;
+    }
+    table.main th {
+        background: #4472C4;
+        color: white;
+        padding: 1.5mm 1mm;
+        text-align: center;
+        font-weight: bold;
+        font-size: 6pt;
+    }
+    table.main td {
+        border: 0.5px solid #bbb;
+        padding: 1mm 1mm;
+        text-align: center;
+        vertical-align: middle;
+        height: 7mm;
+    }
+    table.main td.label {
+        text-align: left;
+        font-weight: bold;
+        background: #f5f5f5;
+        width: 17mm;
+        font-size: 6pt;
+    }
+    table.main td.time-header {
+        background: #d9e2f3;
+        font-weight: bold;
+        font-size: 6.5pt;
+    }
+    .progress-bar {
+        display: flex;
+        gap: 1px;
+        justify-content: center;
+    }
+    .progress-bar span {
+        width: 6px;
+        height: 8px;
+        border: 0.5px solid #999;
+        border-radius: 1px;
+    }
+    .foot-note {
+        font-size: 5.5pt;
+        color: #666;
+        margin-top: 1mm;
+    }
+    .page-break {
+        page-break-before: always;
+    }
+    </style>
+</head>
+<body>
+<h1>Дневник самоконтроля — Болезнь Паркинсона</h1>
+<div class="header">
+    <div class="left">
+        Пациент: Крюкова М.Н.<br>
+        Дата рождения: 02.08.1954
+    </div>
+    <div class="right">
+        Диагноз: G20 — Болезнь Паркинсона, 3 ст. по Хен-Яру, ригидно-дрожательная форма<br>
+        Моторные флюктуации (истощение конца дозы), пиковые дискинезии
+    </div>
+</div>
+
+    <div class="meds-ref">
+        <strong>Схема приёма лекарств (ежедневно):</strong>
+        <table>
+            <tr><th>Время</th><th>Препарат</th><th>Доза</th></tr>
+            <tr><td>08:00</td><td>Леводопа+Карбидопа 250+25 мг</td><td>¾ таб</td></tr><tr><td>12:00</td><td>Леводопа+Карбидопа 250+25 мг</td><td>¾ таб</td></tr><tr><td>16:00</td><td>Леводопа+Карбидопа 250+25 мг</td><td>¾ таб</td></tr><tr><td>20:00</td><td>Леводопа+Карбидопа 250+25 мг</td><td>¾ таб</td></tr><tr><td>02:00</td><td>Леводопа+Карбидопа 250+25 мг</td><td>½ таб</td></tr><tr><td>08:00</td><td>Прамипексол 0,25 мг</td><td>2 таб</td></tr><tr><td>14:00</td><td>Прамипексол 0,25 мг</td><td>2 таб</td></tr><tr><td>20:00</td><td>Прамипексол 0,25 мг</td><td>2 таб</td></tr><tr><td>08:00</td><td>Амантадин 100 мг</td><td>2 таб (посл. приём до 17:00)</td></tr><tr><td>14:00</td><td>Амантадин 100 мг</td><td>1 таб → со 2-й нед. 2 таб</td></tr><tr><td>На ночь</td><td>Клоназепам 2 мг</td><td>¼ таб</td></tr>
+        </table>
+    </div>
+    
+<div class="foot-note">
+    <strong>Как заполнять:</strong> ON = лекарство действует (хорошая подвижность). OFF = лекарство не действует (скованность, тремор).<br>
+    Шкалы 0–10: 0 = нет симптома, 10 = максимальная выраженность. Настроение: 1 = очень плохое, 5 = отличное.<br>
+    Отмечайте время каждого приёма лекарств ✓. Фиксируйте эпизоды заморозок, падений и необычных симптомов сразу.
+</div>
+<div>
+    <div class="day-page">
+        <div class="day-title">День 1 — 01.07.2026 (Wednesday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    
+    <div class="day-page">
+        <div class="day-title">День 2 — 02.07.2026 (Thursday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    </div><div class="page-break">
+    <div class="day-page">
+        <div class="day-title">День 3 — 03.07.2026 (Friday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    
+    <div class="day-page">
+        <div class="day-title">День 4 — 04.07.2026 (Saturday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    </div><div class="page-break">
+    <div class="day-page">
+        <div class="day-title">День 5 — 05.07.2026 (Sunday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    
+    <div class="day-page">
+        <div class="day-title">День 6 — 06.07.2026 (Monday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    </div><div class="page-break">
+    <div class="day-page">
+        <div class="day-title">День 7 — 07.07.2026 (Tuesday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    
+    <div class="day-page">
+        <div class="day-title">День 8 — 08.07.2026 (Wednesday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    </div><div class="page-break">
+    <div class="day-page">
+        <div class="day-title">День 9 — 09.07.2026 (Thursday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    
+    <div class="day-page">
+        <div class="day-title">День 10 — 10.07.2026 (Friday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    </div><div class="page-break">
+    <div class="day-page">
+        <div class="day-title">День 11 — 11.07.2026 (Saturday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    
+    <div class="day-page">
+        <div class="day-title">День 12 — 12.07.2026 (Sunday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    </div><div class="page-break">
+    <div class="day-page">
+        <div class="day-title">День 13 — 13.07.2026 (Monday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    
+    <div class="day-page">
+        <div class="day-title">День 14 — 14.07.2026 (Tuesday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    </div><div class="page-break">
+    <div class="day-page">
+        <div class="day-title">День 15 — 15.07.2026 (Wednesday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    
+    <div class="day-page">
+        <div class="day-title">День 16 — 16.07.2026 (Thursday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    </div><div class="page-break">
+    <div class="day-page">
+        <div class="day-title">День 17 — 17.07.2026 (Friday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    
+    <div class="day-page">
+        <div class="day-title">День 18 — 18.07.2026 (Saturday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    </div><div class="page-break">
+    <div class="day-page">
+        <div class="day-title">День 19 — 19.07.2026 (Sunday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    
+    <div class="day-page">
+        <div class="day-title">День 20 — 20.07.2026 (Monday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    </div><div class="page-break">
+    <div class="day-page">
+        <div class="day-title">День 21 — 21.07.2026 (Tuesday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    
+    <div class="day-page">
+        <div class="day-title">День 22 — 22.07.2026 (Wednesday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    </div><div class="page-break">
+    <div class="day-page">
+        <div class="day-title">День 23 — 23.07.2026 (Thursday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    
+    <div class="day-page">
+        <div class="day-title">День 24 — 24.07.2026 (Friday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    </div><div class="page-break">
+    <div class="day-page">
+        <div class="day-title">День 25 — 25.07.2026 (Saturday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    
+    <div class="day-page">
+        <div class="day-title">День 26 — 26.07.2026 (Sunday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    </div><div class="page-break">
+    <div class="day-page">
+        <div class="day-title">День 27 — 27.07.2026 (Monday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    
+    <div class="day-page">
+        <div class="day-title">День 28 — 28.07.2026 (Tuesday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    </div><div class="page-break">
+    <div class="day-page">
+        <div class="day-title">День 29 — 29.07.2026 (Wednesday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    
+    <div class="day-page">
+        <div class="day-title">День 30 — 30.07.2026 (Thursday)</div>
+        <table class="main">
+            <tr>
+                <th style="width:17mm;">Параметр</th>
+                <th>02:00</th><th>08:00</th><th>12:00</th><th>16:00</th><th>20:00</th><th>Ночь</th>
+                <th style="width:20mm;">Примечания</th>
+            </tr>
+            <tr><td class="label">ON / OFF</td><td class="time-header">02:00</td><td class="time-header">08:00</td><td class="time-header">12:00</td><td class="time-header">16:00</td><td class="time-header">20:00</td><td class="time-header">Ночь</td><td class="label">Примечания</td></tr>
+<tr><td class="label">Состояние</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td>O  /  F</td><td></td></tr>
+<tr><td class="label">Тремор (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Ригидность (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Брадикинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Дискинезия (0–10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="label">Настроение (1–5)</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td>1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">АД / Пульс</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td></td></tr>
+<tr><td class="label">Сон (часы / качество 1–5)</td><td colspan="6">Всего: ___ ч &nbsp;&nbsp; Засыпание: ___ мин &nbsp;&nbsp; Ночные пробуждения: ___ &nbsp;&nbsp; Качество: 1 2 3 4 5</td><td></td></tr>
+<tr><td class="label">Приём пищи / Вода</td><td colspan="6">Завтрак: ___ &nbsp; Обед: ___ &nbsp; Ужин: ___ &nbsp; Перекусы: ___ &nbsp; Вода: ___ л</td><td></td></tr>
+<tr><td class="label">Стул</td><td colspan="6">☐ норма  ☐ запор  ☐ диарея  ☐ ___</td><td></td></tr>
+<tr><td class="label">Заморозки (freezing): где / когда</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Падения: обстоятельства</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Судороги / спазмы</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Галлюцинации</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Нарушения глотания / речи</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Потливость / слюнотечение</td><td colspan="6"></td><td></td></tr>
+<tr><td class="label">Заметки за день</td><td colspan="7" style="text-align: left; height: 10mm;"></td></tr>
+
+        </table>
+    </div>
+    </div>
+</body>
+</html>

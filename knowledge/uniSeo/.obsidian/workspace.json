@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "6c03c0856a062b97",
+    "type": "split",
+    "children": [
+      {
+        "id": "0926e7d948c1f15c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e9694b1f838b2a8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "afbd1eab242bd991",
+    "type": "split",
+    "children": [
+      {
+        "id": "582466ef5d065a76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e5afe99c4200fcd4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "e65b602982aa9283",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "6a756e6799d87ac8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ca44ca9117df9dd3",
+    "type": "split",
+    "children": [
+      {
+        "id": "32677715d4dc3df9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8dc1bf17cd8e8451",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "UNU - Принципы заказов sesmsk.su.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для UNU - Принципы заказов sesmsk.su"
+            }
+          },
+          {
+            "id": "23cb69cc9efaf4d0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "UNU - Принципы заказов sesmsk.su.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из UNU - Принципы заказов sesmsk.su"
+            }
+          },
+          {
+            "id": "09b362a7a574aafe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "8a4ba49c93ca6396",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "6beffdf4274ae9c4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "UNU - Принципы заказов sesmsk.su.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура UNU - Принципы заказов sesmsk.su"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
+    }
+  },
+  "active": "2e9694b1f838b2a8",
+  "lastOpenFiles": [
+    "AGENTS.md",
+    "index.md",
+    "UNU - Принципы заказов sesmsk.su.md",
+    "log.md",
+    "CLAUDE.md",
+    "wiki/UNU - Принципы заказов sesmsk.su.md",
+    "wiki",
+    "raw"
+  ]
+}

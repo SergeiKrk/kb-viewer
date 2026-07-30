@@ -1,0 +1,27 @@
+{
+  "collected": "2026-07-07",
+  "source": "alcofan.com",
+  "total_articles": 467,
+  "categories": {
+    "Самогоноварение": {
+      "pages": 20,
+      "total": 193,
+      "url": "https://alcofan.com/category/osnovy-samogonovareniya"
+    },
+    "Настойки": {
+      "pages": 17,
+      "total": 161,
+      "url": "https://alcofan.com/category/nastojki"
+    },
+    "Наливки": {
+      "pages": 7,
+      "total": 61,
+      "url": "https://alcofan.com/category/nalivki"
+    },
+    "Оборудование": {
+      "pages": 6,
+      "total": 52,
+      "url": "https://alcofan.com/oborudovanie-dlya-samogonovareniya-i-vinodeliya"
+    }
+  }
+}
