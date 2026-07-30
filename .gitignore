@@ -4,3 +4,7 @@ dist/
 .astro/
 *.log
 .DS_Store
+!knowledge/
+!knowledge/pansionat/
+!knowledge/pansionat/wiki/
+!knowledge/pansionat/wiki/**/*.md

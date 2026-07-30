@@ -141,7 +141,9 @@ function extractWikiLinks(content: string, sourceSlug: string, kbPath: string): 
   const regex = /\[\[([^\]]+)\]\]/g;
   let match;
   while ((match = regex.exec(content)) !== null) {
-    const target = match[1].trim();
+    let target = match[1].trim();
+    // Strip .md extension if present (Obsidian-style links)
+    target = target.replace(/\.md$/, '');
     const exists = fs.existsSync(path.join(KNOWLEDGE_ROOT, kbPath, 'wiki', `${target}.md`));
     links.push({
       target,
@@ -162,6 +164,7 @@ function renderMarkdown(content: string): string {
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/\*(.+?)\*/g, '<em>$1</em>')
     .replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/\[\[([^\]]+)\.md\]\]/g, '<a href="/kb/$1" class="wiki-link">$1</a>')
     .replace(/\[\[([^\]]+)\]\]/g, '<a href="/kb/$1" class="wiki-link">$1</a>')
     .replace(/^\- (.+)$/gm, '<li>$1</li>')
     .replace(/\n\n/g, '</p><p>');
