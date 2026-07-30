@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --border: 240 5.9% 90%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted-foreground/20 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground/40;
+  }
+
+  /* Wiki links */
+  .wiki-link {
+    @apply text-blue-600 dark:text-blue-400 hover:underline cursor-pointer;
+  }
+
+  .wiki-link-broken {
+    @apply text-red-500 dark:text-red-400 hover:underline cursor-pointer;
+  }
+
+  /* Callout blocks */
+  .callout {
+    @apply border-l-4 p-4 my-4 rounded-r-lg;
+  }
+
+  .callout-info {
+    @apply border-blue-500 bg-blue-50 dark:bg-blue-950/30;
+  }
+
+  .callout-warning {
+    @apply border-amber-500 bg-amber-50 dark:bg-amber-950/30;
+  }
+
+  .callout-danger {
+    @apply border-red-500 bg-red-50 dark:bg-red-950/30;
+  }
+
+  .callout-tip {
+    @apply border-green-500 bg-green-50 dark:bg-green-950/30;
+  }
+
+  .callout-note {
+    @apply border-gray-500 bg-gray-50 dark:bg-gray-800/50;
+  }
+
+  /* Graph */
+  .graph-container {
+    @apply w-full h-full min-h-[600px];
+  }
+
+  /* Animations */
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateX(-10px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+
+  .animate-slide-in {
+    animation: slideIn 0.2s ease-out;
+  }
+}

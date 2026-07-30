@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getKBConfigs, getKBMeta, getAllPages, getTree, getLogEntries } from '../../lib/kb-loader';
+import KBViewer from '../../components/KBViewer';
+
+export function getStaticPaths() {
+  const configs = getKBConfigs();
+  return configs.map(c => ({ params: { kb: c.path } }));
+}
+
+const { kb } = Astro.params;
+const meta = getKBMeta(kb!);
+const pages = getAllPages(kb!);
+const tree = getTree(kb!);
+const logEntries = getLogEntries(kb!);
+const indexPath = pages.find(p => p.slug === 'index');
+const firstPage = indexPath || pages[0] || null;
+---
+
+<BaseLayout>
+  <KBViewer
+    kb={kb!}
+    meta={meta}
+    pages={pages}
+    tree={tree}
+    logEntries={logEntries}
+    initialPage={firstPage}
+    client:load
+  />
+</BaseLayout>

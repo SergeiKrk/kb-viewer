@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getKBList } from '../lib/kb-loader';
+import HomePage from '../components/HomePage';
+
+const kbList = getKBList();
+---
+
+<BaseLayout>
+  <HomePage kbList={kbList} client:load />
+</BaseLayout>
