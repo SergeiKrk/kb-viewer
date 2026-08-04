@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Факт-чекинг — Пансионат «СимбирскЪ»</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f5f6f8;color:#1a1a2e;line-height:1.6;padding:20px}
+  .form-container{max-width:900px;margin:0 auto}
+  .header{background:#1a1a2e;color:#fff;padding:32px 36px;border-radius:12px 12px 0 0}
+  .header h1{font-size:24px;margin-bottom:6px}
+  .header p{font-size:14px;opacity:.8}
+  .intro{background:#fff;padding:20px 36px;border-bottom:1px solid #e8ecf4;font-size:13px;color:#5f6b7a}
+  .intro strong{color:#1a1a2e}
+  .section{background:#fff;padding:0;margin:0;border-bottom:1px solid #e8ecf4}
+  .section-header{background:#f8f9fc;padding:14px 36px;font-size:15px;font-weight:700;color:#1a1a2e;border-bottom:1px solid #e8ecf4;display:flex;align-items:center;gap:10px}
+  .section-num{background:#1a1a2e;color:#fff;width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0}
+  .section-header.gems{background:#f0f4ff}
+  .section-header.gems .section-num{background:#3b5998}
+  .question{padding:14px 36px;border-bottom:1px solid #f0f2f5}
+  .question:last-child{border-bottom:none}
+  .q-label{display:block;font-size:13px;font-weight:600;color:#1a1a2e;margin-bottom:6px}
+  .q-input{width:100%;padding:10px 14px;border:1px solid #d0d7e8;border-radius:6px;font-size:13px;font-family:inherit;resize:vertical;min-height:44px}
+  .q-input:focus{outline:none;border-color:#1a1a2e;box-shadow:0 0 0 3px rgba(26,26,46,.08)}
+  .q-input.short{min-height:auto;height:42px}
+  .info-row{display:flex;gap:12px;background:#fff;padding:14px 36px;border-bottom:1px solid #e8ecf4}
+  .info-row .q-input{min-height:auto;height:42px}
+  .info-label{font-size:13px;font-weight:600;color:#1a1a2e;white-space:nowrap;padding-top:8px}
+  .footer{background:#fff;padding:24px 36px;border-radius:0 0 12px 12px;display:flex;gap:12px;align-items:center;justify-content:flex-end;flex-wrap:wrap}
+  .btn{padding:10px 24px;border-radius:8px;font-size:14px;font-weight:700;cursor:pointer;border:none}
+  .btn-send{background:#27ae60;color:#fff}
+  .btn-send:hover{background:#219a52}
+  .btn-copy{background:#1a1a2e;color:#fff}
+  .btn-copy:hover{background:#2d2d44}
+  .btn-download{background:#f0f2f5;color:#5f6b7a}
+  .msg{background:#e8f5e9;padding:14px 36px;font-size:13px;color:#2e7d32;text-align:center;display:none;font-weight:600}
+  .msg.err{background:#fdecea;color:#c0392b}
+  .progress{background:#fff;padding:10px 36px;display:flex;align-items:center;gap:10px;font-size:13px;color:#5f6b7a}
+  .progress-bar{flex:1;height:5px;background:#e8ecf4;border-radius:3px;overflow:hidden}
+  .progress-fill{height:100%;background:#27ae60;border-radius:3px;transition:width .3s}
+</style>
+</head>
+<body>
+<div class="form-container">
+
+<div class="header">
+  <h1>✅ Чек-лист факт-чекинга</h1>
+  <p>Пансионат «СимбирскЪ» — 62 вопроса для подготовки контента сайта</p>
+</div>
+
+<div class="progress">
+  <span>Заполнено: <strong id="count">0</strong> / 62</span>
+  <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+</div>
+
+<div class="intro">
+  <strong>📋 Как это работает:</strong><br>
+  1. Заполните поля, на которые знаете ответ. Остальные можно пропустить.<br>
+  2. В конце нажмите <strong>«Скопировать и отправить»</strong> — текст скопируется в буфер.<br>
+  3. Вставьте текст в WhatsApp/Telegram и отправьте Сергею.<br>
+  4. Или нажмите <strong>«Скачать»</strong> — сохранится файл на устройство.<br>
+  <strong>⚠️ Ответы НЕ сохраняются на сервере — страница работает локально.</strong> Не закрывайте, пока не отправите!
+</div>
+
+<div class="info-row">
+  <span class="info-label">👤 Кто заполняет:</span>
+  <input class="q-input short" placeholder="ФИО и должность" id="author" style="flex:1" oninput="updateCount()">
+</div>
+
+<form id="factCheckForm">
+
+<!-- ====== БЛОК 1 ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-num">1</span> Hero — цена в H1 + лицензия</div>
+  <div class="question"><label class="q-label">Количество постояльцев: в макете «150+». Какая реальная цифра за всё время работы?</label><textarea class="q-input" data-q="1" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Год основания: в макете «с 2018 года» — верно?</label><textarea class="q-input" data-q="2" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Лицензия Минздрава: есть ли действующая? Номер, кем выдана, срок действия?</label><textarea class="q-input" data-q="3" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">ИНН: какой реальный ИНН? Подтвердите, что юрлицо зарегистрировано в Ульяновске.</label><textarea class="q-input" data-q="4" oninput="updateCount()" rows="2"></textarea></div>
+</div>
+
+<!-- ====== БЛОК 2 ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-num">2</span> Чек-лист «Как понять, что пора»</div>
+  <div class="question"><label class="q-label">Подтвердите 6 признаков: (1) падения, (2) забытая плита, (3) путаница с лекарствами, (4) гигиена, (5) потеря веса, (6) агрессия/апатия. Какие главные? Что добавить/убрать?</label><textarea class="q-input" data-q="5" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Есть ли статистика: с какими из этих состояний чаще всего поступают?</label><textarea class="q-input" data-q="6" oninput="updateCount()" rows="2"></textarea></div>
+</div>
+
+<!-- ====== БЛОК 3 ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-num">3</span> Доверие — лицензия, цифры, ИНН</div>
+  <div class="question"><label class="q-label">Номер лицензии: реальный Л041-...? Или будет получен?</label><textarea class="q-input" data-q="7" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Есть ли другие документы/сертификаты, которые можно показать?</label><textarea class="q-input" data-q="8" oninput="updateCount()" rows="2"></textarea></div>
+</div>
+
+<!-- ====== БЛОК 4 ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-num">4</span> Калькулятор стоимости</div>
+  <div class="question"><label class="q-label">Готовы ли предоставить сетку цен (состояние → тип размещения → цена)?</label><textarea class="q-input" data-q="9" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Какие факторы реально влияют на цену?</label><textarea class="q-input" data-q="10" oninput="updateCount()" rows="2"></textarea></div>
+</div>
+
+<!-- ====== БЛОК 5 ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-num">5</span> Преимущества</div>
+  <div class="question"><label class="q-label">«Врач 24/7» — есть ли врач в штате круглосуточно? Или приходящий?</label><textarea class="q-input" data-q="11" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">«5-разовое питание» — верно? Есть ли диетолог?</label><textarea class="q-input" data-q="12" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">«Охрана» — есть ли? Физическая или пультовая?</label><textarea class="q-input" data-q="13" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">«Индивидуальный уход» — как организован? Соотношение персонал/постояльцы?</label><textarea class="q-input" data-q="14" oninput="updateCount()" rows="2"></textarea></div>
+</div>
+
+<!-- ====== БЛОК 6 ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-num">6</span> Видео-презентация</div>
+  <div class="question"><label class="q-label">Есть ли готовые видео-материалы? Если нет, готовы ли снимать?</label><textarea class="q-input" data-q="15" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Можно ли снимать постояльцев? Есть ли согласия?</label><textarea class="q-input" data-q="16" oninput="updateCount()" rows="2"></textarea></div>
+</div>
+
+<!-- ====== БЛОК 7 ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-num">7</span> Сравнение «Мы vs серые пансионаты»</div>
+  <div class="question"><label class="q-label">«Врач в штате» — подтверждаете? Сколько врачей?</label><textarea class="q-input" data-q="17" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">«5-разовое меню от диетолога» — есть ли диетолог? Или меню составляется иначе?</label><textarea class="q-input" data-q="18" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Есть ли примеры «серых» пансионатов в Ульяновске (без имён) для честного сравнения?</label><textarea class="q-input" data-q="19" oninput="updateCount()" rows="2"></textarea></div>
+</div>
+
+<!-- ====== БЛОК 8 ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-num">8</span> Распорядок дня</div>
+  <div class="question"><label class="q-label">Соответствует ли таймлайн 7:30–22:00 реальному распорядку? Поправьте.</label><textarea class="q-input" data-q="20" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Выходные/праздники отличаются?</label><textarea class="q-input" data-q="21" oninput="updateCount()" rows="2"></textarea></div>
+</div>
+
+<!-- ====== БЛОК 9 ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-num">9</span> Условия проживания</div>
+  <div class="question"><label class="q-label">Какие типы комнат реально есть? 1-2-3 местные? Есть ли люкс?</label><textarea class="q-input" data-q="22" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">«Санузел с поручнями» — во всех комнатах? Или общий?</label><textarea class="q-input" data-q="23" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">«Территория для прогулок» — есть ли огороженная территория? Площадь?</label><textarea class="q-input" data-q="24" oninput="updateCount()" rows="2"></textarea></div>
+</div>
+
+<!-- ====== БЛОК 10 ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-num">10</span> Сетка заболеваний</div>
+  <div class="question"><label class="q-label">Какие заболевания реально обслуживаются? (деменция, Альцгеймер, Паркинсон, инсульт, перелом шейки бедра, пролежни)</label><textarea class="q-input" data-q="25" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">С какими заболеваниями НЕ берёте?</label><textarea class="q-input" data-q="26" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Есть ли специализированное оборудование (противопролежневые матрасы, подъёмники)?</label><textarea class="q-input" data-q="27" oninput="updateCount()" rows="2"></textarea></div>
+</div>
+
+<!-- ====== БЛОК 11 ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-num">11</span> Сиделка или пансионат?</div>
+  <div class="question"><label class="q-label">«от 33 000 ₽/мес» — верная минимальная цена за полный месяц?</label><textarea class="q-input" data-q="28" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Актуальна ли цена сиделки «от 45 000 ₽/мес» для Ульяновска?</label><textarea class="q-input" data-q="29" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Есть ли программа временного пребывания (передышка для родственников)?</label><textarea class="q-input" data-q="30" oninput="updateCount()" rows="2"></textarea></div>
+</div>
+
+<!-- ====== БЛОК 12 ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-num">12</span> Отзывы</div>
+  <div class="question"><label class="q-label">Есть ли реальные отзывы? Сколько? Где собраны (Яндекс, Google, 2ГИС)?</label><textarea class="q-input" data-q="31" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Есть ли видеоотзывы?</label><textarea class="q-input" data-q="32" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Можно ли публиковать имена/фото?</label><textarea class="q-input" data-q="33" oninput="updateCount()" rows="2"></textarea></div>
+</div>
+
+<!-- ====== БЛОК 13 ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-num">13</span> Команда + письмо основателя</div>
+  <div class="question"><label class="q-label">Кто основатель/директор? Готов ли написать личное обращение?</label><textarea class="q-input" data-q="34" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Есть ли личная история (почему открыли пансионат)?</label><textarea class="q-input" data-q="35" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Фото персонала: сколько человек? Можно ли фотографировать?</label><textarea class="q-input" data-q="36" oninput="updateCount()" rows="2"></textarea></div>
+</div>
+
+<!-- ====== БЛОК 14 ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-num">14</span> FAQ</div>
+  <div class="question"><label class="q-label">Какие вопросы задают при первом звонке? (например: «Какие документы?», «Можно ли на время?», «Что входит в стоимость?») — топ-5.</label><textarea class="q-input" data-q="37" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Реально ли «приехать с собакой/кошкой»? Есть опыт размещения с животными?</label><textarea class="q-input" data-q="38" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Ограничения по срокам: минимальный/максимальный срок пребывания?</label><textarea class="q-input" data-q="39" oninput="updateCount()" rows="2"></textarea></div>
+</div>
+
+<!-- ====== БЛОК 15 ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-num">15</span> Квиз «Подбор пансионата»</div>
+  <div class="question"><label class="q-label">Есть ли различия между филиалами по специализации или условиям? Чем один отличается от другого?</label><textarea class="q-input" data-q="40" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Какие критерии важны для выбора: район, цена, наличие врача, тип комнат?</label><textarea class="q-input" data-q="41" oninput="updateCount()" rows="2"></textarea></div>
+</div>
+
+<!-- ====== БЛОК 16 ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-num">16</span> Карта</div>
+  <div class="question"><label class="q-label">Точные адреса всех филиалов? Напишите: «ул. Примерная, д.1 — филиал такой-то».</label><textarea class="q-input" data-q="42" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Есть ли фото каждого филиала снаружи? Если нет — разрешите сделать?</label><textarea class="q-input" data-q="43" oninput="updateCount()" rows="2"></textarea></div>
+</div>
+
+<!-- ====== БЛОК 17 ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-num">17</span> «Написать директору»</div>
+  <div class="question"><label class="q-label">Готов ли директор отвечать лично? В какие сроки реально?</label><textarea class="q-input" data-q="44" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">«В течение 2 часов» — выполнимо?</label><textarea class="q-input" data-q="45" oninput="updateCount()" rows="2"></textarea></div>
+</div>
+
+<!-- ====== БЛОК 18 ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-num">18</span> Форма + контакты</div>
+  <div class="question"><label class="q-label">Номер 8-800: есть ли? Или только местный?</label><textarea class="q-input" data-q="46" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Email: какой фактический? info@... существует?</label><textarea class="q-input" data-q="47" oninput="updateCount()" rows="2"></textarea></div>
+  <div class="question"><label class="q-label">Соцсети: есть ли страницы? Какие?</label><textarea class="q-input" data-q="48" oninput="updateCount()" rows="2"></textarea></div>
+</div>
+
+<!-- ====== ЧАСТЬ 2: ЖЕМЧУЖИНЫ ====== -->
+
+<div class="section-header gems"><span class="section-num">💎</span> Жемчужины российских конкурентов — применимость к «СимбирскЪ»</div>
+
+<div class="section"><div class="question"><label class="q-label">Чек-лист «Как понять, что пора»: какие признаки вы называете родственникам? В макете: падения, плита, лекарства, гигиена, вес, агрессия. Совпадает? Что добавить?</label><textarea class="q-input" data-q="g1" oninput="updateCount()" rows="2"></textarea></div></div>
+<div class="section"><div class="question"><label class="q-label">Письмо основателя: готов ли руководитель к публичному обращению с фото и личной историей?</label><textarea class="q-input" data-q="g2" oninput="updateCount()" rows="2"></textarea></div></div>
+<div class="section"><div class="question"><label class="q-label">Калькулятор стоимости: готовы ли к прозрачному ценообразованию на сайте? Или цена «по звонку»?</label><textarea class="q-input" data-q="g3" oninput="updateCount()" rows="2"></textarea></div></div>
+<div class="section"><div class="question"><label class="q-label">Сравнение «Мы vs серые пансионаты»: какие отличия подтвердите документально? Не боитесь реакции конкурентов?</label><textarea class="q-input" data-q="g4" oninput="updateCount()" rows="2"></textarea></div></div>
+<div class="section"><div class="question"><label class="q-label">«Написать директору»: готов ли руководитель получать прямые сообщения с сайта?</label><textarea class="q-input" data-q="g5" oninput="updateCount()" rows="2"></textarea></div></div>
+<div class="section"><div class="question"><label class="q-label">Распорядок дня: чем ваш распорядок отличается от конкурентов? Уникальные элементы?</label><textarea class="q-input" data-q="g6" oninput="updateCount()" rows="2"></textarea></div></div>
+<div class="section"><div class="question"><label class="q-label">«Сиделка или пансионат?»: есть ли данные по стоимости сиделки в Ульяновске? Актуальные?</label><textarea class="q-input" data-q="g7" oninput="updateCount()" rows="2"></textarea></div></div>
+<div class="section"><div class="question"><label class="q-label">Городской селектор: планируете расширение в другие города (Димитровград, Инза)? Или блок не актуален?</label><textarea class="q-input" data-q="g8" oninput="updateCount()" rows="2"></textarea></div></div>
+<div class="section"><div class="question"><label class="q-label">Сетка заболеваний: по каким заболеваниям у вас особая экспертиза? (деменция — сильная сторона?)</label><textarea class="q-input" data-q="g9" oninput="updateCount()" rows="2"></textarea></div></div>
+<div class="section"><div class="question"><label class="q-label">Слайдер «Жизнь постояльцев»: есть ли фото с активностей? Можно ли публиковать?</label><textarea class="q-input" data-q="g10" oninput="updateCount()" rows="2"></textarea></div></div>
+
+<div class="section-header gems"><span class="section-num">🌍</span> Жемчужины зарубежных сайтов — можно ли внедрить?</div>
+
+<div class="section"><div class="question"><label class="q-label">Двойной призыв «Для себя» / «Для близкого»: кто чаще обращается — пожилые или родственники? Соотношение?</label><textarea class="q-input" data-q="u1" oninput="updateCount()" rows="2"></textarea></div></div>
+<div class="section"><div class="question"><label class="q-label">Навигатор «С чего начать?»: какие 3-4 вопроса задают при ПЕРВОМ звонке? (пойдут в карточки)</label><textarea class="q-input" data-q="u2" oninput="updateCount()" rows="2"></textarea></div></div>
+<div class="section"><div class="question"><label class="q-label">«История началась с мамы»: есть ли личная история основания? Кто был первым постояльцем?</label><textarea class="q-input" data-q="u3" oninput="updateCount()" rows="2"></textarea></div></div>
+<div class="section"><div class="question"><label class="q-label">Профессиональный фильм: готовы ли инвестировать в видеосъёмку? Бюджет?</label><textarea class="q-input" data-q="u4" oninput="updateCount()" rows="2"></textarea></div></div>
+<div class="section"><div class="question"><label class="q-label">Telegram-канал для семьи: как сейчас родственники узнают о состоянии близкого? Готовы к каналу?</label><textarea class="q-input" data-q="u5" oninput="updateCount()" rows="2"></textarea></div></div>
+<div class="section"><div class="question"><label class="q-label">«Нам доверяют X семей»: сколько всего постояльцев было за всё время?</label><textarea class="q-input" data-q="u6" oninput="updateCount()" rows="2"></textarea></div></div>
+<div class="section"><div class="question"><label class="q-label">Тройной призыв + «Карьера у нас»: есть ли потребность в персонале? Какие вакансии?</label><textarea class="q-input" data-q="u7" oninput="updateCount()" rows="2"></textarea></div></div>
+<div class="section"><div class="question"><label class="q-label">«Признаны №1 теми, кто важнее всего»: есть ли награды, дипломы, благодарственные письма?</label><textarea class="q-input" data-q="u8" oninput="updateCount()" rows="2"></textarea></div></div>
+<div class="section"><div class="question"><label class="q-label">Бренд-философия ухода: есть ли своя миссия/философия? Сформулируйте в 2-3 предложениях.</label><textarea class="q-input" data-q="u9" oninput="updateCount()" rows="2"></textarea></div></div>
+<div class="section"><div class="question"><label class="q-label">Карта филиалов с вместимостью: какая вместимость каждого? Количество персонала?</label><textarea class="q-input" data-q="u10" oninput="updateCount()" rows="2"></textarea></div></div>
+
+<div class="msg" id="msg"></div>
+
+<div class="footer">
+  <button type="button" class="btn btn-download" onclick="downloadJSON()">💾 Скачать файл</button>
+  <button type="button" class="btn btn-copy" onclick="copyResults()">📋 Скопировать и отправить</button>
+</div>
+
+</form>
+</div>
+
+<script>
+function updateCount() {
+  const total = document.querySelectorAll('[data-q]').length;
+  let filled = 0;
+  document.querySelectorAll('[data-q]').forEach(el => {
+    if(el.value.trim()) filled++;
+  });
+  if(document.getElementById('author').value.trim()) filled++;
+  document.getElementById('count').textContent = filled;
+  document.getElementById('progress-fill').style.width = (filled/(total+1)*100) + '%';
+}
+
+function getResults() {
+  const author = document.getElementById('author').value.trim();
+  let text = `📋 Факт-чекинг «СимбирскЪ»\n👤 ${author || '(не указан)'}\n📅 ${new Date().toLocaleDateString('ru-RU')}\n\n`;
+  let json = { author, date: new Date().toISOString(), answers: {} };
+  
+  document.querySelectorAll('[data-q]').forEach(el => {
+    const q = el.dataset.q;
+    const label = el.closest('.question')?.querySelector('.q-label')?.textContent || q;
+    const answer = el.value.trim();
+    if(answer) {
+      text += `✅ ${label}\n${answer}\n\n`;
+    } else {
+      text += `⬜ ${label}\n(пропущен)\n\n`;
+    }
+    json.answers[q] = { question: label, answer };
+  });
+  
+  return { text, json };
+}
+
+async function copyResults() {
+  const { text } = getResults();
+  try {
+    await navigator.clipboard.writeText(text);
+    showMsg('✅ Скопировано! Вставьте (Ctrl+V) в WhatsApp или Telegram и отправьте Сергею.', false);
+  } catch {
+    showMsg('⚠️ Не удалось скопировать. Нажмите «Скачать файл» и отправьте файл.', true);
+  }
+}
+
+function downloadJSON() {
+  const { json } = getResults();
+  const blob = new Blob([JSON.stringify(json, null, 2)], {type:'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'simbirsk-factcheck-' + new Date().toISOString().slice(0,10) + '.json';
+  a.click();
+  URL.revokeObjectURL(url);
+  showMsg('💾 Файл скачан. Отправьте его Сергею в Telegram или на почту.', false);
+}
+
+function showMsg(text, isErr) {
+  const m = document.getElementById('msg');
+  m.textContent = text;
+  m.className = 'msg' + (isErr ? ' err' : '');
+  m.style.display = 'block';
+  setTimeout(() => m.style.display = 'none', 6000);
+}
+</script>
+</body>
+</html>

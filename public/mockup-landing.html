@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru" style="overflow-y:scroll">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Пансионат «СимбирскЪ» — Макет стартовой страницы</title>
+<style>
+  html { overflow-y: scroll; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: #f0f2f5;
+    color: #1a1a2e;
+    line-height: 1.5;
+    padding: 20px;
+  }
+  .page {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 24px rgba(0,0,0,.08);
+    overflow: hidden;
+  }
+  .block {
+    border-bottom: 1px dashed #d0d5dd;
+    padding: 28px 40px;
+    position: relative;
+    transition: background .15s;
+  }
+  .block:hover { background: #f8f9ff; }
+  .block:last-child { border-bottom: none; }
+
+  .block-num {
+    position: absolute;
+    left: 12px;
+    top: 28px;
+    width: 26px; height: 26px;
+    border-radius: 50%;
+    background: #e8ecf4;
+    color: #5a6477;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+  }
+
+  .block-label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    color: #6b7a99;
+    margin-bottom: 4px;
+  }
+  .block-title {
+    font-size: 19px;
+    font-weight: 800;
+    color: #1a1a2e;
+    margin-bottom: 4px;
+  }
+  .block-desc {
+    font-size: 13px;
+    color: #5f6b7a;
+    margin-bottom: 10px;
+  }
+  .block-source {
+    font-size: 11px;
+    color: #8e99b0;
+    font-style: italic;
+  }
+
+  /* Wireframe mini-preview */
+  .wf {
+    margin-top: 10px;
+    display: flex; gap: 10px; align-items: flex-end;
+  }
+  .wf > div {
+    background: #eef1f8;
+    border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 10px; color: #8894aa; font-weight: 600;
+  }
+
+  /* Hero */
+  .hero-row { display: flex; gap: 12px; flex-wrap: wrap; }
+  .hero-row > div { border-radius: 6px; }
+  .hero-img     { width: 55%; min-height: 140px; background: linear-gradient(135deg, #dce3f0, #c8d2e6); display: flex; align-items: center; justify-content: center; font-size: 13px; color: #6b7a99; font-weight: 700; }
+  .hero-side    { width: calc(45% - 12px); display: flex; flex-direction: column; gap: 10px; }
+  .hero-title   { height: 42px; background: #1a1a2e; border-radius: 6px; display: flex; align-items: center; padding: 0 14px; font-size: 14px; color: #fff; font-weight: 800; }
+  .hero-cta     { height: 38px; width: 70%; background: #e85d3a; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #fff; font-weight: 700; }
+  .hero-badge   { height: 28px; width: 130px; background: #27ae60; border-radius: 14px; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #fff; font-weight: 700; }
+  .hero-price   { font-size: 13px; color: #1a1a2e; font-weight: 700; padding: 6px 0; }
+  .hero-lic     { font-size: 11px; color: #5f6b7a; }
+
+  /* Checklist */
+  .chk-grid { display: flex; gap: 8px; flex-wrap: wrap; }
+  .chk-item { flex: 1; min-width: 140px; height: 64px; background: #fef8f2; border: 1px dashed #f0c8a0; border-radius: 8px; display: flex; align-items: center; padding: 0 14px; font-size: 11px; color: #a07650; }
+  .chk-num  { font-size: 22px; font-weight: 800; color: #e8a05a; margin-right: 10px; }
+
+  /* Trust bar */
+  .trust-row { display: flex; gap: 12px; }
+  .trust-card { flex: 1; height: 56px; background: #f4f6fb; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #4a5a7a; font-weight: 600; }
+  .trust-big  { width: 100%; height: 50px; background: #eef2fa; border-radius: 8px; margin-bottom: 10px; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #4a5a7a; }
+
+  /* Calculator */
+  .calc-box { width: 100%; height: 100px; background: #f5f7fd; border: 2px dashed #b8c4e0; border-radius: 10px; display: flex; align-items: center; justify-content: center; gap: 12px; }
+  .calc-field { width: 120px; height: 36px; background: #fff; border-radius: 6px; border: 1px solid #d0d7e8; }
+  .calc-result { width: 160px; height: 42px; background: #27ae60; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 13px; font-weight: 700; }
+
+  /* Cards grid */
+  .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
+  .card { height: 80px; background: #f4f6fb; border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; font-size: 11px; color: #4a5a7a; }
+  .card-icon { width: 28px; height: 28px; background: #dce3f0; border-radius: 6px; }
+
+  /* Compare table */
+  .cmp-table { width: 100%; }
+  .cmp-row { display: flex; border-radius: 6px; overflow: hidden; margin-bottom: 4px; }
+  .cmp-row > div { padding: 8px 14px; font-size: 11px; }
+  .cmp-us   { flex: 1; background: #e6f4ea; color: #1e7e34; }
+  .cmp-them { flex: 1; background: #fdecea; color: #c0392b; }
+
+  /* Schedule timeline */
+  .tl { display: flex; gap: 6px; }
+  .tl-item { flex: 1; height: 50px; background: #eef1f8; border-radius: 6px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 10px; color: #5f6b7a; }
+
+  /* Quiz */
+  .quiz-box { width: 100%; height: 70px; background: linear-gradient(135deg, #e8f0fe, #d4e4fd); border-radius: 10px; display: flex; align-items: center; justify-content: center; gap: 12px; font-size: 13px; color: #3b5998; font-weight: 700; }
+  .quiz-btn { width: 140px; height: 36px; background: #3b5998; border-radius: 18px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 12px; }
+
+  /* Map */
+  .map-box { width: 100%; height: 100px; background: #f0f3f8; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 13px; color: #8894b0; }
+
+  /* FAQ */
+  .faq-item { height: 36px; background: #f4f6fb; border-radius: 6px; margin-bottom: 6px; display: flex; align-items: center; padding: 0 14px; font-size: 12px; color: #4a5a7a; }
+
+  /* Footer form */
+  .footer-form { display: flex; gap: 10px; }
+  .form-field { flex: 1; height: 40px; background: #fff; border-radius: 6px; border: 1px solid #d0d7e8; }
+  .form-btn   { width: 160px; height: 40px; background: #e85d3a; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 13px; font-weight: 700; }
+
+  /* Legend */
+  .legend {
+    display: flex; gap: 16px; padding: 14px 40px; background: #fafbfc; border-bottom: 1px solid #e8ecf4;
+    font-size: 11px; color: #6b7a99; flex-wrap: wrap;
+  }
+  .legend-item { display: flex; align-items: center; gap: 6px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; }
+  .dot-gem  { background: #f0c040; }
+  .dot-std  { background: #8894b0; }
+  .dot-ocean{ background: #3b5998; }
+
+  .header-bar {
+    background: #1a1a2e; color: #fff; padding: 16px 40px; display: flex; justify-content: space-between; align-items: center;
+  }
+  .header-bar h1 { font-size: 18px; font-weight: 800; }
+  .header-bar span { font-size: 12px; opacity: .7; }
+  .header-nav { display: flex; gap: 18px; font-size: 12px; }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header-bar">
+    <div>
+      <h1>Пансионат «СимбирскЪ»</h1>
+      <span>Стартовая страница — схематичный макет (18 блоков)</span>
+    </div>
+    <div class="header-nav">
+      <span>Услуги</span><span>О нас</span><span>Цены</span><span>Контакты</span>
+    </div>
+  </div>
+
+  <!-- LEGEND -->
+  <div class="legend">
+    <div class="legend-item"><span class="dot dot-gem"></span> Жемчужина</div>
+    <div class="legend-item"><span class="dot dot-std"></span> Market Standard</div>
+    <div class="legend-item"><span class="dot dot-ocean"></span> Голубой океан</div>
+  </div>
+
+  <!-- 1. HERO -->
+  <div class="block">
+    <span class="block-num">1</span>
+    <div class="block-label">⭐ Жемчужина</div>
+    <div class="block-title">Hero — цена в H1 + лицензия</div>
+    <div class="block-desc">Главный баннер: фото пансионата, заголовок с ценой от 1 100 ₽/сут, зелёный бейдж лицензии, CTA «Подобрать пансионат»</div>
+    <div class="block-source">Идея: domdolgoletie.ru (цена в H1) + teplye-besedy.ru (лицензия в шапке)</div>
+    <div class="wf hero-row">
+      <div class="hero-img">📷 Фото пансионата / слайдер</div>
+      <div class="hero-side">
+        <div class="hero-title">Частный пансионат для пожилых в Ульяновске от 1 100 ₽/сут</div>
+        <div style="display:flex; gap:8px; align-items:center;">
+          <div class="hero-badge">✓ Лицензия Минздрава</div>
+          <div class="hero-price">от 1 100 ₽/сут</div>
+        </div>
+        <div class="hero-lic">🏥 4 пансионата · 150+ постояльцев · с 2018 года</div>
+        <div class="hero-cta">Подобрать пансионат →</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. CHECKLIST -->
+  <div class="block">
+    <span class="block-num">2</span>
+    <div class="block-label">⭐ Жемчужина</div>
+    <div class="block-title">Чек-лист «Как понять, что пора»</div>
+    <div class="block-desc">6 признаков для родственников — снимает страх «а не рано ли?»</div>
+    <div class="block-source">Идея: vremya-zhizni.ru — влияние 10/10</div>
+    <div class="wf chk-grid">
+      <div class="chk-item"><span class="chk-num">1</span> Падения участились</div>
+      <div class="chk-item"><span class="chk-num">2</span> Забыл выключить плиту</div>
+      <div class="chk-item"><span class="chk-num">3</span> Путает лекарства</div>
+      <div class="chk-item"><span class="chk-num">4</span> Не справляется с гигиеной</div>
+      <div class="chk-item"><span class="chk-num">5</span> Потеря веса</div>
+      <div class="chk-item"><span class="chk-num">6</span> Агрессия / апатия</div>
+    </div>
+  </div>
+
+  <!-- 3. TRUST -->
+  <div class="block">
+    <span class="block-num">3</span>
+    <div class="block-label">Market Standard</div>
+    <div class="block-title">Доверие — лицензия, цифры, ИНН</div>
+    <div class="block-desc">Прозрачность и юридическая открытость — критично для ниши</div>
+    <div class="wf">
+      <div class="trust-row">
+        <div class="trust-card">📜 Лицензия Л041-...</div>
+        <div class="trust-card">📅 с 2018 года</div>
+        <div class="trust-card">👥 150+ постояльцев</div>
+        <div class="trust-card">✅ ИНН 73...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. CALCULATOR -->
+  <div class="block">
+    <span class="block-num">4</span>
+    <div class="block-label">⭐ Жемчужина</div>
+    <div class="block-title">Калькулятор стоимости</div>
+    <div class="block-desc">Выбор города → типа размещения → состояния → итоговая цена</div>
+    <div class="block-source">Идея: ramily.ru — уникальный для Ульяновска</div>
+    <div class="wf">
+      <div class="calc-box">
+        <span style="font-size:12px;">Город:</span>
+        <div class="calc-field"></div>
+        <span style="font-size:12px;">Состояние:</span>
+        <div class="calc-field"></div>
+        <span style="font-size:12px;">Размещение:</span>
+        <div class="calc-field"></div>
+        <span>=</span>
+        <div class="calc-result">от 1 100 ₽/сут</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. ADVANTAGES -->
+  <div class="block">
+    <span class="block-num">5</span>
+    <div class="block-label">Market Standard</div>
+    <div class="block-title">Преимущества — сетка карточек</div>
+    <div class="block-desc">6-8 карточек с иконками: почему выбирают нас</div>
+    <div class="wf card-grid">
+      <div class="card"><div class="card-icon">🏠</div>4 пансионата</div>
+      <div class="card"><div class="card-icon">👨‍⚕️</div>Врач 24/7</div>
+      <div class="card"><div class="card-icon">🍽️</div>5-разовое питание</div>
+      <div class="card"><div class="card-icon">🛡️</div>Охрана</div>
+      <div class="card"><div class="card-icon">🚶</div>Прогулки</div>
+      <div class="card"><div class="card-icon">🎯</div>Индивид. уход</div>
+    </div>
+  </div>
+
+  <!-- 6. VIDEO -->
+  <div class="block">
+    <span class="block-num">6</span>
+    <div class="block-label">Market Standard</div>
+    <div class="block-title">Видео-презентация</div>
+    <div class="block-desc">Короткое видео (60-90 сек): комнаты, персонал, питание, отзывы постояльцев</div>
+    <div class="wf"><div style="width:100%;height:120px;background:#eef1f8;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:13px;color:#6b7a99;">▶ Видео о пансионате (60-90 сек)</div></div>
+  </div>
+
+  <!-- 7. COMPARISON -->
+  <div class="block">
+    <span class="block-num">7</span>
+    <div class="block-label">⭐ Жемчужина</div>
+    <div class="block-title">Сравнение «Мы vs остальные»</div>
+    <div class="block-desc">Честное сравнение с «серыми» пансионатами и гос. учреждениями</div>
+    <div class="block-source">Идея: pansionat-dobro.ru — влияние 9/10</div>
+    <div class="wf cmp-table">
+      <div class="cmp-row" style="font-weight:700;background:#f0f2f7;"><div>«СимбирскЪ»</div><div>Серые пансионаты</div></div>
+      <div class="cmp-row"><div class="cmp-us">✓ Врач в штате</div><div class="cmp-them">✗ Приходящий раз в неделю</div></div>
+      <div class="cmp-row"><div class="cmp-us">✓ 5-разовое меню от диетолога</div><div class="cmp-them">✗ Однообразное питание</div></div>
+      <div class="cmp-row"><div class="cmp-us">✓ Лицензия Минздрава</div><div class="cmp-them">✗ Без лицензии</div></div>
+    </div>
+  </div>
+
+  <!-- 8. SCHEDULE -->
+  <div class="block">
+    <span class="block-num">8</span>
+    <div class="block-label">⭐ Жемчужина</div>
+    <div class="block-title">Распорядок дня</div>
+    <div class="block-desc">Таймлайн по часам — снимает тревогу «а чем они там занимаются?»</div>
+    <div class="block-source">Идея: sgc-opeca.ru — влияние 8/10</div>
+    <div class="wf tl">
+      <div class="tl-item">🌅 7:30<br>Подъём</div>
+      <div class="tl-item">🍳 8:30<br>Завтрак</div>
+      <div class="tl-item">💊 10:00<br>Осмотр врача</div>
+      <div class="tl-item">🚶 11:30<br>Прогулка</div>
+      <div class="tl-item">🍲 13:00<br>Обед</div>
+      <div class="tl-item">😴 14:00<br>Тихий час</div>
+      <div class="tl-item">🎯 16:00<br>Занятия</div>
+      <div class="tl-item">🍵 18:00<br>Ужин</div>
+      <div class="tl-item">📺 20:00<br>Кино</div>
+      <div class="tl-item">🌙 22:00<br>Отбой</div>
+    </div>
+  </div>
+
+  <!-- 9. CONDITIONS -->
+  <div class="block">
+    <span class="block-num">9</span>
+    <div class="block-label">Market Standard</div>
+    <div class="block-title">Условия проживания</div>
+    <div class="block-desc">Фото комнат, санузлов, столовой — слайдер или галерея</div>
+    <div class="wf card-grid">
+      <div class="card" style="height:100px;">🛏️ 1-2-3 местные<br>комнаты</div>
+      <div class="card" style="height:100px;">🚿 Санузел<br>с поручнями</div>
+      <div class="card" style="height:100px;">🍽️ Столовая<br>и зона отдыха</div>
+      <div class="card" style="height:100px;">🌳 Территория<br>для прогулок</div>
+    </div>
+  </div>
+
+  <!-- 10. DISEASES -->
+  <div class="block">
+    <span class="block-num">10</span>
+    <div class="block-label">⭐ Жемчужина</div>
+    <div class="block-title">Сетка заболеваний</div>
+    <div class="block-desc">Карточки болезней: деменция, Альцгеймер, Паркинсон, после инсульта, перелом шейки бедра</div>
+    <div class="block-source">Идея: domdolgoletie.ru — влияние 7/10</div>
+    <div class="wf card-grid">
+      <div class="card">🧠 Деменция</div>
+      <div class="card">🧩 Альцгеймер</div>
+      <div class="card">🫀 После инсульта</div>
+      <div class="card">🦴 Перелом шейки бедра</div>
+      <div class="card">🤝 Паркинсон</div>
+      <div class="card">🩹 Пролежни</div>
+    </div>
+  </div>
+
+  <!-- 11. NURSE VS PANSIONAT -->
+  <div class="block">
+    <span class="block-num">11</span>
+    <div class="block-label">⭐ Жемчужина</div>
+    <div class="block-title">Сиделка или пансионат?</div>
+    <div class="block-desc">Сравнение стоимости и качества: сиделка на дому vs пансионат — цифры, плюсы/минусы</div>
+    <div class="block-source">Идея: pansionat-dobro.ru — влияние 8/10</div>
+    <div class="wf">
+      <div class="cmp-table">
+        <div class="cmp-row"><div class="cmp-us">Пансионат: от 33 000 ₽/мес — уход 24/7, питание, досуг</div><div class="cmp-them">Сиделка: от 45 000 ₽/мес — только 8 часов в день</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 12. REVIEWS -->
+  <div class="block">
+    <span class="block-num">12</span>
+    <div class="block-label">Market Standard</div>
+    <div class="block-title">Отзывы</div>
+    <div class="block-desc">Слайдер с видео- и текстовыми отзывами от родственников</div>
+    <div class="wf" style="gap:12px;">
+      <div style="flex:1;height:70px;background:#f4f6fb;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:11px;color:#6b7a99;">⭐ 4.9 — «Мама ожила...»</div>
+      <div style="flex:1;height:70px;background:#f4f6fb;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:11px;color:#6b7a99;">⭐ 5.0 — «Спасибо всему...»</div>
+      <div style="flex:1;height:70px;background:#f4f6fb;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:11px;color:#6b7a99;">▶ Видеоотзыв</div>
+    </div>
+  </div>
+
+  <!-- 13. TEAM + FOUNDER LETTER -->
+  <div class="block">
+    <span class="block-num">13</span>
+    <div class="block-label">⭐ Жемчужина</div>
+    <div class="block-title">Команда + письмо основателя</div>
+    <div class="block-desc">Фото персонала + личное обращение директора — главный триггер доверия</div>
+    <div class="block-source">Идея: vremya-zhizni.ru — влияние 10/10</div>
+    <div class="wf" style="gap:12px;">
+      <div style="flex:1;min-height:90px;background:#faf7f0;border-left:4px solid #c9a96e;border-radius:0 8px 8px 0;padding:14px;font-size:12px;color:#6b5a3a;font-style:italic;">
+        «Каждый постоялец — как родной. Моя мама жила с деменцией, я знаю, через что вы проходите...»
+        <div style="margin-top:8px;font-weight:700;font-style:normal;">— Имя Фамилия, основатель</div>
+      </div>
+      <div style="display:flex;gap:8px;">
+        <div style="width:60px;height:60px;background:#dce3f0;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:20px;">👩‍⚕️</div>
+        <div style="width:60px;height:60px;background:#dce3f0;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:20px;">👨‍🍳</div>
+        <div style="width:60px;height:60px;background:#dce3f0;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:20px;">👩‍🦳</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 14. FAQ -->
+  <div class="block">
+    <span class="block-num">14</span>
+    <div class="block-label">Market Standard</div>
+    <div class="block-title">FAQ — аккордеон</div>
+    <div class="block-desc">Ответы на главные вопросы родственников</div>
+    <div class="wf" style="display:block;">
+      <div class="faq-item">▸ Какие документы нужны для заезда?</div>
+      <div class="faq-item">▸ Можно ли приехать с собакой / кошкой?</div>
+      <div class="faq-item">▸ Что входит в стоимость?</div>
+      <div class="faq-item">▸ Можно ли на выходные / на месяц?</div>
+    </div>
+  </div>
+
+  <!-- 15. QUIZ (BLUE OCEAN) -->
+  <div class="block" style="background: linear-gradient(135deg, #f0f4ff, #e8edfa);">
+    <span class="block-num" style="background:#3b5998;color:#fff;">15</span>
+    <div class="block-label">🌊 Голубой океан</div>
+    <div class="block-title">Квиз «Подбор пансионата»</div>
+    <div class="block-desc">5 вопросов → рекомендация: какой из 4 филиалов подходит. Уникальная фишка — ни у кого нет!</div>
+    <div class="wf">
+      <div class="quiz-box">
+        🏠 Где нужен пансионат?
+        ↳
+        🩺 Какое состояние?
+        ↳
+        💰 Бюджет?
+        ↳
+        <div class="quiz-btn">Подобрать →</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 16. MAP -->
+  <div class="block">
+    <span class="block-num">16</span>
+    <div class="block-label">Market Standard</div>
+    <div class="block-title">Карта</div>
+    <div class="block-desc">Яндекс.Карта с метками всех 4 филиалов + фото и контакты каждого</div>
+    <div class="wf">
+      <div class="map-box">📍 Карта Ульяновска — 4 пансионата: Центр, Засвияжье, Новый город, Железнодорожный</div>
+    </div>
+  </div>
+
+  <!-- 17. WRITE TO DIRECTOR -->
+  <div class="block">
+    <span class="block-num">17</span>
+    <div class="block-label">⭐ Жемчужина</div>
+    <div class="block-title">«Написать директору»</div>
+    <div class="block-desc">Прямая связь с руководителем — мощный сигнал открытости</div>
+    <div class="block-source">Идея: teplye-besedy.ru — влияние 8/10</div>
+    <div class="wf">
+      <div style="width:100%;height:50px;background:#f8f4ea;border:1px dashed #c9a96e;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:12px;color:#6b5a3a;">📝 Форма: Имя, Телефон, Вопрос → «Директор ответит лично в течение 2 часов»</div>
+    </div>
+  </div>
+
+  <!-- 18. FOOTER FORM -->
+  <div class="block">
+    <span class="block-num">18</span>
+    <div class="block-label">Market Standard</div>
+    <div class="block-title">Форма + контакты</div>
+    <div class="block-desc">Футер: форма обратной связи, телефон 8-800, адреса филиалов, соцсети</div>
+    <div class="wf footer-form">
+      <div class="form-field"></div>
+      <div class="form-field"></div>
+      <div class="form-btn">Заказать звонок</div>
+    </div>
+    <div style="margin-top:10px;font-size:11px;color:#8894b0;">📞 8-800-XXX-XX-XX · ✉️ info@simbirsk-pansionat.ru · 📍 Ульяновск, 4 филиала</div>
+  </div>
+
+</div>
+
+</body>
+</html>
