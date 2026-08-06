@@ -1,7 +1,16 @@
 # Index — web3Crypto
 
 Каталог страниц базы знаний. Domain: web3-разработка и крипто-пет-проект.
-Актуально: 2026-07-19. Всего страниц: 19.
+Актуально: 2026-08-04. Всего страниц: 23.
+
+---
+
+## 📚 Уроки (ChatGPT Web3 Course)
+
+- [[wiki/0_lesson-01-chto-takoe-web3|Урок 1. Что такое Web3]] — Web2 vs Web3, архитектура, кошелёк, газ, EVM, транзакции
+- [[wiki/0_lesson-02-kak-ustroen-blokchein|Урок 2. Как устроен блокчейн]] — блоки, хеши, цепочка, ноды, путь транзакции, mempool
+- [[wiki/0_lesson-03-koshelek-privatnyj-kluch-podpis|Урок 3. Кошелёк, приватный ключ и цифровая подпись]] — ECDSA, адрес, подпись, безопасность, MetaMask API
+- [[wiki/0_lesson-04-transakcija-zhiznennyj-cikl|Урок 4. Транзакция: жизненный цикл]] — поля транзакции, nonce, gas, mempool, ABI encoding, UI-состояния
 
 ---
 
