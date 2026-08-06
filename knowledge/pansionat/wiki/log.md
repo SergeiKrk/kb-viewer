@@ -17,3 +17,4 @@
 ## [2026-07-30] create  | Competitors: созданы детальные страницы 6 федеральных конкурентов (sgc-opeca, seniorgroup, sm-pension, teplye-besedy, vremya-zhizni, pansion-zabota) на основе keysso_analysis + keysso_cross_analysis
 ## [2026-07-30] ingest  | Competitors: пересозданы страницы 4 конкурентов (voshod73, domdolgoletie, ramily, pansionat-dobro) с SEO-данными Keys.so, обновлены summary в index.md
 ## [2026-07-30] lint   | Проверка: 13 файлов, 138 кросс-ссылок, 0 orphan'ов. 86 forward-refs к ещё не созданным страницам (diseases, care, prices...) — запланировано, будет заполняться по мере ingest
+## [2026-08-06] query  | Яндекс.Директ: анализ пересечений ключевых фраз в РК «Дом_Поиск». Критическое: 31 фраза между №5675592840 и №5675590158 → filed to insights/direct-intersections.md (статус: надо исправить)
